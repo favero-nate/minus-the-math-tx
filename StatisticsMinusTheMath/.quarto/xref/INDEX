@@ -1,0 +1,53 @@
+{
+  "index.qmd": {
+    "index.html": "6de4648a"
+  },
+  "intro.qmd": {
+    "intro.html": "495b3325"
+  },
+  "summary.qmd": {
+    "summary.html": "36233f00"
+  },
+  "references.qmd": {
+    "references.html": "b3d4f2e8"
+  },
+  "Chapter11.qmd": {
+    "Chapter11.html": "4ca29cd3"
+  },
+  "Chapter12.qmd": {
+    "Chapter12.html": "36a67fd8"
+  },
+  "Chapter1.qmd": {
+    "Chapter1.html": "e8e40fc1"
+  },
+  "Chapter2.qmd": {
+    "Chapter2.html": "f6fad5a8"
+  },
+  "Chapter3.qmd": {
+    "Chapter3.html": "38922ded"
+  },
+  "Chapter4.qmd": {
+    "Chapter4.html": "ed5f4b0b"
+  },
+  "Chapter6.qmd": {
+    "Chapter6.html": "764e98e2"
+  },
+  "Chapter5.qmd": {
+    "Chapter5.html": "2a496c4a"
+  },
+  "Chapter7.qmd": {
+    "Chapter7.html": "6c9ea54f"
+  },
+  "Chapter8.qmd": {
+    "Chapter8.html": "890bc388"
+  },
+  "Chapter9.qmd": {
+    "Chapter9.html": "12f70aa3"
+  },
+  "Chapter10.qmd": {
+    "Chapter10.html": "d1c402ad"
+  },
+  "Chapter13.qmd": {
+    "Chapter13.html": "6d1bad7b"
+  }
+}

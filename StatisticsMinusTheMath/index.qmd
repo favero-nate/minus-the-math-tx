@@ -1,0 +1,9 @@
+## Introduction {.unnumbered} 
+
+This version (1.2) was updated 1/28/2023.
+
+Version 1.1 available at <https://nathanfavero.com/teaching-tools/>. The only change from 1.1 is that the discussion of transforming variables now appears in Ch. 2 (rather than Ch. 3).
+
+This book was largely adapted from the public domain resource *Online Statistics Education: A Multimedia Course of Study* (<http://onlinestatbook.com/> Project Leader: David M. Lane, Rice University).
+
+## Contents {.unnumbered}
