@@ -7,8 +7,8 @@ book:
   date: "2/11/2024"
   chapters:
     - index.qmd
-    # - Chapter1.qmd
-    # - Chapter2.qmd
+    - Chapter1.qmd
+    - Chapter2.qmd
     - Chapter3.qmd
     - Chapter4.qmd
     - Chapter5.qmd
