@@ -35,13 +35,13 @@ Social scientists use the **dependent variable** to describe the variable they�
 When we’re working with data, sometimes it’s helpful to express how I would make a guess about a dependent variable (extraversion) based on other factors (gender) using a mathematical formula. In fact, this is exactly what we do when we run a regression. There are many ways I could write this formula, but I’ll show just two for now. First, I could write:
 
 $$
-\widehat{Extraversion}=0.53×Female-0.46×Male
+\widehat{Extraversion}=0.53 \times Female-0.46 \times Male
 $$ {#eq-ExtReg}
 
 Notice I’ve added a “hat” above the name of the variable *Extraversion*; this hat means that I’m making a guess about the value of that variable (I’m guessing the level of extraversion based on gender). The equation has two other variables *Female* and *Male*, and these two variables will take on a value of 1 if the person’s gender is equal to the name of the variable and will otherwise take on a value of 0. For a female, *Female* will equal 1 and *Male* will equal 0, giving us:
 
 $$
-\widehat{Extraversion}=0.53×(1)-0.46×(0)=0.53
+\widehat{Extraversion}=0.53 \times (1)-0.46 \times (0)=0.53
 $$
 
 So our guess for the level of extroversion ($\widehat{Extraversion}$) of a female we know nothing about is 0.53.
@@ -49,25 +49,25 @@ So our guess for the level of extroversion ($\widehat{Extraversion}$) of a femal
 For a male, our guess is:
 
 $$
-\widehat{Extraversion}=0.53×(0)-0.46×(1)=-0.46
+\widehat{Extraversion}=0.53 \times (0)-0.46 \times (1)=-0.46
 $$
 
 There’s a second way I can write my formula, which will turn out to be more useful in the future when we come to consider multiple factors at the same time that might help us predict the value of a dependent variable. Rather than having two variables to represent gender in my equation, I can just use one:
 
 $$
-\widehat{Extraversion}=0.53-0.99×Male
+\widehat{Extraversion}=0.53-0.99 \times Male
 $$ {#eq-ExtRegFem}
 
 In @eq-ExtRegFem, we start from female as our baseline. Notice that the first number we see (0.53) is our guess for the value of extraversion for a female. When we’re considering a female, Male=0, so:
 
 $$
-\widehat{Extraversion}=0.53-0.99×0=0.53
+\widehat{Extraversion}=0.53-0.99 \times 0=0.53
 $$
 
 Thus, we get the right prediction for females from this equation, even though we didn’t include a variable specifically for females. If we have a male, Male=1, so we get:
 
 $$
-\widehat{Extraversion}=0.53-0.99×1=-0.46
+\widehat{Extraversion}=0.53-0.99 \times 1=-0.46
 $$
 
 This is the same prediction we got before. Remember, I decided to initially just analyze respondents who selected either male or female. Since we are only considering two categories (male or female), and each respondent is either a male or a female, saying *Male* = 1 lets me know that *Female* = 0. It’s actually repetitive in this context to both say that *Male* = 1 and *Female* = 0. Similarly, saying *Male* = 0 implies that *Female* = 1. So I can simplify my equation by just including one variable to indicate binary gender.
@@ -87,25 +87,25 @@ The number of non-binary respondents is relatively small (102), so it’s not te
 Again, if we had to make a guess about the level of extraversion of someone, and all we knew about that person was that their gender was non-binary, we would probably want to guess the mean value among non-binary respondents (-5.66). Modifying @eq-ExtReg to incorporate a third category is relatively straightforward:
 
 $$
-\widehat{Extraversion}=0.53×Female-0.46×Male-5.69×Other
+\widehat{Extraversion}=0.53 \times Female-0.46 \times Male-5.69 \times Other
 $$ {#eq-ExtRegNonBin}
 
 For someone who identifies as female, we would plug in *Female* = 1, *Male* = 0, and *Other* = 0:
 
 $$
-\widehat{Extraversion}=0.53×(1)-0.46×(0)-5.66×(0)=0.53
+\widehat{Extraversion}=0.53 \times (1)-0.46 \times (0)-5.66 \times (0)=0.53
 $$
 
 If someone identifies as non-binary, we would use *Female* = 0, *Male* = 0, and *Other* = 1:
 
 $$
-\widehat{Extraversion}=0.53×(0)-0.46×(0)-5.66×(1)=-5.66
+\widehat{Extraversion}=0.53 \times (0)-0.46 \times (0)-5.66 \times (1)=-5.66
 $$
 
 We can also return to the format of @eq-ExtRegFem but modify it to include the other category. This is how we will typically write our equation if we are doing a regression:
 
 $$
-\widehat{Extraversion}=0.53-0.99×Male-6.19×Other
+\widehat{Extraversion}=0.53-0.99 \times Male-6.19 \times Other
 $$ {#eq-ExtRegFemNonBin}
 
 Now that there are three possible values for gender (female, male, and other), knowing the value of *Male* doesn’t necessarily allow us to conclude what the vale of female is. If , the individual could identify as either female or non-binary. So we have to include a second variable. In this case, we chose to include the variable *Other*. If we know the values of *Male* and *Other*, we can always figure out the value of *Female* by process of elimination.
@@ -113,13 +113,13 @@ Now that there are three possible values for gender (female, male, and other), k
 For a non-binary person, we plug in *Male* = 0, and *Other* = 1:
 
 $$
-\widehat{Extraversion}=0.53-0.99×(0)-6.19×(1)=-5.66
+\widehat{Extraversion}=0.53-0.99 \times (0)-6.19 \times (1)=-5.66
 $$
 
 When considering a female, we use *Male* = 0, and *Other* = 0:
 
 $$
-\widehat{Extraversion}=0.53-0.99×(0)-6.19×(0)=0.53
+\widehat{Extraversion}=0.53-0.99 \times (0)-6.19 \times (0)=0.53
 $$
 
 @eq-ExtRegNonBin and @eq-ExtRegFemNonBin communicate an equivalent method of making a prediction about extraversion based on gender; they just offer this information in two different formats. @eq-ExtRegFemNonBin might be a bit trickier to understand for now, but it will become very useful in the future.
