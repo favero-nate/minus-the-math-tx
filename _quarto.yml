@@ -18,7 +18,7 @@ book:
     # - Chapter9.qmd
     # - Chapter10.qmd
     - Chapter11.qmd
-    # - Chapter12.qmd
+    - Chapter12.qmd
     # - Chapter13.qmd
     # - references.qmd
   
