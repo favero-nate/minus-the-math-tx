@@ -104,7 +104,9 @@ $$
 0.29 ≤ μ_f - μ_m ≤ 2.65
 $$
 
-where $μ_f$ is the population mean for females and $μ_m$ is the population mean for males. Because the difference in these population means is the main parameter we wish to estimate, we say the confidence interval for the parameter of interest is [0.29, 2.65]. This analysis provides evidence that the mean for females is higher than the mean for males, and that the difference between means in the population is likely to be between 0.29 and 2.65. Since 0 does not fall within the range of the confidence interval, we’ve found evidence that there *is* a difference between males and females, so we can say that the results are **statistically significant**.
+where $μ_f$ is the population mean for females and $μ_m$ is the population mean for males. Since the difference in these population means is the main parameter we wish to estimate, we could say the confidence interval for the parameter of interest is [0.29, 2.65]. Because all values within this range are positive, this analysis provides evidence that the mean for females is higher than the mean for males. More specifically, the difference between means in the population is likely to be between 0.29 and 2.65. Note that since 0 does not fall within the range of the confidence interval, this suggests that there *is* a difference between males and females, so we can also say that the results are **statistically significant**.
+
+If, instead, we had found a confidence interval of [-1.03, 2.65], we could not rule out the possibility of no difference between males and females, since 0 falls between -1.03 and 2.65.
 
 ## Interpreting Confidence Intervals Correctly[^chapter4-6]
 
