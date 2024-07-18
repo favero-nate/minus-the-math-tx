@@ -99,22 +99,35 @@ A histogram is a graphical method for displaying the shape of a distribution. It
 
 The first step is to create a frequency table. Unfortunately, a simple frequency table would be too big, containing over 100 rows. To simplify the table, we group scores together as shown in @tbl-testscorefreqs.
 
-|                            |                            |                     |
-|----------------------------|----------------------------|---------------------|
++----------------------------+----------------------------+---------------------+
 | **Interval’s Lower Limit** | **Interval’s Upper Limit** | **Class Frequency** |
++----------------------------+----------------------------+---------------------+
 | 39.5                       | 49.5                       | 3                   |
++----------------------------+----------------------------+---------------------+
 | 49.5                       | 59.5                       | 10                  |
++----------------------------+----------------------------+---------------------+
 | 59.5                       | 69.5                       | 53                  |
++----------------------------+----------------------------+---------------------+
 | 69.5                       | 79.5                       | 107                 |
++----------------------------+----------------------------+---------------------+
 | 79.5                       | 89.5                       | 147                 |
++----------------------------+----------------------------+---------------------+
 | 89.5                       | 99.5                       | 130                 |
++----------------------------+----------------------------+---------------------+
 | 99.5                       | 109.5                      | 78                  |
++----------------------------+----------------------------+---------------------+
 | 109.5                      | 119.5                      | 59                  |
++----------------------------+----------------------------+---------------------+
 | 119.5                      | 129.5                      | 36                  |
++----------------------------+----------------------------+---------------------+
 | 129.5                      | 139.5                      | 11                  |
++----------------------------+----------------------------+---------------------+
 | 139.5                      | 149.5                      | 6                   |
++----------------------------+----------------------------+---------------------+
 | 149.5                      | 159.5                      | 1                   |
++----------------------------+----------------------------+---------------------+
 | 159.5                      | 169.5                      | 1                   |
++----------------------------+----------------------------+---------------------+
 
 : Grouped Frequency Distribution of Psychology Test Scores {#tbl-testscorefreqs}
 
@@ -134,20 +147,33 @@ Histograms can be based on relative frequencies instead of actual frequencies. H
 
 There is more to be said about the widths of the class intervals, sometimes called *bin widths*. Your choice of bin width determines the number of class intervals. This decision, along with the choice of starting point for the first interval, affects the shape of the histogram. There are some "rules of thumb" that can help you choose an appropriate width. (But keep in mind that none of the rules is perfect.) We prefer the Rice rule, which is to set the number of intervals to twice the cube root of the number of observations. In the case of 1000 observations, the Rice rule yields 20 intervals. For the psychology test example used above, the Rice rule recommends 17. ***The best advice is to experiment with different choices of width, and to choose a histogram according to how well it communicates the shape of the distribution.***
 
-| Name              | Formula                                                     | Value |
-|-------------------|-------------------------------------------------------------|-------|
-| Upper Hinge       | 75th Percentile                                             | 20    |
-| Lower Hinge       | 25th Percentile                                             | 17    |
-| H-Spread          | Upper Hinge - Lower Hinge                                   | 3     |
-| Step              | 1.5 x H-Spread                                              | 4.5   |
-| Upper Inner Fence | Upper Hinge + 1 Step                                        | 24.5  |
-| Lower Inner Fence | Lower Hinge - 1 Step                                        | 12.5  |
-| Upper Outer Fence | Upper Hinge + 2 Steps                                       | 29    |
-| Lower Outer Fence | Lower Hinge - 2 Steps                                       | 8     |
-| Upper Adjacent    | Largest value below Upper Inner Fence                       | 24    |
-| Lower Adjacent    | Smallest value above Lower Inner Fence                      | 14    |
-| Outside Value     | A value beyond an Inner Fence but not beyond an Outer Fence | 29    |
-| Far Out Value     | A value beyond an Outer Fence                               | None  |
++-------------------+-------------------------------------------------------------+------------+
+| Name              | Formula                                                     | Value      |
++===================+=============================================================+============+
+| Upper Hinge       | 75th Percentile                                             | 20         |
++-------------------+-------------------------------------------------------------+------------+
+| Lower Hinge       | 25th Percentile                                             | 17         |
++-------------------+-------------------------------------------------------------+------------+
+| H-Spread          | Upper Hinge - Lower Hinge                                   | 3          |
++-------------------+-------------------------------------------------------------+------------+
+| Step              | 1.5 x H-Spread                                              | 4.5        |
++-------------------+-------------------------------------------------------------+------------+
+| Upper Inner Fence | Upper Hinge + 1 Step                                        | 24.5       |
++-------------------+-------------------------------------------------------------+------------+
+| Lower Inner Fence | Lower Hinge - 1 Step                                        | 12.5       |
++-------------------+-------------------------------------------------------------+------------+
+| Upper Outer Fence | Upper Hinge + 2 Steps                                       | 29         |
++-------------------+-------------------------------------------------------------+------------+
+| Lower Outer Fence | Lower Hinge - 2 Steps                                       | 8          |
++-------------------+-------------------------------------------------------------+------------+
+| Upper Adjacent    | Largest value below Upper Inner Fence                       | 24         |
++-------------------+-------------------------------------------------------------+------------+
+| Lower Adjacent    | Smallest value above Lower Inner Fence                      | 14         |
++-------------------+-------------------------------------------------------------+------------+
+| Outside Value     | A value beyond an Inner Fence but not beyond an Outer Fence | 29         |
++-------------------+-------------------------------------------------------------+------------+
+| Far Out Value     | A value beyond an Outer Fence                               | None       |
++-------------------+-------------------------------------------------------------+------------+
 
 : Box plot terms and values for women's times. {#tbl-boxplot}
 
@@ -173,20 +199,33 @@ For these data, the 25th percentile is 17, the 50th percentile is 19, and the 75
 
 Before proceeding, the terminology in @tbl-terminology is helpful.
 
-| Name              | Formula                                                     | Value |
-|-------------------|-------------------------------------------------------------|-------|
-| Upper Hinge       | 75th Percentile                                             | 20    |
-| Lower Hinge       | 25th Percentile                                             | 17    |
-| H-Spread          | Upper Hinge - Lower Hinge                                   | 3     |
-| Step              | 1.5 x H-Spread                                              | 4.5   |
-| Upper Inner Fence | Upper Hinge + 1 Step                                        | 24.5  |
-| Lower Inner Fence | Lower Hinge - 1 Step                                        | 12.5  |
-| Upper Outer Fence | Upper Hinge + 2 Steps                                       | 29    |
-| Lower Outer Fence | Lower Hinge - 2 Steps                                       | 8     |
-| Upper Adjacent    | Largest value below Upper Inner Fence                       | 24    |
-| Lower Adjacent    | Smallest value above Lower Inner Fence                      | 14    |
-| Outside Value     | A value beyond an Inner Fence but not beyond an Outer Fence | 29    |
-| Far Out Value     | A value beyond an Outer Fence                               | None  |
++-------------------+-------------------------------------------------------------+------------+
+| Name              | Formula                                                     | Value      |
++===================+=============================================================+============+
+| Upper Hinge       | 75th Percentile                                             | 20         |
++-------------------+-------------------------------------------------------------+------------+
+| Lower Hinge       | 25th Percentile                                             | 17         |
++-------------------+-------------------------------------------------------------+------------+
+| H-Spread          | Upper Hinge - Lower Hinge                                   | 3          |
++-------------------+-------------------------------------------------------------+------------+
+| Step              | 1.5 x H-Spread                                              | 4.5        |
++-------------------+-------------------------------------------------------------+------------+
+| Upper Inner Fence | Upper Hinge + 1 Step                                        | 24.5       |
++-------------------+-------------------------------------------------------------+------------+
+| Lower Inner Fence | Lower Hinge - 1 Step                                        | 12.5       |
++-------------------+-------------------------------------------------------------+------------+
+| Upper Outer Fence | Upper Hinge + 2 Steps                                       | 29         |
++-------------------+-------------------------------------------------------------+------------+
+| Lower Outer Fence | Lower Hinge - 2 Steps                                       | 8          |
++-------------------+-------------------------------------------------------------+------------+
+| Upper Adjacent    | Largest value below Upper Inner Fence                       | 24         |
++-------------------+-------------------------------------------------------------+------------+
+| Lower Adjacent    | Smallest value above Lower Inner Fence                      | 14         |
++-------------------+-------------------------------------------------------------+------------+
+| Outside Value     | A value beyond an Inner Fence but not beyond an Outer Fence | 29         |
++-------------------+-------------------------------------------------------------+------------+
+| Far Out Value     | A value beyond an Outer Fence                               | None       |
++-------------------+-------------------------------------------------------------+------------+
 
 : Terminology. {#tbl-terminology}
 
@@ -256,18 +295,18 @@ The section on qualitative variables presented earlier in this chapter discussed
 
 Let's begin with an example. Consider the 25th percentile for the 8 numbers in @tbl-numberrankscores. Notice the numbers are given ranks ranging from 1 for the lowest number to 8 for the highest number.
 
-+---+------------+---+----------+---+
-|   | **Number** |   | **Rank** |   |
-+---+------------+---+----------+---+
-|   | 3\         |   | 1\       |   |
-|   | 5\         |   | 2\       |   |
-|   | 7\         |   | 3\       |   |
-|   | 8\         |   | 4\       |   |
-|   | 9\         |   | 5\       |   |
-|   | 11\        |   | 6\       |   |
-|   | 13\        |   | 7\       |   |
-|   | 15         |   | 8        |   |
-+---+------------+---+----------+---+
++------+------------+------+----------+------+
+|      | **Number** |      | **Rank** |      |
++------+------------+------+----------+------+
+|      | 3\         |      | 1\       |      |
+|      | 5\         |      | 2\       |      |
+|      | 7\         |      | 3\       |      |
+|      | 8\         |      | 4\       |      |
+|      | 9\         |      | 5\       |      |
+|      | 11\        |      | 6\       |      |
+|      | 13\        |      | 7\       |      |
+|      | 15         |      | 8        |      |
++------+------------+------+----------+------+
 
 : Test Scores. {#tbl-numberrankscores}
 
@@ -297,30 +336,30 @@ Therefore, the 25th percentile is 5.5. If we had used the first definition (the 
 
 For a second example, consider the 20 quiz scores shown in @tbl-quizscores.
 
-+---+-----------+---+----------+---+
-|   | **Score** |   | **Rank** |   |
-+---+-----------+---+----------+---+
-|   | 4\        |   | 1\       |   |
-|   | 4\        |   | 2\       |   |
-|   | 5\        |   | 3\       |   |
-|   | 5\        |   | 4\       |   |
-|   | 5\        |   | 5\       |   |
-|   | 5\        |   | 6\       |   |
-|   | 6\        |   | 7\       |   |
-|   | 6\        |   | 8\       |   |
-|   | 6\        |   | 9\       |   |
-|   | 7\        |   | 10\      |   |
-|   | 7\        |   | 11\      |   |
-|   | 7\        |   | 12\      |   |
-|   | 8\        |   | 13\      |   |
-|   | 8\        |   | 14\      |   |
-|   | 9\        |   | 15\      |   |
-|   | 9\        |   | 16\      |   |
-|   | 9\        |   | 17\      |   |
-|   | 10\       |   | 18\      |   |
-|   | 10\       |   | 19\      |   |
-|   | 10        |   | 20       |   |
-+---+-----------+---+----------+---+
++-----+-----------+-----+----------+-----+
+|     | **Score** |     | **Rank** |     |
++-----+-----------+-----+----------+-----+
+|     | 4\        |     | 1\       |     |
+|     | 4\        |     | 2\       |     |
+|     | 5\        |     | 3\       |     |
+|     | 5\        |     | 4\       |     |
+|     | 5\        |     | 5\       |     |
+|     | 5\        |     | 6\       |     |
+|     | 6\        |     | 7\       |     |
+|     | 6\        |     | 8\       |     |
+|     | 6\        |     | 9\       |     |
+|     | 7\        |     | 10\      |     |
+|     | 7\        |     | 11\      |     |
+|     | 7\        |     | 12\      |     |
+|     | 8\        |     | 13\      |     |
+|     | 8\        |     | 14\      |     |
+|     | 9\        |     | 15\      |     |
+|     | 9\        |     | 16\      |     |
+|     | 9\        |     | 17\      |     |
+|     | 10\       |     | 18\      |     |
+|     | 10\       |     | 19\      |     |
+|     | 10        |     | 20       |     |
++-----+-----------+-----+----------+-----+
 
 : 20 quiz scores. {#tbl-quizscores}
 
