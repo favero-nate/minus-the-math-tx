@@ -29,6 +29,8 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+    header-includes: |
+      \publishers{}
     # usepackage: amsmath
 
 # editor: visual
