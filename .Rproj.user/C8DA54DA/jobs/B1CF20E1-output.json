@@ -1,8 +1,0 @@
-[1,"==> quarto preview Chapter10.qmd --to pdf --no-watch-inputs --no-browse\n\n"]
-[1,"\r[1/5] index.qmd\n\r[2/5] Chapter10.qmd\n"]
-[1,"\r[3/5] Chapter11.qmd\n\r[4/5] Chapter12.qmd\n\r[5/5] Chapter13.qmd\n\n"]
-[1,"pandoc \n  to: latex\n  output-file: index.tex\n  standalone: true\n  toc: true\n  number-sections: true\n  top-level-division: chapter\n  pdf-engine: xelatex\n  variables:\n    graphics: true\n    tables: true\n  default-image-extension: pdf\n  \nmetadata\n  crossref:\n    chapters: true\n  documentclass: scrreprt\n  papersize: letter\n  classoption:\n    - DIV=11\n    - numbers=noendperiod\n  header-includes:\n    - '\\KOMAoption{captions}{tableheading}'\n  block-headings: true\n  title: 'Statistics Minus The Math: An Introduction for the Social Sciences'\n  author: Nathan Favero\n  date: 2/11/2024\n  \n"]
-[1,"\nRendering PDF\nrunning xelatex - 1\n"]
-[1,"  This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex.fmt)\n   restricted \\write18 enabled.\n  entering extended mode\n  \nrunning xelatex - 2\n"]
-[1,"  This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex.fmt)\n   restricted \\write18 enabled.\n  entering extended mode\n  \n\n"]
-[1,"Output created: _book\\Statistics-Minus-The-Math--An-Introduction-for-the-Social-Sciences.pdf\n\nWatching files for changes\nBrowse at http://localhost:3961/web/viewer.html\n"]
