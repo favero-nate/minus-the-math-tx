@@ -1,26 +1,27 @@
 {
-    "id": "C615B773",
+    "id": "BCF83092",
     "path": "~/GitHub/minus-the-math-files/Chapter9.qmd",
     "project_path": "Chapter9.qmd",
     "type": "quarto_markdown",
-    "hash": "2952453076",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1721271702961.0,
+    "created": 1721276520232.0,
     "source_on_save": false,
-    "relative_order": 8,
+    "relative_order": 4,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
         "cursorPosition": "10,89",
-        "scrollLine": "0"
+        "scrollLine": "0",
+        "docOutlineVisible": "1"
     },
     "folds": "",
     "lastKnownWriteTime": 1721271712,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1721271712921,
+    "last_content_update": 1721271712,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -4,7 +4,7 @@ project:
 book:
   title: "Statistics Minus The Math: An Introduction for the Social Sciences"
   author: "Nathan Favero"
-  date: "2/11/2024"
+  date: "7/18/2024"
   chapters:
     - index.qmd
     - Chapter1.qmd
