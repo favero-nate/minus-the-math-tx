@@ -16,10 +16,10 @@ book:
     # - Chapter7.qmd
     # - Chapter8.qmd
     # - Chapter9.qmd
-    # - Chapter10.qmd
+    - Chapter10.qmd
     - Chapter11.qmd
     - Chapter12.qmd
-    # - Chapter13.qmd
+    - Chapter13.qmd
     # - references.qmd
   
 # bibliography: references.bib
