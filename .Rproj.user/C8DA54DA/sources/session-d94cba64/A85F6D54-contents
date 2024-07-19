@@ -201,7 +201,7 @@ $$
 
 where $s^2$ is the estimate of the variance and $\bar{X}$ is the sample mean.
 
-Note that $\bar{X}$ is the mean of a sample taken from a population with a mean of $\mu$. Since, in practice, the variance is usually computed in a sample, this formula is most often used. While it is not easy to succinctly explain why we divide by $n-1$ rather than simply $n$, the simulation "estimating variance"[^describing-one-variable-1] illustrates the bias in the formula with $n$ as the denominator.
+Note that $\bar{X}$ is the mean of a sample taken from a population with a mean of $\mu$. Since, in practice, the variance is usually computed in a sample, this formula is most often used. While it is not easy to succinctly explain why we divide by $n-1$ rather than simply $n$, the simulation "estimating variance"[^describing-one-variable-1] illustrates the bias that arises if we use $n$ as the denominator in the formula.
 
 [^describing-one-variable-1]: <https://onlinestatbook.com/2/summarizing_distributions/variance_est.html>
 

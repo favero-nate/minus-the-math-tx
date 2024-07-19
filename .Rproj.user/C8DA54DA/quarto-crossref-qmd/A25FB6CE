@@ -2,17 +2,10 @@
     "entries": [
         {
             "file": "graphing.qmd",
-            "type": "fig",
-            "id": "imacpiechart",
+            "type": "tbl",
+            "id": "womenstimes",
             "suffix": "",
-            "title": "Pie chart of iMac purchases illustrating frequencies of previous computer ownership."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "linegraph",
-            "suffix": "",
-            "title": "A line graph used inappropriately to depict the number of people playing different card games on Sunday and Wednesday."
+            "title": "Women’s times."
         },
         {
             "file": "graphing.qmd",
@@ -24,16 +17,121 @@
         {
             "file": "graphing.qmd",
             "type": "fig",
+            "id": "classfreqs",
+            "suffix": "",
+            "title": "Histogram of scores on a psychology test."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "linegraph",
+            "suffix": "",
+            "title": "A line graph used inappropriately to depict the number of people playing different card games on Sunday and Wednesday."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
             "id": "cardgamebarchart",
             "suffix": "",
             "title": "A bar chart of the number of people playing different card games on Sunday and Wednesday."
         },
         {
             "file": "graphing.qmd",
-            "type": "sec",
-            "id": "box-plots",
+            "type": "fig",
+            "id": "boxplotmousemovement",
             "suffix": "",
-            "title": "Box Plots"
+            "title": "Box plots of times to move the mouse to the small and large targets."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "imacbarchart",
+            "suffix": "",
+            "title": "Bar chart of iMac purchases as a function of previous computer ownership."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "tbl",
+            "id": "terminology",
+            "suffix": "",
+            "title": "Box plot terms and values for women’s times."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "sec",
+            "id": "bar-charts-for-quantitative-variables7",
+            "suffix": "",
+            "title": "Bar Charts for Quantitative Variables"
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "completedboxplots",
+            "suffix": "",
+            "title": "The completed box plots."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "barchartmeantime",
+            "suffix": "",
+            "title": "Bar chart showing the means for the two conditions."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "barchartpercentchangecpi",
+            "suffix": "",
+            "title": "Percent change in the CPI over time. Each bar represents percent increase for the three months ending at the date indicated."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "boxplotindvscoresjittered",
+            "suffix": "",
+            "title": "Box plots with the individual scores jittered."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "barchartpercentincrease",
+            "suffix": "",
+            "title": "Percent increase in three stock indexes from May 24th 2000 to May 24th 2001."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "imacpiechart",
+            "suffix": "",
+            "title": "Pie chart of iMac purchases illustrating frequencies of previous computer ownership."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "fancyimacbarchart",
+            "suffix": "",
+            "title": "A three-dimensional version of @fig-imacbarchart."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "boxplot1",
+            "suffix": "",
+            "title": "The first step in creating box plots."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "tbl",
+            "id": "imacfreqs",
+            "suffix": "",
+            "title": "Frequency Table for the iMac Data."
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "sec",
+            "id": "comparing-distributions",
+            "suffix": "",
+            "title": "Comparing Distributions"
         },
         {
             "file": "graphing.qmd",
@@ -44,10 +142,17 @@
         },
         {
             "file": "graphing.qmd",
-            "type": "fig",
-            "id": "classfreqs",
+            "type": "tbl",
+            "id": "testscorefreqs",
             "suffix": "",
-            "title": "Histogram of scores on a psychology test."
+            "title": "Grouped Frequency Distribution of Psychology Test Scores"
+        },
+        {
+            "file": "graphing.qmd",
+            "type": "fig",
+            "id": "boxplotindvscores",
+            "suffix": "",
+            "title": "Box plots showing the individual scores and the means."
         },
         {
             "file": "graphing.qmd",
@@ -72,80 +177,10 @@
         },
         {
             "file": "graphing.qmd",
-            "type": "tbl",
-            "id": "imacfreqs",
-            "suffix": "",
-            "title": "Frequency Table for the iMac Data."
-        },
-        {
-            "file": "graphing.qmd",
             "type": "fig",
-            "id": "imacbarchart",
+            "id": "imacbarchartlies",
             "suffix": "",
-            "title": "Bar chart of iMac purchases as a function of previous computer ownership."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "barchartmeantime",
-            "suffix": "",
-            "title": "Bar chart showing the means for the two conditions."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "boxplotmousemovement",
-            "suffix": "",
-            "title": "Box plots of times to move the mouse to the small and large targets."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "barchartpercentchangecpi",
-            "suffix": "",
-            "title": "Percent change in the CPI over time. Each bar represents percent increase for the three months ending at the date indicated."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "barchartpercentincrease",
-            "suffix": "",
-            "title": "Percent increase in three stock indexes from May 24th 2000 to May 24th 2001."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "boxplotindvscoresjittered",
-            "suffix": "",
-            "title": "Box plots with the individual scores jittered."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "sec",
-            "id": "bar-charts-for-quantitative-variables7",
-            "suffix": "",
-            "title": "Bar Charts for Quantitative Variables"
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "tbl",
-            "id": "testscorefreqs",
-            "suffix": "",
-            "title": "Grouped Frequency Distribution of Psychology Test Scores"
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "fancyimacbarchart",
-            "suffix": "",
-            "title": "A three-dimensional version of @fig-imacbarchart."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "tbl",
-            "id": "womenstimes",
-            "suffix": "",
-            "title": "Women’s times."
+            "title": "A redrawing of @fig-imacbarchart with a lie factor greater than 8."
         },
         {
             "file": "graphing.qmd",
@@ -156,38 +191,10 @@
         },
         {
             "file": "graphing.qmd",
-            "type": "tbl",
-            "id": "terminology",
+            "type": "sec",
+            "id": "box-plots",
             "suffix": "",
-            "title": "Box plot terms and values for women’s times."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "completedboxplots",
-            "suffix": "",
-            "title": "The completed box plots."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "boxplot1",
-            "suffix": "",
-            "title": "The first step in creating box plots."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "boxplotindvscores",
-            "suffix": "",
-            "title": "Box plots showing the individual scores and the means."
-        },
-        {
-            "file": "graphing.qmd",
-            "type": "fig",
-            "id": "imacbarchartlies",
-            "suffix": "",
-            "title": "A redrawing of @fig-imacbarchart with a lie factor greater than 8."
+            "title": "Box Plots"
         }
     ]
 }

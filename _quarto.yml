@@ -11,7 +11,7 @@ book:
     - index.qmd
     - graphing.qmd
     - describing-one-variable.qmd
-    - Chapter3.qmd
+    - correlation.qmd
     - Chapter4.qmd
     - Chapter5.qmd
     - Chapter6.qmd

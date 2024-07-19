@@ -1,4 +1,4 @@
-# Tools for Describing the Relationship Between Two Variables
+# Tools for Describing the Relationship Between Two Quantitative Variables
 
 ## Introduction to Bivariate Data[\[1\]](#_ftn1)
 

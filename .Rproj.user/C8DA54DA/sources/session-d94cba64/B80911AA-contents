@@ -1,4 +1,4 @@
-# Graphical Tools for Describing One Variable at a Time
+# Graphical Tools for Describing Variables
 
 ## Variables[^graphing-1]
 
@@ -69,7 +69,7 @@ Bar charts can also be used to represent frequencies of different categories. A 
 
 ![Bar chart of iMac purchases as a function of previous computer ownership.](Images/graphing/imacbarchart.jpg){#fig-imacbarchart width="400"}
 
-#### Comparing Distributions
+#### Comparing Distributions {#sec-comparing-distributions}
 
 Often we need to compare the results of different surveys, or of different conditions within the same overall survey. In this case, we are comparing the "distributions" of responses between the surveys or conditions. Bar charts are often excellent for illustrating differences between two distributions. @fig-cardgamebarchart shows the number of people playing card games at the Yahoo website on a Sunday and on a Wednesday in the Spring of 2001. We see that there were more players overall on Wednesday compared to Sunday. The number of people playing Pinochle was nonetheless the same on these two days. In contrast, there were about twice as many people playing hearts on Wednesday as on Sunday. Facts like these emerge clearly from a well-designed bar chart.
 
@@ -155,7 +155,7 @@ Histograms can be based on relative frequencies instead of actual frequencies. H
 
 There is more to be said about the widths of the class intervals, sometimes called *bin widths*. Your choice of bin width determines the number of class intervals. This decision, along with the choice of starting point for the first interval, affects the shape of the histogram. There are some "rules of thumb" that can help you choose an appropriate width. (But keep in mind that none of the rules is perfect.) We prefer the Rice rule, which is to set the number of intervals to twice the cube root of the number of observations. In the case of 1000 observations, the Rice rule yields 20 intervals. For the psychology test example used above, the Rice rule recommends 17. ***The best advice is to experiment with different choices of width, and to choose a histogram according to how well it communicates the shape of the distribution.***
 
-### Box Plots[^graphing-5]{#sec-box-plots}
+### Box Plots[^graphing-5] {#sec-box-plots}
 
 [^graphing-5]: This section is adapted from David M. Lane. “Box Plots.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/graphing_distributions/boxplots.html>
 

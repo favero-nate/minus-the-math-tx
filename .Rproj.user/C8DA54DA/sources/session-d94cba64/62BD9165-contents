@@ -4,7 +4,7 @@
 
 It is much more common for a researcher to be interested in the difference between means than in the specific values of the means themselves. This section covers how to test for differences between means from two separate groups of subjects. Note that we already learned in the chapter on graphing how to visually depict a comparison of two means/medians using boxplots (@sec-box-plots).
 
-We take as an example the data from the "Animal Research" case study, previously described when discussing confidence intervals (@sec-using-confidence-intervals).[\[2\]](#_ftn2) As a reminder, students rated (on a 7-point scale) whether they thought animal research is wrong. The sample sizes, means, and variances are shown separately for males and females in @tbl-meansvaranimalresearch.
+We take as an example the data from the "Animal Research" case study, previously described when discussing confidence intervals (@sec-using-confidence-intervals).[\[2\]](#_ftn2) In this experiment, students rated (on a 7-point scale) whether they thought animal research is wrong. The sample sizes, means, and variances are shown separately for males and females in @tbl-meansvaranimalresearch.
 
 |     |           |     |       |     |          |     |              |     |
 |:---:|:---------:|:---:|:-----:|:---:|:--------:|:---:|:------------:|:---:|
