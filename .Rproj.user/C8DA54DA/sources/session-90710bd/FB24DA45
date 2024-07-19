@@ -1,0 +1,32 @@
+{
+    "id": "FB24DA45",
+    "path": "~/GitHub/minus-the-math-files/graphing.qmd",
+    "project_path": "graphing.qmd",
+    "type": "quarto_markdown",
+    "hash": "3318121627",
+    "contents": "",
+    "dirty": false,
+    "created": 1721364094646.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "273,149",
+        "scrollLine": "272",
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "10947:6670",
+        "quartoPreviewFormat": "pdf"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1721366775,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1721366775732,
+    "read_only": false,
+    "read_only_alternatives": []
+}

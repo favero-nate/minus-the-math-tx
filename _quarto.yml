@@ -9,8 +9,8 @@ book:
   license: "CC BY"
   chapters:
     - index.qmd
-    - Chapter1.qmd
-    - Chapter2.qmd
+    - graphing.qmd
+    - describing-one-variable.qmd
     - Chapter3.qmd
     - Chapter4.qmd
     - Chapter5.qmd
