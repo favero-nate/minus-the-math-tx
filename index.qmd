@@ -4,7 +4,7 @@ This book was largely adapted from the public domain resource *Online Statistics
 
 This book is meant to be a free resource and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1). You're welcome to share or adapt it, so long as you provide attribution to any work of mine that you use.
 
-There are still formatting inconsistencies, and this is ever a work in progress. If you find errors, feel free to reach out (find current contact info here: <https://nathanfavero.com>) so I can correct them for the next version I publish.
+There are still formatting inconsistencies, and this is ever a work in progress. If you find errors, feel free to reach out (find updated contact info here: <https://nathanfavero.com>) so I can correct them for the next version I publish.
 
 ## What's Unique About This Text?
 
@@ -22,6 +22,6 @@ There are still formatting inconsistencies, and this is ever a work in progress.
 
 This version (1.3) was updated July 18, 2024. PDFs of past versions are available at <https://minusthemath.com>.
 
--   Version 1.3 updates: Various formatting updates. New section (4.4) on interpreting confidence intervals.
+-   Version 1.3 updates: New section (4.4) on interpreting confidence intervals. Various formatting updates. Notation is updated in line with conventions: regression parameters are redone, and $\bar{X}$ is now used for sample mean and $n$ for sample size.
 
 -   Version 1.2 updates: The discussion of transforming variables now appears in Ch. 2 (rather than Ch. 3).

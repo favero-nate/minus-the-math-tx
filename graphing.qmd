@@ -155,7 +155,7 @@ Histograms can be based on relative frequencies instead of actual frequencies. H
 
 There is more to be said about the widths of the class intervals, sometimes called *bin widths*. Your choice of bin width determines the number of class intervals. This decision, along with the choice of starting point for the first interval, affects the shape of the histogram. There are some "rules of thumb" that can help you choose an appropriate width. (But keep in mind that none of the rules is perfect.) We prefer the Rice rule, which is to set the number of intervals to twice the cube root of the number of observations. In the case of 1000 observations, the Rice rule yields 20 intervals. For the psychology test example used above, the Rice rule recommends 17. ***The best advice is to experiment with different choices of width, and to choose a histogram according to how well it communicates the shape of the distribution.***
 
-### Box Plots[^graphing-5]
+### Box Plots[^graphing-5]{#sec-box-plots}
 
 [^graphing-5]: This section is adapted from David M. Lane. “Box Plots.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/graphing_distributions/boxplots.html>
 

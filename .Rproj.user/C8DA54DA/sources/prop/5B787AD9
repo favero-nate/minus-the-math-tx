@@ -1,4 +1,12 @@
 {
     "source_window_id": "",
-    "Source": "Source"
+    "Source": "Source",
+    "cursorPosition": "286,0",
+    "scrollLine": "200",
+    "docOutlineVisible": "1",
+    "rmdVisualMode": "true",
+    "rmdVisualWrapConfigured": "true",
+    "rmdVisualCollapsedChunks": "",
+    "rmdVisualModeLocation": "3357:2218.666748046875",
+    "quartoPreviewFormat": "pdf"
 }

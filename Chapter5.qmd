@@ -79,7 +79,7 @@ Although this text does not discuss the concept of probability density in detail
 
 ![A normal distribution.](Images/Ch5/normaldist.jpg){#fig-normaldist}
 
-### Shapes of Distributions
+### Shapes of Distributions {#sec-shapes-of-distributions}
 
 As we’ve already seen when graphing different data, distributions have different shapes; they don't all look like the normal distribution in @fig-normaldist. For example, the normal probability density is higher in the middle compared to its two tails. Other distributions need not have this feature. There is even variation among the distributions that we call "normal." For example, some normal distributions are more spread out than the one shown in @fig-normaldist (their tails begin to hit the X-axis further from the middle of the curve -- for example, at 10 and 90 if drawn in place of @fig-normaldist). Others are less spread out (their tails might approach the X-axis at 30 and 70). We’ll learn more about the details of the normal distribution later in this chapter.
 
@@ -113,23 +113,23 @@ The normal distribution is the most important and most widely used distribution 
 
 Strictly speaking, it is not correct to talk about "the normal distribution" since there are many normal distributions. Normal distributions can differ in their means and in their standard deviations. @fig-normaldist shows three normal distributions. The green (left-most) distribution has a mean of -3 and a standard deviation of 0.5, the distribution in red (the middle distribution) has a mean of 0 and a standard deviation of 1, and the distribution in black (right-most) has a mean of 2 and a standard deviation of 3. These as well as all other normal distributions are symmetric with relatively more values at the center of the distribution and relatively few in the tails.
 
-![Normal distributions differing in mean and standard deviation.](Images/Ch5/normaldist3.png){#fig-normaldist}
+![Normal distributions differing in mean and standard deviation.](Images/Ch5/normaldist3.png)
 
 Seven features of normal distributions are listed below. These features are illustrated in more detail in the remaining sections of this chapter.
 
-1. Normal distributions are symmetric around their mean.
+1.  Normal distributions are symmetric around their mean.
 
-2. The mean, median, and mode of a normal distribution are equal.
+2.  The mean, median, and mode of a normal distribution are equal.
 
-3. The area under the normal curve is equal to 1.0.
+3.  The area under the normal curve is equal to 1.0.
 
-4. Normal distributions are denser in the center and less dense in the tails.
+4.  Normal distributions are denser in the center and less dense in the tails.
 
-5. Normal distributions are defined by two parameters, the mean (μ) and the standard deviation (σ).
+5.  Normal distributions are defined by two parameters, the mean (μ) and the standard deviation (σ).
 
-6. 68% of the area of a normal distribution is within one standard deviation of the mean.
+6.  68% of the area of a normal distribution is within one standard deviation of the mean.
 
-7. Approximately 95% of the area of a normal distribution is within two standard deviations of the mean.
+7.  Approximately 95% of the area of a normal distribution is within two standard deviations of the mean.
 
 ### Importance of Normal Distributions[\[3\]](#_ftn3)
 

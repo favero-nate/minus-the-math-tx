@@ -3,7 +3,7 @@
     "path": "~/GitHub/minus-the-math-files/describing-one-variable.qmd",
     "project_path": "describing-one-variable.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "4127090597",
     "contents": "",
     "dirty": false,
     "created": 1721371009457.0,
@@ -11,14 +11,22 @@
     "relative_order": 8,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "286,0",
+        "scrollLine": "200",
+        "docOutlineVisible": "1",
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "3357:2218.666748046875",
+        "quartoPreviewFormat": "pdf"
     },
     "folds": "",
-    "lastKnownWriteTime": 1721284539,
+    "lastKnownWriteTime": 1721373368,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1721284539,
+    "last_content_update": 1721373368338,
     "read_only": false,
     "read_only_alternatives": []
 }

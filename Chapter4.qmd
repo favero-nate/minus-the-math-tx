@@ -1,4 +1,4 @@
-# Estimation
+# Estimation {#sec-estimation}
 
 ## Populations and Samples[^chapter4-1]
 
@@ -104,9 +104,9 @@ $$
 0.29 ≤ μ_f - μ_m ≤ 2.65
 $$
 
-where $μ_f$ is the population mean for females and $μ_m$ is the population mean for males. Since the difference in these population means is the main parameter we wish to estimate, we could say the confidence interval for the parameter of interest is [0.29, 2.65]. Because all values within this range are positive, this analysis provides evidence that the mean for females is higher than the mean for males. More specifically, the difference between means in the population is likely to be between 0.29 and 2.65. Note that since 0 does not fall within the range of the confidence interval, this suggests that there *is* a difference between males and females, so we can also say that the results are **statistically significant**.
+where $μ_f$ is the population mean for females and $μ_m$ is the population mean for males. Since the difference in these population means is the main parameter we wish to estimate, we could say the confidence interval for the parameter of interest is \[0.29, 2.65\]. Because all values within this range are positive, this analysis provides evidence that the mean for females is higher than the mean for males. More specifically, the difference between means in the population is likely to be between 0.29 and 2.65. Note that since 0 does not fall within the range of the confidence interval, this suggests that there *is* a difference between males and females, so we can also say that the results are **statistically significant**.
 
-If, instead, we had found a confidence interval of [-1.03, 2.65], we could not rule out the possibility of no difference between males and females, since 0 falls between -1.03 and 2.65.
+If, instead, we had found a confidence interval of \[-1.03, 2.65\], we could not rule out the possibility of no difference between males and females, since 0 falls between -1.03 and 2.65.
 
 ## Interpreting Confidence Intervals Correctly[^chapter4-6]
 
@@ -130,7 +130,7 @@ An analogy may help. Suppose you are interacting with a chatbot that is truthful
 
 Now imagine you ask this same bot to start telling you about a topic you know nothing about. Absent any prior insights into which statements are likely to be true or false, it would now be reasonable to conclude that each statement the bot makes has a 95% chance of being true. 
 
-In the same way, it turns out that *absent any other information,* a 95% confidence interval is often a good approximation for a range of values that contains the  population parameter with 95% probability.[^chapter4-11] Thus, I think it is quite reasonable that many of us, when we see a mean estimate with a 95% confidence interval ranging from A to B, assume there is a 95% chance the population mean does indeed lie between A and B. But technically, that is not a direct interpretation of the confidence interval; instead, this statement about plausible values of the population mean is a subjective conclusion that I can draw based on the confidence interval. Another person might see the same confidence interval and reasonably decide—drawing on their own prior knowledge of the topic—that the confidence interval contains values that are highly implausible, and thus they would reach a different conclusion from me about how likely the interval is to contain the true population mean. 
+In the same way, it turns out that *absent any other information,* a 95% confidence interval is often a good approximation for a range of values that contains the population parameter with 95% probability.[^chapter4-11] Thus, I think it is quite reasonable that many of us, when we see a mean estimate with a 95% confidence interval ranging from A to B, assume there is a 95% chance the population mean does indeed lie between A and B. But technically, that is not a direct interpretation of the confidence interval; instead, this statement about plausible values of the population mean is a subjective conclusion that I can draw based on the confidence interval. Another person might see the same confidence interval and reasonably decide—drawing on their own prior knowledge of the topic—that the confidence interval contains values that are highly implausible, and thus they would reach a different conclusion from me about how likely the interval is to contain the true population mean. 
 
 [^chapter4-11]: Kass, R. E. (2011). Statistical inference: The big picture. *Statistical science: a review journal of the Institute of Mathematical Statistics*, *26*(1), 1.
 
