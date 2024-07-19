@@ -3,7 +3,7 @@
     "path": "~/GitHub/minus-the-math-files/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1565763955",
     "contents": "",
     "dirty": false,
     "created": 1721254086659.0,
@@ -16,17 +16,17 @@
         "Source": "Source",
         "docOutlineVisible": "0",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "14,126",
-        "scrollLine": "9",
-        "rmdVisualModeLocation": "1296:400",
-        "quartoPreviewFormat": "html"
+        "cursorPosition": "22,110",
+        "scrollLine": "17",
+        "rmdVisualModeLocation": "871:300",
+        "quartoPreviewFormat": "pdf"
     },
     "folds": "",
-    "lastKnownWriteTime": 1721344347,
+    "lastKnownWriteTime": 1721363928,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1721344347254,
+    "last_content_update": 1721363928187,
     "read_only": false,
     "read_only_alternatives": []
 }
