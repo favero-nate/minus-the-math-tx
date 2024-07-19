@@ -12,7 +12,7 @@ book:
     - graphing.qmd
     - describing-one-variable.qmd
     - correlation.qmd
-    - Chapter4.qmd
+    - estimation.qmd
     - Chapter5.qmd
     - Chapter6.qmd
     - Chapter7.qmd

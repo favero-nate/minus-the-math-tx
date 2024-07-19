@@ -2,10 +2,10 @@
     "entries": [
         {
             "file": "Chapter8.qmd",
-            "type": "fig",
-            "id": "2tailprob",
+            "type": "tbl",
+            "id": "meansvaranimalresearch",
             "suffix": "",
-            "title": "The two-tailed probability."
+            "title": "Means and Variances in Animal Research study."
         },
         {
             "file": "Chapter8.qmd",
@@ -16,38 +16,10 @@
         },
         {
             "file": "Chapter8.qmd",
-            "type": "tbl",
-            "id": "reformatdata",
-            "suffix": "",
-            "title": "Reformatted data."
-        },
-        {
-            "file": "Chapter8.qmd",
             "type": "fig",
             "id": "pairwisecompfmean",
             "suffix": "",
             "title": "Number of pairwise comparisons as a function of the number of means."
-        },
-        {
-            "file": "Chapter8.qmd",
-            "type": "fig",
-            "id": "1tailprob",
-            "suffix": "",
-            "title": "The one-tailed probability."
-        },
-        {
-            "file": "Chapter8.qmd",
-            "type": "tbl",
-            "id": "meansvaranimalresearch",
-            "suffix": "",
-            "title": "Means and Variances in Animal Research study."
-        },
-        {
-            "file": "Chapter8.qmd",
-            "type": "tbl",
-            "id": "feltmisneutral",
-            "suffix": "",
-            "title": "Six Comparisons among Means."
         },
         {
             "file": "Chapter8.qmd",
@@ -59,9 +31,16 @@
         {
             "file": "Chapter8.qmd",
             "type": "tbl",
-            "id": "6pairwisecomp2",
+            "id": "feltmisneutral",
             "suffix": "",
-            "title": "Six Pairwise Comparisons."
+            "title": "Six Comparisons among Means."
+        },
+        {
+            "file": "Chapter8.qmd",
+            "type": "fig",
+            "id": "1tailprob",
+            "suffix": "",
+            "title": "The one-tailed probability."
         },
         {
             "file": "Chapter8.qmd",
@@ -69,6 +48,27 @@
             "id": "6pairwisecomp",
             "suffix": "",
             "title": "Six Pairwise Comparisons."
+        },
+        {
+            "file": "Chapter8.qmd",
+            "type": "tbl",
+            "id": "reformatdata",
+            "suffix": "",
+            "title": "Reformatted data."
+        },
+        {
+            "file": "Chapter8.qmd",
+            "type": "tbl",
+            "id": "6pairwisecomp2",
+            "suffix": "",
+            "title": "Six Pairwise Comparisons."
+        },
+        {
+            "file": "Chapter8.qmd",
+            "type": "fig",
+            "id": "2tailprob",
+            "suffix": "",
+            "title": "The two-tailed probability."
         }
     ]
 }
