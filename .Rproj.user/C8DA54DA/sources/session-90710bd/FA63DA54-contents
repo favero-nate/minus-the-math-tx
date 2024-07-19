@@ -2,9 +2,11 @@ project:
   type: book
 
 book:
-  title: "Statistics Minus The Math: An Introduction for the Social Sciences"
+  title: "Statistics Minus The Math"
+  subtitle: "An Introduction for the Social Sciences"
   author: "Nathan Favero"
   date: "7/18/2024"
+  license: "CC BY"
   chapters:
     - index.qmd
     - Chapter1.qmd
@@ -30,7 +32,9 @@ format:
   pdf:
     documentclass: scrreprt
     header-includes: |
-      \publishers{Get the latest version of this text at: \url{https://minusthemath.com}}
+      \publishers{Get the latest version of this text at: \url{https://minusthemath.com} \bigskip \bigskip \bigskip \bigskip \\
+      This work \copyright\ 2024 is licensed under \href{https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1}{CC BY 4.0}  \bigskip \\
+      \href{https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1}{\includegraphics{Images/by.png}}}
     # usepackage: amsmath
 
 # editor: visual
