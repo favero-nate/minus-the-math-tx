@@ -34,17 +34,17 @@ Each distribution is fairly skewed with a long right tail. From @tbl-spousalage 
 
 We can learn much more by displaying the bivariate data in a graphical form that maintains the pairing. @fig-scatterplotspousalage shows a scatter plot of the paired ages. The x-axis represents the age of the husband and the y-axis the age of the wife.
 
-![Scatter plot showing wife's age as a function of husband's age.](Images/correlations/scatterplotspousalage.jpg){#fig-scatterplotspousalage}
+![Scatter plot showing wife's age as a function of husband's age, r = 0.97.](Images/correlations/scatterplotspousalage.jpg){#fig-scatterplotspousalage}
 
-There are two important characteristics of the data revealed by @fig-scatterplotspousalage. First, it is clear that there is a strong relationship between the husband's age and the wife's age: the older the husband, the older the wife. When one variable (Y) increases with the second variable (X), we say that X and Y have a **positive association**. Conversely, when Y decreases as X increases, we say that they have a **negative association**.
+There are two important characteristics of the data revealed by @fig-scatterplotspousalage. First, it is clear that there is a strong relationship between the husband's age and the wife's age: the older the husband, the older the wife. When one variable (Y) increases with the second variable (X), we say that $X$ and $Y$ have a **positive association**. Conversely, when $Y$ decreases as $X$ increases, we say that they have a **negative association**.
 
 Second, the points cluster along a straight line. When this occurs, the relationship is called a **linear relationship**.
 
 @fig-scatterplotstrength shows a scatter plot of Arm Strength and Grip Strength from 149 individuals working in physically demanding jobs including electricians, construction and maintenance workers, and auto mechanics. Not surprisingly, the stronger someone's grip, the stronger their arm tends to be. There is therefore a positive association between these variables. Although the points cluster along a line, they are not clustered quite as closely as they are for the scatter plot of spousal age.
 
-![Scatter plot of Grip Strength and Arm Strength.](Images/correlations/scatterplotstrength.jpg){#fig-scatterplotstrength}
+![Scatter plot of Grip Strength and Arm Strength, r = 0.63.](Images/correlations/scatterplotstrength.jpg){#fig-scatterplotstrength}
 
-Not all scatter plots show linear relationships. @fig-scatterplotgalileo shows the results of an experiment conducted by Galileo on projectile motion.[^correlation-2] In the experiment, Galileo rolled balls down an incline and measured how far they traveled as a function of the release height. It is clear from @fig-scatterplotgalileo that the relationship between "Release Height" and "Distance Traveled" is not described well by a straight line: If you drew a line connecting the lowest point and the highest point, all of the remaining points would be above the line. The data are better fit by a parabola.
+Not all scatter plots show linear relationships. @fig-scatterplotgalileo shows the results of an experiment conducted by Galileo on projectile motion.[^correlation-2] In the experiment, Galileo rolled balls down an incline and measured how far they traveled as a function of the release height. It is clear from @fig-scatterplotgalileo that the relationship between "Release Height" and "Distance Traveled" is not described well by a straight line: If you drew a line connecting the lowest point and the highest point, all of the remaining points would be above the line. The data are better fit by a parabola (a type of curved line).
 
 [^correlation-2]: <https://www.amstat.org/publications/jse/v3n1/datasets.dickey.html>
 
@@ -58,7 +58,7 @@ Scatter plots that show linear relationships between variables can differ in sev
 
 The Pearson product-moment correlation coefficient is a measure of the strength of the linear relationship between two variables. It is referred to as Pearson's correlation or simply as the **correlation coefficient**. If the relationship between the variables is not linear, then the correlation coefficient does not adequately represent the strength of the relationship between the variables.
 
-The symbol for Pearson's correlation is "ρ" when it is measured in the population and "r" when it is measured in a sample. Because we will be dealing almost exclusively with samples, we will use r to represent Pearson's correlation unless otherwise noted.
+The symbol for Pearson's correlation is "$\rho$" when it is measured in the population and "r" when it is measured in a sample. Because we will be dealing almost exclusively with samples, we will use r to represent Pearson's correlation unless otherwise noted.
 
 Pearson's r can range from -1 to 1. An r of -1 indicates a perfect negative linear relationship between variables, an r of 0 indicates no linear relationship between variables, and an r of 1 indicates a perfect positive linear relationship between variables. @fig-poslinearrel shows a scatter plot for which r = 1.
 
@@ -66,15 +66,11 @@ Pearson's r can range from -1 to 1. An r of -1 indicates a perfect negative line
 
 ![A perfect negative linear relationship, r = 1.](Images/correlations/neglinearrel.jpg){#fig-neglinearrel}
 
-![A scatter plot for which r = 0. Notice that there is no relationship between X and Y.](Images/correlations/scatterplotnorel.jpg){#fig-scatterplotnorel}
+![A scatter plot for which r = 0. Notice that there is no relationship between $X$ and $Y$.](Images/correlations/scatterplotnorel.jpg){#fig-scatterplotnorel}
 
-With real data, you would not expect to get values of r of exactly -1, 0, or 1. The data for spousal ages shown in @fig-scatterplotspousalageposrel and described in the introductory section has an r of 0.97.
+With real data, you would not expect to get values of r of exactly -1, 0, or 1. The data for spousal ages shown earlier in this chapter in @fig-scatterplotspousalage has an r of 0.97.
 
-![Scatter plot of spousal ages](Images/correlations/scatterplotspousalageposrel.jpg){#fig-scatterplotspousalageposrel}
-
-![Scatter plot of Grip Strength and Arm Strength, r = 0.63.](Images/correlations/splotstrengthposrel.jpg){#fig-scatterplotstrengthposrel}
-
-The relationship between grip strength and arm strength depicted in @fig-scatterplotstrengthposrel (also described in the introductory section) is 0.63.
+The relationship between grip strength and arm strength depicted in @fig-scatterplotstrength (also described in the introductory section) is 0.63.
 
 ## How Correlation is Calculated[^correlation-4]
 
@@ -82,9 +78,9 @@ The relationship between grip strength and arm strength depicted in @fig-scatter
 
 There are several formulas that can be used to compute Pearson's correlation. Some formulas make more conceptual sense whereas others are easier to actually compute. We are going to begin with a formula that makes more conceptual sense.
 
-We are going to compute the correlation between the variables X and Y shown in @tbl-rcalulation. We begin by computing the mean for X and subtracting this mean from all values of X. The new variable is called "x." The variable "y" is computed similarly. The variables x and y are said to be deviation scores because each score is a deviation from the mean. Notice that the means of x and y are both 0. Next we create a new column by multiplying x and y.
+We are going to compute the correlation between the variables $X$ and $Y$ shown in @tbl-rcalulation. We begin by computing the mean for $X$ and subtracting this mean from all values of $X$. The new variable is called "x." The variable "y" is computed similarly. The variables x and y are said to be deviation scores because each score is a deviation from the mean. Notice that the means of x and y are both 0. Next we create a new column by multiplying x and y.
 
-Before proceeding with the calculations, let's consider why the sum of the xy column reveals the relationship between X and Y. If there were no relationship between X and Y, then positive values of x would be just as likely to be paired with negative values of y as with positive values. This would make negative values of xy as likely as positive values and the sum would be small. On the other hand, consider @tbl-rcalulation in which high values of X are associated with high values of Y and low values of X are associated with low values of Y. You can see that positive values of x are associated with positive values of y and negative values of x are associated with negative values of y. In all cases, the product of x and y is positive, resulting in a high total for the xy column. Finally, if there were a negative relationship then positive values of x would be associated with negative values of y and negative values of x would be associated with positive values of y. This would lead to negative values for xy.
+Before proceeding with the calculations, let's consider why the sum of the xy column reveals the relationship between $X$ and $Y$. If there were no relationship between $X$ and $Y$, then positive values of x would be just as likely to be paired with negative values of y as with positive values. This would make negative values of xy as likely as positive values and the sum would be small. On the other hand, consider @tbl-rcalulation in which high values of $X$ are associated with high values of $Y$ and low values of $X$ are associated with low values of $Y$. You can see that positive values of x are associated with positive values of y and negative values of x are associated with negative values of y. In all cases, the product of x and y is positive, resulting in a high total for the xy column. Finally, if there were a negative relationship then positive values of x would be associated with negative values of y and negative values of x would be associated with positive values of y. This would lead to negative values for xy.
 
 +-------+-------+-------+-------+-------+--------+----------+----------+
 |       | **X** | **Y** | **x** | **y** | **xy** | **x^2^** | **y^2^** |
@@ -106,34 +102,34 @@ Before proceeding with the calculations, let's consider why the sum of the xy co
 
 : Calculation of r. {#tbl-rcalulation}
 
-Pearson's r is designed so that the correlation between height and weight is the same whether height is measured in inches or in feet. To achieve this property, Pearson's correlation is computed by dividing the sum of the xy column ($Σ_{xy}$) by the square root of the product of the sum of the x^2^ column ($Σx^2$) and the sum of the $y^2$ column ($Σy^2$). The resulting formula is:
+Pearson's r is designed so that the correlation between height and weight is the same whether height is measured in inches or in feet. To achieve this property, Pearson's correlation is computed by dividing the sum of the xy column ($\sum{xy}$) by the square root of the product of the sum of the $x^2$ column ($\sum{x^2}$) and the sum of the $y^2$ column ($\sum{y^2}$). The resulting formula is:
 
 $$
-Z = \frac{ΣXY}{\sqrtΣX^2ΣY^2}\
+r = \frac{\sum{xy}}{\sqrt{\sum{x^2}\sum{y^2}}}\
 $$
 
 and therefore:
 
 $$
-Z = \frac{30}{\sqrt(16)(16)} = \frac{30}{\sqrt960} = \frac{30}{30.984} = 0.968\
+r = \frac{30}{\sqrt{(16)(60)}} = \frac{30}{\sqrt{960}} = \frac{30}{30.984} = 0.968\
 $$
 
 An alternative computational formula that avoids the step of computing deviation scores is:
 
 $$
-r = \frac{ΣXY-\frac{ΣXΣY}{N}}{\sqrt(ΣX^2-\frac{(ΣX)^2}{N})\sqrt(ΣY^2-\frac{(ΣY)^2}{N})}
+r = \frac{\sum{XY}-\frac{\sum{X}\sum{Y}}{n}}{\sqrt{\left(\sum{X^2}-\frac{(\sum{X})^2}{n}\right)}\sqrt{\left(\sum{Y^2}-\frac{(\sum{Y})^2}{n}\right)}}
 $$
 
 ## Introduction to Linear Regression[^correlation-5]
 
 [^correlation-5]: This section is adapted from David M. Lane. “Introduction to Linear Regression.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/regression/intro.html>
 
-In simple linear regression, we predict scores on one variable from the scores on a second variable. The variable we are predicting is called the **dependent variable** and is referred to as Y. The variable we are basing our predictions on is called the **independent variable** and is referred to as X. When there is only one predictor variable, the prediction method is called simple regression. In simple linear regression, the topic of this section, the predictions of Y when plotted as a function of X form a straight line.
+In simple linear regression, we predict scores on one variable from the scores on a second variable. The variable we are predicting is called the **dependent variable** and is referred to as $Y$. The variable we are basing our predictions on is called the **independent variable** and is referred to as $X$. When there is only one predictor variable, the prediction method is called simple regression. In simple linear regression, the topic of this section, the predictions of $Y$ when plotted as a function of $X$ form a straight line.
 
-The example data in @tbl-exampledata are plotted in @fig-splotexampledata. You can see that there is a positive relationship between X and Y. If you were going to predict Y from X, the higher the value of X, the higher your prediction of Y.
+The example data in @tbl-exampledata-regression are plotted in @fig-splotexampledata. You can see that there is a positive relationship between $X$ and $Y$. If you were going to predict $Y$ from $X$, the higher the value of $X$, the higher your prediction of $Y$.
 
 +-----+-------+-----+-------+-----+
-|     | **X** |     | **Y** |     |
+|     |  $X$  |     |  $Y$  |     |
 +-----+-------+-----+-------+-----+
 |     | 1.00  |     | 1.00  |     |
 +-----+-------+-----+-------+-----+
@@ -146,29 +142,29 @@ The example data in @tbl-exampledata are plotted in @fig-splotexampledata. You c
 |     | 5.00  |     | 2.25  |     |
 +-----+-------+-----+-------+-----+
 
-: Example data. {#tbl-exampledata}
+: Example data. {#tbl-exampledata-regression}
 
 ![A scatter plot of the example data.](Images/correlations/splotexampledata.jpg){#fig-splotexampledata}
 
-Linear regression consists of finding the best-fitting straight line through the points. The best-fitting line is called a regression line. The black diagonal line in @fig-splotexampledatadetail is the regression line and consists of the predicted score on Y for each possible value of X. The vertical lines from the points to the regression line represent the errors of prediction. As you can see, the red point is very near the regression line; its error of prediction is small. By contrast, the yellow point is much higher than the regression line and therefore its error of prediction is large.
+Linear regression consists of finding the best-fitting straight line through the points. The best-fitting line is called a regression line. The black diagonal line in @fig-splotexampledatadetail is the regression line and consists of the predicted score on $Y$ for each possible value of $X$. The vertical lines from the points to the regression line represent the errors of prediction. As you can see, the red point is very near the regression line; its error of prediction is small. By contrast, the yellow point is much higher than the regression line and therefore its error of prediction is large.
 
 ![A scatter plot of the example data. The black line consists of the predictions, the points are the actual data, and the vertical lines between the points and the black line represent errors of prediction.](Images/correlations/splotexampledatadetail.jpg){#fig-splotexampledatadetail}
 
-The error of prediction for a point is the value of the point minus the predicted value (the value on the line). @tbl-exampledatatable shows the predicted values (Y') and the errors of prediction (Y-Y'). For example, the first point has a Y of 1.00 and a predicted Y (called Y') of 1.21. Therefore, its error of prediction is -0.21.
+The error of prediction for a point is the value of the point minus the predicted value (the value on the line). @tbl-exampledatatable shows the predicted values ($\hat{Y}$) and the errors of prediction ($Y-\hat{Y}$). For example, the first point has a $Y$ of 1.00 and a predicted $Y$ (called $\hat{Y}$) of 1.21. Therefore, its error of prediction is -0.21.
 
-+--------+--------+--------+--------+---------+--------------+--------+
-|        | **X**  | **Y**  | **Y**  | **Y-Y** | **(Y-Y)^2^** |        |
-+--------+--------+--------+--------+---------+--------------+--------+
-|        | 1.00   | 1.00   | 1.210  | -0.210  | 0.044        |        |
-+--------+--------+--------+--------+---------+--------------+--------+
-|        | 2.00   | 2.00   | 1.635  | 0.365   | 0.133        |        |
-+--------+--------+--------+--------+---------+--------------+--------+
-|        | 3.00   | 1.30   | 2.060  | -0.760  | 0.578        |        |
-+--------+--------+--------+--------+---------+--------------+--------+
-|        | 4.00   | 3.75   | 2.485  | 1.265   | 1.600        |        |
-+--------+--------+--------+--------+---------+--------------+--------+
-|        | 5.00   | 2.25   | 2.910  | -0.660  | 0.436        |        |
-+--------+--------+--------+--------+---------+--------------+--------+
++--------+--------+--------+-----------+--------------+-----------------+--------+
+|        | $X$    | $Y$    | $\hat{Y}$ | $Y-\hat{Y}$  | $(Y-\hat{Y})^2$ |        |
++--------+--------+--------+-----------+--------------+-----------------+--------+
+|        | 1.00   | 1.00   | 1.210     | -0.210       | 0.044           |        |
++--------+--------+--------+-----------+--------------+-----------------+--------+
+|        | 2.00   | 2.00   | 1.635     | 0.365        | 0.133           |        |
++--------+--------+--------+-----------+--------------+-----------------+--------+
+|        | 3.00   | 1.30   | 2.060     | -0.760       | 0.578           |        |
++--------+--------+--------+-----------+--------------+-----------------+--------+
+|        | 4.00   | 3.75   | 2.485     | 1.265        | 1.600           |        |
++--------+--------+--------+-----------+--------------+-----------------+--------+
+|        | 5.00   | 2.25   | 2.910     | -0.660       | 0.436           |        |
++--------+--------+--------+-----------+--------------+-----------------+--------+
 
 : Example data. {#tbl-exampledatatable}
 
@@ -177,25 +173,25 @@ You may have noticed that we did not specify what is meant by "best-fitting line
 The formula for a regression line is
 
 $$
-Y' = bX + A
+\hat{Y} = \alpha + \beta X
 $$
 
-where $Y'$ is the predicted score, $b$ is the slope of the line, and $A$ is the Y intercept. The equation for the line in @fig-splotexampledatadetail is
+where $\hat{Y}$ is the predicted score, $\alpha$ is the $Y$-intercept, and $\beta$ is the slope of the line. The equation for the line in @fig-splotexampledatadetail is
 
 $$
-Y' = 0.425X + 0.785
+\hat{Y} = 0.785 + 0.425X
 $$
 
-For $X$ = 1,
+Using this equation, we can calculate predictions for $Y$ based on the value of $X$. For $X$ = 1,
 
 $$
-Y' = (0.425)(1) + 0.785 = 1.21.
+\hat{Y} = 0.785 + (0.425)(1) = 1.21.
 $$
 
 For $X$ = 2,
 
 $$
-Y' = (0.425)(2) + 0.785 = 1.64.
+\hat{Y} = 0.785 + (0.425)(2) = 1.64.
 $$
 
 ### A Real Example
@@ -207,13 +203,13 @@ The case study "SAT and College GPA"[^correlation-6] contains high school and un
 @fig-unihighschoolgpa shows a scatter plot of University GPA as a function of High School GPA. You can see from the figure that there is a strong positive relationship. The correlation is 0.78. The regression equation is
 
 $$
-\text{University GPA'} = (0.675)(High School GPA) + 1.097
+\widehat{University\_GPA} = (0.675)(High School GPA) + 1.097
 $$
 
 Therefore, a student with a high school GPA of 3 would be predicted to have a university GPA of
 
 $$
-\text{University GPA'} = (0.675)(3) + 1.097 = 3.12.
+\widehat{University\_GPA} = (0.675)(3) + 1.097 = 3.12.
 $$
 
 ![University GPA as a function of High School GPA.](Images/correlations/unihighschoolgpa.jpg){#fig-unihighschoolgpa}
