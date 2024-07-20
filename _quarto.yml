@@ -13,15 +13,15 @@ book:
     - describing-one-variable.qmd
     - correlation.qmd
     - estimation.qmd
-    - Chapter5.qmd
-    - Chapter6.qmd
-    - Chapter7.qmd
-    - Chapter8.qmd
-    - Chapter9.qmd
-    - Chapter10.qmd
-    - Chapter11.qmd
-    - Chapter12.qmd
-    - Chapter13.qmd
+    - distributions.qmd
+    - sampling-distributions.qmd
+    - h-tests.qmd
+    - comparing-means.qmd
+    - comparing-groups.qmd
+    - causality.qmd
+    - models.qmd
+    - regression-qual-predictors.qmd
+    - regression-qual-outcome.qmd
     # - references.qmd
   
 # bibliography: references.bib

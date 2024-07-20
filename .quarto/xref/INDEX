@@ -58,5 +58,35 @@
   },
   "correlation.qmd": {
     "correlation.html": "de867909"
+  },
+  "estimation.qmd": {
+    "estimation.html": "99eddff5"
+  },
+  "distributions.qmd": {
+    "distributions.html": "822982d5"
+  },
+  "sampling-distributions.qmd": {
+    "sampling-distributions.html": "91b44a97"
+  },
+  "h-tests.qmd": {
+    "h-tests.html": "0b9ef338"
+  },
+  "comparing-means.qmd": {
+    "comparing-means.html": "89076603"
+  },
+  "comparing-groups.qmd": {
+    "comparing-groups.html": "bcba0d02"
+  },
+  "causality.qmd": {
+    "causality.html": "90a06427"
+  },
+  "models.qmd": {
+    "models.html": "6eba4dd0"
+  },
+  "regression-qual-predictors.qmd": {
+    "regression-qual-predictors.html": "ddaa24de"
+  },
+  "regression-qual-outcome.qmd": {
+    "regression-qual-outcome.html": "bd3a913b"
   }
 }

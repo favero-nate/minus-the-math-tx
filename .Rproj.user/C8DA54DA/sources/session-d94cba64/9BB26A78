@@ -16,17 +16,17 @@
         "Source": "Source",
         "docOutlineVisible": "0",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "24,210",
-        "scrollLine": "0",
+        "cursorPosition": "24,76",
+        "scrollLine": "11",
         "rmdVisualModeLocation": "871:300",
-        "quartoPreviewFormat": "pdf"
+        "quartoPreviewFormat": "html"
     },
     "folds": "",
-    "lastKnownWriteTime": 1721371345,
+    "lastKnownWriteTime": 1721439196,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1721371345560,
+    "last_content_update": 1721439196033,
     "read_only": false,
     "read_only_alternatives": []
 }
