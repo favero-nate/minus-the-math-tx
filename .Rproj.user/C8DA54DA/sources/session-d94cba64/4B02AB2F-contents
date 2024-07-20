@@ -1,4 +1,4 @@
-# Tools for Describing the Relationship Between Two Quantitative Variables
+# Tools for Describing the Relationship Between Two Quantitative Variables {#sec-correlation}
 
 ## Introduction to Bivariate Data[^correlation-1]
 
@@ -128,19 +128,19 @@ In simple linear regression, we predict scores on one variable from the scores o
 
 The example data in @tbl-exampledata-regression are plotted in @fig-splotexampledata. You can see that there is a positive relationship between $X$ and $Y$. If you were going to predict $Y$ from $X$, the higher the value of $X$, the higher your prediction of $Y$.
 
-+-----+-------+-----+-------+-----+
-|     |  $X$  |     |  $Y$  |     |
-+-----+-------+-----+-------+-----+
-|     | 1.00  |     | 1.00  |     |
-+-----+-------+-----+-------+-----+
-|     | 2.00  |     | 2.00  |     |
-+-----+-------+-----+-------+-----+
-|     | 3.00  |     | 1.30  |     |
-+-----+-------+-----+-------+-----+
-|     | 4.00  |     | 3.75  |     |
-+-----+-------+-----+-------+-----+
-|     | 5.00  |     | 2.25  |     |
-+-----+-------+-----+-------+-----+
++-----+------+-----+------+-----+
+|     | $X$  |     | $Y$  |     |
++-----+------+-----+------+-----+
+|     | 1.00 |     | 1.00 |     |
++-----+------+-----+------+-----+
+|     | 2.00 |     | 2.00 |     |
++-----+------+-----+------+-----+
+|     | 3.00 |     | 1.30 |     |
++-----+------+-----+------+-----+
+|     | 4.00 |     | 3.75 |     |
++-----+------+-----+------+-----+
+|     | 5.00 |     | 2.25 |     |
++-----+------+-----+------+-----+
 
 : Example data. {#tbl-exampledata-regression}
 
@@ -152,19 +152,19 @@ Linear regression consists of finding the best-fitting straight line through the
 
 The error of prediction for a point is the value of the point minus the predicted value (the value on the line). @tbl-exampledatatable shows the predicted values ($\hat{Y}$) and the errors of prediction ($Y-\hat{Y}$). For example, the first point has a $Y$ of 1.00 and a predicted $Y$ (called $\hat{Y}$) of 1.21. Therefore, its error of prediction is -0.21.
 
-+--------+--------+--------+-----------+--------------+-----------------+--------+
-|        | $X$    | $Y$    | $\hat{Y}$ | $Y-\hat{Y}$  | $(Y-\hat{Y})^2$ |        |
-+--------+--------+--------+-----------+--------------+-----------------+--------+
-|        | 1.00   | 1.00   | 1.210     | -0.210       | 0.044           |        |
-+--------+--------+--------+-----------+--------------+-----------------+--------+
-|        | 2.00   | 2.00   | 1.635     | 0.365        | 0.133           |        |
-+--------+--------+--------+-----------+--------------+-----------------+--------+
-|        | 3.00   | 1.30   | 2.060     | -0.760       | 0.578           |        |
-+--------+--------+--------+-----------+--------------+-----------------+--------+
-|        | 4.00   | 3.75   | 2.485     | 1.265        | 1.600           |        |
-+--------+--------+--------+-----------+--------------+-----------------+--------+
-|        | 5.00   | 2.25   | 2.910     | -0.660       | 0.436           |        |
-+--------+--------+--------+-----------+--------------+-----------------+--------+
++--------+--------+--------+-----------+-------------+-----------------+--------+
+|        | $X$    | $Y$    | $\hat{Y}$ | $Y-\hat{Y}$ | $(Y-\hat{Y})^2$ |        |
++--------+--------+--------+-----------+-------------+-----------------+--------+
+|        | 1.00   | 1.00   | 1.210     | -0.210      | 0.044           |        |
++--------+--------+--------+-----------+-------------+-----------------+--------+
+|        | 2.00   | 2.00   | 1.635     | 0.365       | 0.133           |        |
++--------+--------+--------+-----------+-------------+-----------------+--------+
+|        | 3.00   | 1.30   | 2.060     | -0.760      | 0.578           |        |
++--------+--------+--------+-----------+-------------+-----------------+--------+
+|        | 4.00   | 3.75   | 2.485     | 1.265       | 1.600           |        |
++--------+--------+--------+-----------+-------------+-----------------+--------+
+|        | 5.00   | 2.25   | 2.910     | -0.660      | 0.436           |        |
++--------+--------+--------+-----------+-------------+-----------------+--------+
 
 : Example data. {#tbl-exampledatatable}
 
@@ -213,3 +213,79 @@ $$
 $$
 
 ![University GPA as a function of High School GPA.](Images/correlations/unihighschoolgpa.jpg){#fig-unihighschoolgpa}
+
+## @sec-correlation Appendix: Multiple Regression[^correlation-7] {.unnumbered}
+
+[^correlation-7]: This section is adapted from Rudy Guerra and David M. Lane. “Introduction to Multiple Regression.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/regression/multiple_regression.html>
+
+In simple linear regression, a dependent variable is predicted from one independent variable. In multiple regression, the dependent variable is predicted by two or more variables. For example, in the SAT case study, you might want to predict a student's university grade point average on the basis of their High-School GPA (HSGPA) and their total SAT score (verbal + math). The basic idea is to find a linear combination[^correlation-8] of HSGPA and SAT that best predicts University GPA (UGPA). That is, the problem is to find the values of b~1~ and b~2~ in the equation shown below that give the best predictions of UGPA. As in the case of simple linear regression, we define the best predictions as the predictions that minimize the squared errors of prediction.
+
+[^correlation-8]: A linear combination of variables is a way of creating a new variable by combining other variables. A linear combination is one in which each variable is multiplied by a coefficient and the are products summed. For example, if\
+    $$Y = 3X_1 + 2X_2 + .5X_3$$\
+    then $Y$ is a linear combination of the variables $X_1$, $X_2$, and $X_3$.
+
+$$\widehat{UGPA} = \alpha + \beta_1HSGPA + \beta_2SAT$$
+
+where $\widehat{UGPA}$ is the predicted value of University GPA and $\alpha$ is a constant. For these data, the best prediction equation is shown below:
+
+$$\widehat{UGPA} = 0.540 + 0.541 \times HSGPA + 0.008 \times SAT$$
+
+In other words, to compute the prediction of a student's University GPA, you add up (a) 0.540, (b) their High-School GPA multiplied by 0.541, and (c) their SAT multiplied by 0.008. @tbl-multipleregression shows the data and predictions for the first five students in the dataset.
+
++--------+---------+--------+--------+--------+------------------+--------+
+|        |         |        |        |        |                  |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        | $HSGPA$ |        | $SAT$  |        | $\widehat{UGPA}$ |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        |         |        |        |        |                  |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        | 3.45    |        | 1232   |        | 3.38             |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        |         |        |        |        |                  |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        | 2.78    |        | 1070   |        | 2.89             |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        |         |        |        |        |                  |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        | 2.52    |        | 1086   |        | 2.76             |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        |         |        |        |        |                  |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        | 3.67    |        | 1287   |        | 3.55             |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        |         |        |        |        |                  |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        | 3.24    |        | 1130   |        | 3.19             |        |
++--------+---------+--------+--------+--------+------------------+--------+
+|        |         |        |        |        |                  |        |
++--------+---------+--------+--------+--------+------------------+--------+
+
+: Data and Predictions {#tbl-multipleregression}
+
+The values of $\beta$ ($\beta_1$ and $\beta_2$) are called "regression coefficients."
+
+The multiple correlation (R) is equal to the correlation between the predicted scores and the actual scores. In this example, it is the correlation between $\widehat{UGPA}$ and $UGPA$, which turns out to be 0.79. That is, R = 0.79. Note that R will never be negative since if there are negative correlations between the predictor variables and the criterion, the regression weights will be negative so that the correlation between the predicted and actual scores will be positive.
+
+### Interpretation of Regression Coefficients {.unnumbered}
+
+A regression coefficient in multiple regression is the slope of the linear relationship between the criterion variable and the part of a predictor variable that is independent of all other predictor variables. In this example, the regression coefficient for HSGPA can be computed by first predicting HSGPA from SAT and saving the errors of prediction (the differences between $HSGPA$ and $\widehat{HSGPA}$). These errors of prediction are called "residuals" since they are what is left over in HSGPA after the predictions from SAT are subtracted, and represent the part of HSGPA that is independent of SAT. These residuals are referred to as HSGPA.SAT, which means they are the residuals in HSGPA after having been predicted by SAT. The correlation between HSGPA.SAT and SAT is necessarily 0.
+
+The final step in computing the regression coefficient is to find the slope of the relationship between these residuals and UGPA. This slope is the regression coefficient for HSGPA. The following equation is used to predict HSGPA from SAT:
+
+$$\widehat{HSGPA} = -1.314 + 0.0036 \times SAT$$
+
+The residuals are then computed as:
+
+$$HSGPA - \widehat{HSGPA}$$
+
+The linear regression equation for the prediction of UGPA by the residuals is
+
+$$\widehat{UGPA} = 3.173 + 0.541 \times HSGPA.SAT$$
+
+Notice that the slope (0.541) is the same value given previously for $\beta_1$ in the multiple regression equation.
+
+This means that the regression coefficient for HSGPA is the slope of the relationship between the dependent variable and the part of HSGPA that is independent of (uncorrelated with) the other independent variables. It represents the change in the dependent variable associated with a change of one in the independent variable when all other independent variables are held constant. Since the regression coefficient for HSGPA is 0.54, this means that, holding SAT constant, a change of one in HSGPA is associated with a change of 0.54 in $\widehat{UGPA}$. If two students had the same SAT and differed in HSGPA by 2, then you would predict they would differ in UGPA by (2)(0.54) = 1.08. Similarly, if they differed by 0.5, then you would predict they would differ by (0.50)(0.54) = 0.27.
+
+The slope of the relationship between the dependent variable and the part of an independent variable that is unique from (independent of) other independent variables is its partial slope. Thus, the regression coefficient of 0.541 for HSGPA and the regression coefficient of 0.008 for SAT are partial slopes. Each partial slope represents the relationship between the independent variable and the dependent variable holding constant all of the other independent variables.
+
+It is difficult to compare the coefficients for different variables directly because they are measured on different scales. A difference of 1 in HSGPA is a fairly large difference, whereas a difference of 1 on the SAT is negligible. Therefore, it can be advantageous to transform the variables so that they are on the same scale. The most straightforward approach is to standardize the variables (see @sec-standardization) so that they each have a standard deviation of 1. A regression coefficient for standardized variables is called a "standardized coefficient" or "beta coefficient." For these data, the standardized coefficients are 0.625 and 0.198. These values represent the change in the dependent variable (in standard deviations) associated with a change of one standard deviation on an independent variable (holding constant the value(s) on the other independent variable(s)). Clearly, a change of one standard deviation on HSGPA is associated with a larger difference than a change of one standard deviation of SAT. In practical terms, this means that if you know a student's HSGPA, knowing the student's SAT does not aid the prediction of UGPA much. However, if you do not know the student's HSGPA, his or her SAT can aid in the prediction since the standardized coefficient in the simple regression predicting UGPA from SAT is 0.68. For comparison purposes, the standardized coefficient in the simple regression predicting UGPA from HSGPA is 0.78. As is typically the case, the partial slopes are smaller than the slopes in simple regression.
