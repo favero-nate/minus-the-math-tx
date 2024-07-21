@@ -1,0 +1,130 @@
+{
+    "entries": [
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "tbl",
+            "id": "rangesfreqs",
+            "suffix": "",
+            "title": "Distribution of ranges for N = 2."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "tbl",
+            "id": "abbrevttable1",
+            "suffix": "",
+            "title": "Abbreviated t table."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "normaldistcalc",
+            "suffix": "",
+            "title": "95% of the area is between -1.96 and 1.96."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "samplingdistn9",
+            "suffix": "",
+            "title": "The sampling distribution of the mean for N=9. The middle 95% of the distribution is shaded."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "rangesdistn2",
+            "suffix": "",
+            "title": "Distribution of ranges for N = 2."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "tdiststandardsd",
+            "suffix": "",
+            "title": "A comparison of t distributions with 2, 4, and 10 df and the standard normal distribution. The distribution with the lowest peak is the 2 df distribution, the next lowest is 4 df, the lowest after that is 10 df, and the highest is the standard normal distribution."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "sec",
+            "id": "sampling-distributions",
+            "suffix": "",
+            "title": "Sampling Distributions"
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "tbl",
+            "id": "alloutcomestwoballs",
+            "suffix": "",
+            "title": "All possible outcomes when two balls are sampled with replacement."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "tbl",
+            "id": "twoballsoutcomes",
+            "suffix": "",
+            "title": "All possible outcomes when two balls are sampled with replacement."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "tbl",
+            "id": "abbrevttable2",
+            "suffix": "",
+            "title": "Abbreviated t table."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "tbl",
+            "id": "responsetime",
+            "suffix": "",
+            "title": "Response times in seconds for 10 subjects."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "poolballs",
+            "suffix": "",
+            "title": "The pool balls."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "uniformsamplingdist",
+            "suffix": "",
+            "title": "A simulation of a sampling distribution. The parent population is uniform. The blue line under “16” indicates that 16 is the mean. The red line extends from the mean plus and minus one standard deviation."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "tdist8df",
+            "suffix": "",
+            "title": "Area more than 1.96 standard deviations from the mean in a t distribution with 8 df. Note that the two-tailed button is selected so that the area in both tails will be included."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "meansdist",
+            "suffix": "",
+            "title": "Distribution of means for N = 2."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "tbl",
+            "id": "meansfreqs",
+            "suffix": "",
+            "title": "Frequencies of means for N = 2."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "nonunifirmsamplingdistsim",
+            "suffix": "",
+            "title": "A simulation of a sampling distribution. The parent population is very non-normal."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "rangesdistn3",
+            "suffix": "",
+            "title": "Distribution of ranges for N = 3."
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "entries": [
+        {
+            "file": "h-tests.qmd",
+            "type": "tbl",
+            "id": "dogscores",
+            "suffix": "",
+            "title": "DOG scores as a function of dosage."
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "fig",
+            "id": "tdistcalc",
+            "suffix": "",
+            "title": "Calculation using the t distribution."
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "fig",
+            "id": "prsamplemean_2tail",
+            "suffix": "",
+            "title": "Probability of a sample mean being less than or equal to 49 or greater than or equal to 51."
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "fig",
+            "id": "prsamplemean_1tail",
+            "suffix": "",
+            "title": "Probability of a sample mean being 51 or greater."
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "sec",
+            "id": "h-tests",
+            "suffix": "",
+            "title": "Hypothesis Testing"
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "fig",
+            "id": "standardnormdistcalc.png",
+            "suffix": "",
+            "title": "Calculation using the standardized normal distribution."
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "fig",
+            "id": "binomialdistredtail",
+            "suffix": "",
+            "title": "The binomial distribution. The upper (right-hand) tail is red."
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "tbl",
+            "id": "scoredist",
+            "suffix": "",
+            "title": "Distribution of scores."
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "fig",
+            "id": "binomialdist2redtails",
+            "suffix": "",
+            "title": "The binomial distribution. Both tails are red."
+        }
+    ]
+}

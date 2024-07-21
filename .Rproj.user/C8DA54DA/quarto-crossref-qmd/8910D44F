@@ -2,24 +2,10 @@
     "entries": [
         {
             "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "bballmeasures",
-            "suffix": "",
-            "title": "Measures of central tendency for baseball salaries (in thousands of dollars)."
-        },
-        {
-            "file": "describing-one-variable.qmd",
             "type": "fig",
-            "id": "bballsalarydist",
+            "id": "scatterplotbrainweight",
             "suffix": "",
-            "title": "A distribution with a very large positive skew. This histogram shows the salaries of major league baseball players (in thousands of dollars: 25 equals 250,000)."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "tdownpasses",
-            "suffix": "",
-            "title": "Number of touchdown passes."
+            "title": "Scatter plots of brain weight as a function of body weight in terms of both raw data (upper panel) and log-transformed data (lower panel)."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -30,17 +16,24 @@
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "scatterplotbrainweight",
+            "type": "sec",
+            "id": "standardization",
             "suffix": "",
-            "title": "Scatter plots of brain weight as a function of body weight in terms of both raw data (upper panel) and log-transformed data (lower panel)."
+            "title": "Standardization (Z Scores)"
         },
         {
             "file": "describing-one-variable.qmd",
             "type": "tbl",
-            "id": "testscoremeasures",
+            "id": "bballmeasures",
             "suffix": "",
-            "title": "Measures of central tendency for the test scores."
+            "title": "Measures of central tendency for baseball salaries (in thousands of dollars)."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "sec",
+            "id": "describing-one-variable",
+            "suffix": "",
+            "title": "Statistics for Describing One Variable at a Time"
         },
         {
             "file": "describing-one-variable.qmd",
@@ -52,16 +45,9 @@
         {
             "file": "describing-one-variable.qmd",
             "type": "tbl",
-            "id": "quiz1var",
+            "id": "heightconversion",
             "suffix": "",
-            "title": "Calculation of Variance for Quiz 1 scores."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "quizzes",
-            "suffix": "",
-            "title": "Bar charts of two quizzes."
+            "title": "Converting between feet and inches."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -73,9 +59,23 @@
         {
             "file": "describing-one-variable.qmd",
             "type": "tbl",
-            "id": "heightconversion",
+            "id": "tdownpasses",
             "suffix": "",
-            "title": "Converting between feet and inches."
+            "title": "Number of touchdown passes."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "tbl",
+            "id": "testscoremeasures",
+            "suffix": "",
+            "title": "Measures of central tendency for the test scores."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "fig",
+            "id": "quizzes",
+            "suffix": "",
+            "title": "Bar charts of two quizzes."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -86,10 +86,17 @@
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "sec",
-            "id": "standardization",
+            "type": "tbl",
+            "id": "quiz1var",
             "suffix": "",
-            "title": "Standardization (Z Scores)"
+            "title": "Calculation of Variance for Quiz 1 scores."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "fig",
+            "id": "bballsalarydist",
+            "suffix": "",
+            "title": "A distribution with a very large positive skew. This histogram shows the salaries of major league baseball players (in thousands of dollars: 25 equals 250,000)."
         }
     ]
 }

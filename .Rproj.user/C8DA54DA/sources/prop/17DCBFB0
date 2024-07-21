@@ -3,10 +3,9 @@
     "Source": "Source",
     "cursorPosition": "0,0",
     "scrollLine": "0",
-    "docOutlineVisible": "1",
     "rmdVisualMode": "true",
     "rmdVisualWrapConfigured": "true",
+    "docOutlineVisible": "1",
     "rmdVisualCollapsedChunks": "",
-    "rmdVisualModeLocation": "50:0",
-    "quartoPreviewFormat": "pdf"
+    "rmdVisualModeLocation": "2:0"
 }

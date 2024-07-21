@@ -1,0 +1,32 @@
+{
+    "entries": [
+        {
+            "file": "estimation.qmd",
+            "type": "sec",
+            "id": "estimation",
+            "suffix": "",
+            "title": "Estimation"
+        },
+        {
+            "file": "estimation.qmd",
+            "type": "sec",
+            "id": "interpreting-confidence-intervals-correctly",
+            "suffix": "",
+            "title": "Interpreting Confidence Intervals Correctly"
+        },
+        {
+            "file": "estimation.qmd",
+            "type": "tbl",
+            "id": "animalresearchmeanvar",
+            "suffix": "",
+            "title": "Means and Variances in Animal Research study."
+        },
+        {
+            "file": "estimation.qmd",
+            "type": "sec",
+            "id": "using-confidence-intervals",
+            "suffix": "",
+            "title": "Using Confidence Intervals"
+        }
+    ]
+}
