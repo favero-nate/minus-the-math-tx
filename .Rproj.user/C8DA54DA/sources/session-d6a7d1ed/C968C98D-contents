@@ -204,7 +204,7 @@ Many social science papers report their main results in the form of a regression
 
 -   **Significance**: Is the relationship between the two variables strong enough (relative to the precision of the estimate) to be considered statistically reliable?[^correlation-9] To assess this, check the p-value. For now, you can use the following rule-of-thumb:
 
-    -   If p \< 0.05: the relationship is statistically significant; proceed to evaluating sign and size.
+    -   If p \< 0.05: the relationship is statistically significant; proceed to evaluating sign and size
 
     -   If p \> 0.05: results are somewhat indeterminate; any association detected between the two variables could easily be caused by coincidence or random "noise" (so you may want to skip evaluating sign and size)
 
@@ -216,7 +216,7 @@ Many social science papers report their main results in the form of a regression
 
     -   Note about odds ratios: For certain types of (non-linear) regression, odds ratios (which always take on positive values) are sometimes displayed instead of coefficients; with an odds ratio, a value greater than one indicates a positive relationship while a value smaller than one indicates a negative relationship
 
--   **Size**: How big is the (predictive) effect? This S is often the most difficult, and sometimes you may not have enough information to meaningfully evaluate it (e.g., if the units of measurement for a variable are not clearly explained).
+-   **Size**: How big is the (predictive) effect? This S is often the most difficult to make sense of, and sometimes you may not have enough information to meaningfully evaluate it (e.g., if the units of measurement for a variable are not clearly explained).
 
     -   For linear models: A one-unit increase in the independent variable predicts a $\beta_i$-unit change in the dependent variable (where $\beta_i$ represents the value of the coefficent)
 
@@ -224,7 +224,7 @@ Many social science papers report their main results in the form of a regression
 
 [^correlation-9]: In other words, can we conclude it is signal rather than noise? See: Fricker Jr, R. D., Burke, K., Han, X., & Woodall, W. H. (2019). Assessing the statistical analyses used in basic and applied social psychology after their p-value ban. *The American Statistician*, *73*(sup1), 374-384.
 
-@tbl-regression-cs-gpa provides an example of regression results in a format similar to what you may encounter in many research publications. Note, however, that many publications do not list exact p-values; instead, they often use one or more asterisks (\*) to denote coefficients with p-values smaller than 0.05 (sometimes also flagging p-values falling below various other relevant thresholds).
+@tbl-regression-cs-gpa provides an example of regression results in a format similar to what you may encounter in many research publications. Note, however, that many publications do not list exact p-values; instead, they often use one or more asterisks (\*) to denote coefficients with p-values smaller than 0.05 (sometimes also flagging p-values falling below various other thresholds).
 
 |             | Coef.  | Std. err. | p-value |
 |-------------|--------|-----------|---------|
@@ -237,16 +237,16 @@ Many social science papers report their main results in the form of a regression
 
 : Results for a regression with computer science GPA as the dependent variable. {#tbl-regression-cs-gpa}
 
-Up til now, we have only discussed simple linear regression, in which we have a single independent variable. But in @tbl-regression-cs-gpa, we find results for a regression where two independent variables—SAT scores on the verbal section (verb_sat) and SAT scores on the math section (math_sat)—are jointly used to predict students' GPA in computer science classes. It turns out that regression can easily be performed with multiple independent variables, as described in the appendix to this chapter. When we have multiple independent variables, we evaluate each one on its own terms when working through the three S's. For the results in @tbl-regression-cs-gpa, we can interpret the results as follows:
+Up til now, we have only discussed simple regression, in which we have a single independent variable. But in @tbl-regression-cs-gpa, we find results for a regression where two independent variables—SAT scores on the verbal section (verb_sat) and SAT scores on the math section (math_sat)—are jointly used to predict students' GPA in computer science classes. It turns out that regression can easily be performed with multiple independent variables, as described in the appendix to this chapter. When we have multiple independent variables, we evaluate each one on its own terms when working through the three S's. For the results in @tbl-regression-cs-gpa, we can interpret the results as follows:
 
 -   verb_sat: The p-value for this variable (0.10) is greater than 0.05, so this variable is not statistically significant. Therefore, we don't necessarily need to interpret the sign or size. We might simply say that we could not establish a reliable link between verbal SAT scores and computer science GPA in this model.[^correlation-10]
--   math_sat: The p-value (0.00014) is smaller than 0.05, so math_sat is a statistically significant predictor of computer science GPA. The coefficient (0.0048) has a positive sign, so students with higher math SAT scores are predicted to have higher computer science GPAs. When it comes to size, a one-point increase in the math SAT (e.g., getting a 501 instead of a 500) predicts that the computer science GPA will be 0.0048 points higher. That seems very small, but a one-point increase on an SAT is barely noticeable (and not actually possible if scores are always multiples of ten). In this case, we can get a better sense of size if we consider an increase of 100 points in the math SAT, which requires multiplying the coefficient by 100. A 100-point increase in the math SAT (e.g., getting a 600 instead of a 500) predicts a computer science GPA that is 0.48 points higher. This is nearly half a grade point higher and would be quite noticeable to most students. Thus, the size of predictive effect now seems reasonably large.
+-   math_sat: The p-value (0.00014) is smaller than 0.05, so math_sat is a statistically significant predictor of computer science GPA. The coefficient (0.0048) has a positive sign, so students with higher math SAT scores are predicted to have higher computer science GPAs. When it comes to size, a one-point increase in the math SAT (e.g., getting a 501 instead of a 500) predicts that the computer science GPA will be 0.0048 points higher. That seems very small, but a one-point increase on an SAT is barely noticeable (and not actually possible if scores are always multiples of ten). In this case, we can get a better sense of size if we consider an increase of 100 points in the math SAT, which requires multiplying the coefficient by 100. A 100-point increase in the math SAT (e.g., getting a 600 instead of a 500) predicts a computer science GPA that is 0.48 points higher ($0.0048 \times 100 = 0.48$). This is nearly half a grade point higher and would be quite noticeable to most students. Thus, the size of predictive effect now seems reasonably large.
 
 [^correlation-10]: Note, however, that the absence of evidence is not necessarily evidence of absence. There could very well be a link between verbal SAT scores and computer science GPA—just one that we cannot reliably detect with this analysis (e.g., because our sample is too small to precisely estimate the association).
 
-Note that we do not need to apply the three S's to the intercept (sometimes labeled the "constant") because it is not a variable. @tbl-regression-cs-gpa also contains some additional information frquently shown in regression tables: standard errors (which we will learn more about in @sec-sampling-distributions), the sample size (n=105), and r-squared (a statistic often used to describe how well the regression model overall explains variation in the dependent variable).
+Note that we do not need to apply the three S's to the intercept (which can also be labeled the "constant") because it is not a variable. @tbl-regression-cs-gpa also contains some additional information frquently shown in regression tables: standard errors (which we will learn more about in @sec-sampling-distributions), the sample size (n=105), and r-squared (a statistic often used to describe how well the regression model overall explains variation in the dependent variable).
 
-Remember that the three S's are just a starting point. But they should be enough to help you follow along a little easier when reading the results sections of many research publications. If you've started working with a statistical software package by now, you can also try running your own models and seeing if you can use the three S's to help you understand the results.
+Remember that the three S's are just a starting point. But they should be enough to help you follow along a little easier when reading the results sections of many research publications. If you've started working with a statistical software package by now, you can also try running your own regression models and seeing if you can use the three S's to help you understand the results.
 
 <!-- And We will learn much more about testing for statistical significance in @sec-h-tests. And there are other important tools for interpreting regression results, such as confidence intervals (see @sec-estimation). Slight differences in the setup or type of regression model can sometimes yeild important differences, as discussed more in the appendix for this chapter. Entire books are devoted to the topic of regression, so there is always more to learn! -->
 
@@ -254,9 +254,9 @@ Remember that the three S's are just a starting point. But they should be enough
 
 [^correlation-11]: This section is adapted from Rudy Guerra and David M. Lane. “Introduction to Multiple Regression.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/regression/multiple_regression.html>
 
-In simple linear regression, a dependent variable is predicted from one independent variable. In multiple regression, the dependent variable is predicted by two or more variables. For example, in the SAT case study, you might want to predict a student's university grade point average on the basis of their High-School GPA (HSGPA) and their total SAT score (verbal + math). The basic idea is to find a linear combination[^correlation-12] of HSGPA and SAT that best predicts University GPA (UGPA). That is, the problem is to find the values of b~1~ and b~2~ in the equation shown below that give the best predictions of UGPA. As in the case of simple linear regression, we define the best predictions as the predictions that minimize the squared errors of prediction.
+In simple linear regression, a dependent variable is predicted from one independent variable. In multiple regression, the dependent variable is predicted by two or more variables. For example, in the SAT case study, you might want to predict a student's university grade point average on the basis of their High-School GPA (HSGPA) and their total SAT score (verbal + math). The basic idea is to find a linear combination[^correlation-12] of HSGPA and SAT that best predicts University GPA (UGPA). That is, the problem is to find the values of $\beta_1$ and $\beta_2$ in the equation shown below that give the best predictions of UGPA. As in the case of simple linear regression, we define the best predictions as the predictions that minimize the squared errors of prediction.
 
-[^correlation-12]: A linear combination of variables is a way of creating a new variable by combining other variables. A linear combination is one in which each variable is multiplied by a coefficient and the are products summed. For example, if\
+[^correlation-12]: A linear combination of variables is a way of creating a new variable by combining other variables. A linear combination is one in which each variable is multiplied by a coefficient and the products are summed. For example, if\
     $$Y = 3X_1 + 2X_2 + .5X_3$$\
     then $Y$ is a linear combination of the variables $X_1$, $X_2$, and $X_3$.
 
@@ -288,7 +288,7 @@ In other words, to compute the prediction of a student's University GPA, you add
 
 The values of $\beta$ ($\beta_1$ and $\beta_2$) are called "regression coefficients."
 
-The multiple correlation (R) is equal to the correlation between the predicted scores and the actual scores. In this example, it is the correlation between $\widehat{UGPA}$ and $UGPA$, which turns out to be 0.79. That is, R = 0.79. Note that R will never be negative since if there are negative correlations between the predictor variables and the criterion, the regression weights will be negative so that the correlation between the predicted and actual scores will be positive.
+The multiple correlation (R) is equal to the correlation between the predicted scores and the actual scores. In this example, it is the correlation between $\widehat{UGPA}$ and $UGPA$, which turns out to be 0.79. That is, R = 0.79. Note that R will never be negative since if there are negative correlations between the predictor variables and the criterion, the regression coefficients will be negative so that the correlation between the predicted and actual scores will be positive.
 
 ### Interpretation of Regression Coefficients {.unnumbered}
 
@@ -300,7 +300,7 @@ $$\widehat{HSGPA} = -1.314 + 0.0036 \times SAT$$
 
 The residuals are then computed as:
 
-$$HSGPA - \widehat{HSGPA}$$
+$$HSGPA.SAT = HSGPA - \widehat{HSGPA}$$
 
 The linear regression equation for the prediction of UGPA by the residuals is
 
