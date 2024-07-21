@@ -1,0 +1,33 @@
+{
+    "id": "C968C98D",
+    "path": "~/GitHub/minus-the-math-files/correlation.qmd",
+    "project_path": "correlation.qmd",
+    "type": "quarto_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1721532018911.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "118,0",
+        "scrollLine": "33",
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "11995:6766",
+        "docOutlineSize": "127",
+        "quartoPreviewFormat": "pdf"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1721589295,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1721589295057,
+    "read_only": false,
+    "read_only_alternatives": []
+}

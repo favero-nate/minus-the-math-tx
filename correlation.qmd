@@ -32,23 +32,27 @@ The pairs of ages in @tbl-spousalage are from a dataset consisting of 282 pairs 
 
 Each distribution is fairly skewed with a long right tail. From @tbl-spousalage we see that not all husbands are older than their wives and it is important to see that this fact is lost when we separate the variables. That is, even though we provide summary statistics on each variable, the pairing within couple is lost by separating the variables. We cannot say, for example, based on the means alone what percentage of couples has younger husbands than wives. We have to count across pairs to find this out. Only by maintaining the pairing can meaningful answers be found about couples per se. Another example of information not available from the separate descriptions of husbands and wives' ages is the mean age of husbands with wives of a certain age. For instance, what is the average age of husbands with 45-year-old wives? Finally, we do not know the relationship between the husband's age and the wife's age.
 
-We can learn much more by displaying the bivariate data in a graphical form that maintains the pairing. @fig-scatterplotspousalage shows a scatter plot of the paired ages. The x-axis represents the age of the husband and the y-axis the age of the wife.
+![Scatter plot showing wife's age as a function of husband's age, r = 0.97.](Images/correlations/scatterplotspousalage.jpg){#fig-scatterplotspousalage width="325"}
 
-![Scatter plot showing wife's age as a function of husband's age, r = 0.97.](Images/correlations/scatterplotspousalage.jpg){#fig-scatterplotspousalage}
+::: {.content-visible when-format="pdf"}
+{{< pagebreak >}}
+:::
+
+We can learn much more by displaying the bivariate data in a graphical form that maintains the pairing. @fig-scatterplotspousalage shows a scatter plot of the paired ages. The x-axis represents the age of the husband and the y-axis the age of the wife.
 
 There are two important characteristics of the data revealed by @fig-scatterplotspousalage. First, it is clear that there is a strong relationship between the husband's age and the wife's age: the older the husband, the older the wife. When one variable (Y) increases with the second variable (X), we say that $X$ and $Y$ have a **positive association**. Conversely, when $Y$ decreases as $X$ increases, we say that they have a **negative association**.
 
 Second, the points cluster along a straight line. When this occurs, the relationship is called a **linear relationship**.
 
+![Scatter plot of Grip Strength and Arm Strength, r = 0.63.](Images/correlations/scatterplotstrength.jpg){#fig-scatterplotstrength width="350"}
+
 @fig-scatterplotstrength shows a scatter plot of Arm Strength and Grip Strength from 149 individuals working in physically demanding jobs including electricians, construction and maintenance workers, and auto mechanics. Not surprisingly, the stronger someone's grip, the stronger their arm tends to be. There is therefore a positive association between these variables. Although the points cluster along a line, they are not clustered quite as closely as they are for the scatter plot of spousal age.
 
-![Scatter plot of Grip Strength and Arm Strength, r = 0.63.](Images/correlations/scatterplotstrength.jpg){#fig-scatterplotstrength}
+![Galileo's data showing a non-linear relationship.](Images/correlations/scatterplotgalileo.jpg){#fig-scatterplotgalileo width="400"}
 
 Not all scatter plots show linear relationships. @fig-scatterplotgalileo shows the results of an experiment conducted by Galileo on projectile motion.[^correlation-2] In the experiment, Galileo rolled balls down an incline and measured how far they traveled as a function of the release height. It is clear from @fig-scatterplotgalileo that the relationship between "Release Height" and "Distance Traveled" is not described well by a straight line: If you drew a line connecting the lowest point and the highest point, all of the remaining points would be above the line. The data are better fit by a parabola (a type of curved line).
 
 [^correlation-2]: <https://www.amstat.org/publications/jse/v3n1/datasets.dickey.html>
-
-![Galileo's data showing a non-linear relationship.](Images/correlations/scatterplotgalileo.jpg){#fig-scatterplotgalileo}
 
 Scatter plots that show linear relationships between variables can differ in several ways including the slope of the line about which they cluster and how tightly the points cluster about the line. We now turn our attention to a statistical measure of the strength of the relationship between two quantitative variables.
 
@@ -62,11 +66,11 @@ The symbol for Pearson's correlation is "$\rho$" when it is measured in the popu
 
 Pearson's r can range from -1 to 1. An r of -1 indicates a perfect negative linear relationship between variables, an r of 0 indicates no linear relationship between variables, and an r of 1 indicates a perfect positive linear relationship between variables. @fig-poslinearrel shows a scatter plot for which r = 1.
 
-![A perfect positive linear relationship, r = 1.](Images/correlations/poslinearrel.jpg){#fig-poslinearrel}
+![A perfect positive linear relationship, r = 1.](Images/correlations/poslinearrel.jpg){#fig-poslinearrel width="325"}
 
-![A perfect negative linear relationship, r = 1.](Images/correlations/neglinearrel.jpg){#fig-neglinearrel}
+![A perfect negative linear relationship, r = 1.](Images/correlations/neglinearrel.jpg){#fig-neglinearrel width="325"}
 
-![A scatter plot for which r = 0. Notice that there is no relationship between $X$ and $Y$.](Images/correlations/scatterplotnorel.jpg){#fig-scatterplotnorel}
+![A scatter plot for which r = 0. Notice that there is no relationship between $X$ and $Y$.](Images/correlations/scatterplotnorel.jpg){#fig-scatterplotnorel width="325"}
 
 With real data, you would not expect to get values of r of exactly -1, 0, or 1. The data for spousal ages shown earlier in this chapter in @fig-scatterplotspousalage has an r of 0.97.
 
@@ -130,11 +134,11 @@ The example data in @tbl-exampledata-regression are plotted in @fig-splotexample
 
 : Example data. {#tbl-exampledata-regression}
 
-![A scatter plot of the example data.](Images/correlations/splotexampledata.jpg){#fig-splotexampledata}
+![A scatter plot of the example data.](Images/correlations/splotexampledata.jpg){#fig-splotexampledata width="250"}
 
 Linear regression consists of finding the best-fitting straight line through the points. The best-fitting line is called a regression line. The black diagonal line in @fig-splotexampledatadetail is the regression line and consists of the predicted score on $Y$ for each possible value of $X$. The vertical lines from the points to the regression line represent the errors of prediction. As you can see, the red point is very near the regression line; its error of prediction is small. By contrast, the yellow point is much higher than the regression line and therefore its error of prediction is large.
 
-![A scatter plot of the example data. The black line consists of the predictions, the points are the actual data, and the vertical lines between the points and the black line represent errors of prediction.](Images/correlations/splotexampledatadetail.jpg){#fig-splotexampledatadetail}
+![A scatter plot of the example data. The black line consists of the predictions, the points are the actual data, and the vertical lines between the points and the black line represent errors of prediction.](Images/correlations/splotexampledatadetail.jpg){#fig-splotexampledatadetail width="325"}
 
 The error of prediction for a point is the value of the point minus the predicted value (the value on the line). @tbl-exampledatatable shows the predicted values ($\hat{Y}$) and the errors of prediction ($Y-\hat{Y}$). For example, the first point has a $Y$ of 1.00 and a predicted $Y$ (called $\hat{Y}$) of 1.21. Therefore, its error of prediction is -0.21.
 

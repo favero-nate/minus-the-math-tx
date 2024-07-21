@@ -2,38 +2,24 @@
     "entries": [
         {
             "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "scatterplotbrainweight",
+            "type": "tbl",
+            "id": "testscoremeasures",
             "suffix": "",
-            "title": "Scatter plots of brain weight as a function of body weight in terms of both raw data (upper panel) and log-transformed data (lower panel)."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "disposskew",
-            "suffix": "",
-            "title": "A distribution with a positive skew."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "sec",
-            "id": "standardization",
-            "suffix": "",
-            "title": "Standardization (Z Scores)"
+            "title": "Measures of central tendency for the test scores."
         },
         {
             "file": "describing-one-variable.qmd",
             "type": "tbl",
-            "id": "bballmeasures",
+            "id": "groupfreqdist1",
             "suffix": "",
-            "title": "Measures of central tendency for baseball salaries (in thousands of dollars)."
+            "title": "Grouped frequency distribution."
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "sec",
-            "id": "describing-one-variable",
+            "type": "fig",
+            "id": "scatterplotbrainweight",
             "suffix": "",
-            "title": "Statistics for Describing One Variable at a Time"
+            "title": "Scatter plots of brain weight as a function of body weight in terms of both raw data (upper panel) and log-transformed data (lower panel)."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -45,16 +31,9 @@
         {
             "file": "describing-one-variable.qmd",
             "type": "tbl",
-            "id": "heightconversion",
+            "id": "bballmeasures",
             "suffix": "",
-            "title": "Converting between feet and inches."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "cfunctionf",
-            "suffix": "",
-            "title": "Degrees Centigrade as a function of degrees Fahrenheit."
+            "title": "Measures of central tendency for baseball salaries (in thousands of dollars)."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -65,10 +44,10 @@
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "testscoremeasures",
+            "type": "fig",
+            "id": "cfunctionf",
             "suffix": "",
-            "title": "Measures of central tendency for the test scores."
+            "title": "Degrees Centigrade as a function of degrees Fahrenheit."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -79,10 +58,17 @@
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "groupfreqdist1",
+            "type": "sec",
+            "id": "standardization",
             "suffix": "",
-            "title": "Grouped frequency distribution."
+            "title": "Standardization (Z Scores)"
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "tbl",
+            "id": "heightconversion",
+            "suffix": "",
+            "title": "Converting between feet and inches."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -97,6 +83,20 @@
             "id": "bballsalarydist",
             "suffix": "",
             "title": "A distribution with a very large positive skew. This histogram shows the salaries of major league baseball players (in thousands of dollars: 25 equals 250,000)."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "sec",
+            "id": "describing-one-variable",
+            "suffix": "",
+            "title": "Statistics for Describing One Variable at a Time"
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "fig",
+            "id": "disposskew",
+            "suffix": "",
+            "title": "A distribution with a positive skew."
         }
     ]
 }

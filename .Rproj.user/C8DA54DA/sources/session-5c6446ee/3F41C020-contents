@@ -2,13 +2,13 @@
 
 ## Various Types of Distributions[\[1\]](#_ftn1)
 
-### Distributions of Discrete Variables
+### Distributions of Qualitative or Discrete Variables
 
 I recently purchased a bag of Plain M&M's. The M&M's were in six different colors. A quick count showed that there were 55 M&M's: 17 brown, 18 red, 7 yellow, 7 green, 2 blue, and 4 orange. These counts are shown below in @tbl-mmfreqs.
 
 +-----------+-----------+-----------+---------------+-----------+
 |           | **Color** |           | **Frequency** |           |
-+-----------+-----------+-----------+---------------+-----------+
++===========+===========+===========+===============+===========+
 |           | Brown\    |           | 17\           |           |
 |           | Red\      |           | 18\           |           |
 |           | Yellow\   |           | 7\            |           |
@@ -21,17 +21,17 @@ I recently purchased a bag of Plain M&M's. The M&M's were in six different color
 
 This table is called a frequency table and it describes the distribution of M&M color frequencies. Not surprisingly, this kind of distribution is called a **frequency distribution**. Often a frequency distribution is shown graphically as in @fig-55mmdist.
 
-![Distribution of 55 M&M's.](Images/prob-distributions/55mmdist.jpg){#fig-55mmdist}
+![Distribution of 55 M&M's.](Images/prob-distributions/55mmdist.jpg){#fig-55mmdist width="325"}
 
 The distribution shown in @fig-55mmdist concerns just my one bag of M&M's. You might be wondering about the distribution of colors for all M&M's. The manufacturer of M&M's provides some information about this matter, but they do not tell us exactly how many M&M's of each color they have ever produced. Instead, they report proportions rather than frequencies. @fig-allmmdist shows these proportions. Since every M&M is one of the six familiar colors, the six proportions shown in the figure add to one. We call @fig-allmmdist a **probability distribution** because if you choose an M&M at random, the probability of getting, say, a brown M&M is equal to the proportion of M&M's that are brown (0.30).
 
-![Distribution of all M&M's.](Images/prob-distributions/allmmdist.jpg){#fig-allmmdist}
+![Distribution of all M&M's.](Images/prob-distributions/allmmdist.jpg){#fig-allmmdist width="325" height="217"}
 
 Notice that the distributions in @fig-55mmdist and @fig-allmmdist are not identical. @fig-55mmdist portrays the distribution in a sample of 55 M&M's. @fig-allmmdist shows the proportions for all M&M's. Chance factors involving the machines used by the manufacturer introduce random variation into the different bags produced. Some bags will have a distribution of colors that is close to @fig-allmmdist; others will be further away.
 
 ### Continuous Variables
 
-The variable "color of M&M" used in this example is a discrete variable, and its distribution is also called discrete. Let us now extend the concept of a distribution to continuous variables.
+The variable "color of M&M" is a qualitative variable, and its distribution is called discrete because there are a finite number of values the variable can take on. Let us now extend the concept of a distribution to continuous variables.
 
 The data shown in @tbl-responsetimes are the times it took David Lane (the author of much of the material appearing in this book) to move the cursor over a small target in a series of 20 trials. The times are sorted from shortest to longest. The variable "time to respond" is a continuous variable. With time measured accurately (to many decimal places), no two response times would be expected to be the same. Measuring time in milliseconds (thousandths of a second) is often precise enough to approximate a continuous variable in psychology. As you can see in @tbl-responsetimes, measuring David Lane's responses this way produced times no two of which were the same. As a result, a frequency distribution would be uninformative: it would consist of the 20 times in the experiment, each with a frequency of 1.
 
@@ -50,11 +50,11 @@ The data shown in @tbl-responsetimes are the times it took David Lane (the autho
 
 : Response Times {#tbl-responsetimes}
 
-The solution to this problem is to create a grouped frequency distribution, as we saw when learning about histograms in Chapter 1. In a grouped frequency distribution, scores falling within various ranges are tabulated. @tbl-groupfreqdist shows a grouped frequency distribution for these 20 times.
+The solution to this problem is to create a grouped frequency distribution, as we saw when learning about histograms in @sec-graphing. In a grouped frequency distribution, scores falling within various ranges are tabulated. @tbl-groupfreqdist shows a grouped frequency distribution for these 20 times.
 
 +-----------+-----------+-----------+---------------+-----------+
 |           | **Range** |           | **Frequency** |           |
-+-----------+-----------+-----------+---------------+-----------+
++===========+===========+===========+===============+===========+
 |           | 500-600\  |           | 3\            |           |
 |           | 600-700\  |           | 6\            |           |
 |           | 700-800\  |           | 5\            |           |
@@ -67,7 +67,7 @@ The solution to this problem is to create a grouped frequency distribution, as w
 
 @fig-groupfreqhist shows a histogram for the frequency distribution in @tbl-groupfreqdist.
 
-![A histogram of the grouped frequency distribution shown in @tbl-groupfreqdist. The labels on the X-axis are the middle values of the range they represent.](Images/prob-distributions/groupfreqhist.jpg){#fig-groupfreqhist}
+![A histogram of the grouped frequency distribution shown in @tbl-groupfreqdist. The labels on the X-axis are the middle values of the range they represent.](Images/prob-distributions/groupfreqhist.jpg){#fig-groupfreqhist width="300"}
 
 ### Probability Densities
 
@@ -85,27 +85,27 @@ As we’ve already seen when graphing different data, distributions have differe
 
 The distribution shown in @fig-normaldist is symmetric; if you folded it in the middle, the two sides would match perfectly. @fig-posskewdist shows the discrete distribution of scores on a psychology test. This distribution is not symmetric: the tail in the positive direction extends further than the tail in the negative direction. A distribution with the longer tail extending in the positive direction is said to have a **positive skew**. It is also described as "skewed to the right."
 
-![A distribution with a positive skew.](Images/prob-distributions/posskewdist.jpg){#fig-posskewdist}
+![A distribution with a positive skew.](Images/prob-distributions/posskewdist.jpg){#fig-posskewdist width="375"}
 
 @fig-largeposskewdist shows the salaries of major league baseball players in 1974 (in thousands of dollars). This distribution has an extreme positive skew.
 
-![A distribution with a very large positive skew.](Images/prob-distributions/largeposskewdist.jpg){#fig-largeposskewdist}
+![A distribution with a very large positive skew.](Images/prob-distributions/largeposskewdist.jpg){#fig-largeposskewdist width="350"}
 
 A continuous distribution with a positive skew is shown in @fig-posskewcontdist.
 
-![A continuous distribution with a positive skew.](Images/prob-distributions/posskewcontdist.jpg){#fig-posskewcontdist}
+![A continuous distribution with a positive skew.](Images/prob-distributions/posskewcontdist.jpg){#fig-posskewcontdist width="275"}
 
 Although less common, some distributions have a **negative skew**. @fig-negskewdist shows the scores on a 20-point problem on a statistics exam. Since the tail of the distribution extends to the left, this distribution is skewed to the left.
 
-![A distribution with negative skew.](Images/prob-distributions/negskewdist.jpg){#fig-negskewdist}
+![A distribution with negative skew.](Images/prob-distributions/negskewdist.jpg){#fig-negskewdist width="350"}
 
 A continuous distribution with a negative skew is shown in @fig-negskewcontdist.
 
-![A continuous distribution with a negative skew.](Images/prob-distributions/negskewcontdist.jpg){#fig-negskewcontdist}
+![A continuous distribution with a negative skew.](Images/prob-distributions/negskewcontdist.jpg){#fig-negskewcontdist width="275"}
 
 The distributions shown so far all have one distinct high point or peak. The distribution in @fig-eruptionfreqs has two distinct peaks. A distribution with two peaks is called a **bimodal distribution**.
 
-![Frequencies of times between eruptions of the Old Faithful geyser. Notice the two distinct peaks: one at 1.75 and the other at 4.25.](Images/prob-distributions/eruptionfreqs.jpg){#fig-eruptionfreqs}
+![`Frequencies of times between eruptions of the Old Faithful geyser. Notice the two distinct peaks: one at 1.75 and the other at 4.25.`](Images/prob-distributions/eruptionfreqs.jpg){#fig-eruptionfreqs width="350"}
 
 ## Normal Distributions[\[2\]](#_ftn2)
 
@@ -113,7 +113,7 @@ The normal distribution is the most important and most widely used distribution 
 
 Strictly speaking, it is not correct to talk about "the normal distribution" since there are many normal distributions. Normal distributions can differ in their means and in their standard deviations. @fig-normaldist shows three normal distributions. The green (left-most) distribution has a mean of -3 and a standard deviation of 0.5, the distribution in red (the middle distribution) has a mean of 0 and a standard deviation of 1, and the distribution in black (right-most) has a mean of 2 and a standard deviation of 3. These as well as all other normal distributions are symmetric with relatively more values at the center of the distribution and relatively few in the tails.
 
-![Normal distributions differing in mean and standard deviation.](Images/prob-distributions/normaldist3.png)
+![Normal distributions differing in mean and standard deviation.](Images/prob-distributions/normaldist3.png){width="325"}
 
 Seven features of normal distributions are listed below. These features are illustrated in more detail in the remaining sections of this chapter.
 
@@ -125,7 +125,7 @@ Seven features of normal distributions are listed below. These features are illu
 
 4.  Normal distributions are denser in the center and less dense in the tails.
 
-5.  Normal distributions are defined by two parameters, the mean (μ) and the standard deviation (σ).
+5.  Normal distributions are defined by two parameters, the mean ($\mu$) and the standard deviation ($\sigma$).
 
 6.  68% of the area of a normal distribution is within one standard deviation of the mean.
 
