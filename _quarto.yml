@@ -13,7 +13,7 @@ book:
     - describing-one-variable.qmd
     - correlation.qmd
     - estimation.qmd
-    - distributions.qmd
+    - prob-distributions.qmd
     - sampling-distributions.qmd
     - h-tests.qmd
     - comparing-means.qmd
