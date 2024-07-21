@@ -1,6 +1,8 @@
 # Probability Distributions
 
-## Various Types of Distributions[\[1\]](#_ftn1)
+## Various Types of Distributions[^prob-distributions-1]
+
+[^prob-distributions-1]: This section is adapted from David M. Lane and Heidi Ziemer. “Distributions.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/introduction/distributions.html>
 
 ### Distributions of Qualitative or Discrete Variables
 
@@ -21,11 +23,11 @@ I recently purchased a bag of Plain M&M's. The M&M's were in six different color
 
 This table is called a frequency table and it describes the distribution of M&M color frequencies. Not surprisingly, this kind of distribution is called a **frequency distribution**. Often a frequency distribution is shown graphically as in @fig-55mmdist.
 
-![Distribution of 55 M&M's.](Images/prob-distributions/55mmdist.jpg){#fig-55mmdist width="325"}
+![Distribution of 55 M&M's.](Images/prob-distributions/55mmdist.jpg){#fig-55mmdist width="350"}
 
 The distribution shown in @fig-55mmdist concerns just my one bag of M&M's. You might be wondering about the distribution of colors for all M&M's. The manufacturer of M&M's provides some information about this matter, but they do not tell us exactly how many M&M's of each color they have ever produced. Instead, they report proportions rather than frequencies. @fig-allmmdist shows these proportions. Since every M&M is one of the six familiar colors, the six proportions shown in the figure add to one. We call @fig-allmmdist a **probability distribution** because if you choose an M&M at random, the probability of getting, say, a brown M&M is equal to the proportion of M&M's that are brown (0.30).
 
-![Distribution of all M&M's.](Images/prob-distributions/allmmdist.jpg){#fig-allmmdist width="325" height="217"}
+![Distribution of all M&M's.](Images/prob-distributions/allmmdist.jpg){#fig-allmmdist width="350" height="217"}
 
 Notice that the distributions in @fig-55mmdist and @fig-allmmdist are not identical. @fig-55mmdist portrays the distribution in a sample of 55 M&M's. @fig-allmmdist shows the proportions for all M&M's. Chance factors involving the machines used by the manufacturer introduce random variation into the different bags produced. Some bags will have a distribution of colors that is close to @fig-allmmdist; others will be further away.
 
@@ -77,7 +79,7 @@ An example of a normal distribution is shown in @fig-normaldist. Do you see the 
 
 Although this text does not discuss the concept of probability density in detail, you should keep the following ideas in mind about the curve that describes a continuous distribution (like the normal distribution). First, the area under the curve equals 1. Second, the probability of any exact value of X is 0. Finally, the area under the curve and bounded between two given points on the X-axis is the probability that a number chosen at random will fall between the two points. Let us illustrate with David Lane's hand movements. First, the probability that his movement takes some amount of time is one! (We exclude the possibility of him never finishing his gesture.) Second, the probability that his movement takes exactly 598.956432342346576 milliseconds is essentially zero. (We can make the probability as close as we like to zero by making the time measurement more and more precise.) Finally, suppose that the probability of David Lane's movement taking between 600 and 700 milliseconds is one tenth. Then the continuous distribution for David Lane's possible times would have a shape that places 10% of the area below the curve in the region bounded by 600 and 700 on the X-axis.
 
-![A normal distribution.](Images/prob-distributions/normaldist.jpg){#fig-normaldist}
+![A normal distribution.](Images/prob-distributions/normaldist.jpg){#fig-normaldist width="250"}
 
 ### Shapes of Distributions {#sec-shapes-of-distributions}
 
@@ -105,9 +107,11 @@ A continuous distribution with a negative skew is shown in @fig-negskewcontdist.
 
 The distributions shown so far all have one distinct high point or peak. The distribution in @fig-eruptionfreqs has two distinct peaks. A distribution with two peaks is called a **bimodal distribution**.
 
-![`Frequencies of times between eruptions of the Old Faithful geyser. Notice the two distinct peaks: one at 1.75 and the other at 4.25.`](Images/prob-distributions/eruptionfreqs.jpg){#fig-eruptionfreqs width="350"}
+![Frequencies of times between eruptions of the Old Faithful geyser. Notice the two distinct peaks: one at 1.75 and the other at 4.25.](Images/prob-distributions/eruptionfreqs.jpg){#fig-eruptionfreqs width="350"}
 
-## Normal Distributions[\[2\]](#_ftn2)
+## Normal Distributions[^prob-distributions-2]
+
+[^prob-distributions-2]: The initial part of this section is adapted from David M. Lane. “Introduction to Normal Distributions.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/normal_distribution/intro.html>
 
 The normal distribution is the most important and most widely used distribution in statistics. It is sometimes called the "bell curve," although the tonal qualities of such a bell would be less than pleasing. It is also called the "Gaussian curve" after the mathematician Karl Friedrich Gauss. Although Gauss played an important role in its history, Abraham de Moivre first discovered the normal distribution.
 
@@ -131,7 +135,9 @@ Seven features of normal distributions are listed below. These features are illu
 
 7.  Approximately 95% of the area of a normal distribution is within two standard deviations of the mean.
 
-### Importance of Normal Distributions[\[3\]](#_ftn3)
+### Importance of Normal Distributions[^prob-distributions-3]
+
+[^prob-distributions-3]: This subsection is adapted from David M. Lane. “History of the Normal Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/normal_distribution/history_normal.html>
 
 The importance of the normal curve stems primarily from the fact that the distributions of many natural phenomena are at least approximately normally distributed. One of the first applications of the normal distribution was to the analysis of errors of measurement made in astronomical observations, errors that occurred because of imperfect instruments and imperfect observers. Galileo in the 17th century noted that these errors were symmetric and that small errors occurred more frequently than large errors. This led to several hypothesized distributions of errors, but it was not until the early 19th century that it was discovered that these errors followed a normal distribution. Independently, the mathematicians Adrain in 1808 and Gauss in 1809 developed the formula for the normal distribution and showed that errors were fit well by this distribution.
 
@@ -139,42 +145,40 @@ Most statistical procedures for testing differences between means assume normal 
 
 Quételet was the first to apply the normal distribution to human characteristics. He noted that characteristics such as height, weight, and strength were normally distributed.
 
-### Areas Under Normal Distributions[\[4\]](#_ftn4)
+### Areas Under Normal Distributions[^prob-distributions-4]
+
+[^prob-distributions-4]: This subsection is adapted from David M. Lane. “Areas Under Normal Distributions.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/normal_distribution/areas_normal.html>
 
 Areas under portions of a normal distribution can be computed by using calculus. Since this is a non-mathematical treatment of statistics, we will rely on computer programs and tables to determine these areas. @fig-normaldistmean5sd10 shows a normal distribution with a mean of 50 and a standard deviation of 10. The shaded area between 40 and 60 contains 68% of the distribution.
 
-![Normal distribution with a mean of 50 and standard deviation of 10. 68% of the area is within one standard deviation (10) of the mean (50).](Images/prob-distributions/normaldistmean5sd10.png){#fig-normaldistmean5sd10}
+![Normal distribution with a mean of 50 and standard deviation of 10. 68% of the area is within one standard deviation (10) of the mean (50).](Images/prob-distributions/normaldistmean5sd10.png){#fig-normaldistmean5sd10 width="300"}
 
-@fig-normaldistmean100sd20 shows a normal distribution with a mean of 100 and a standard deviation of 20. @fig-55mmdist, 68% of the distribution is within one standard deviation of the mean.
+@fig-normaldistmean100sd20 shows a normal distribution with a mean of 100 and a standard deviation of 20. As in @fig-normaldistmean5sd10, 68% of the distribution is within one standard deviation of the mean.
 
-![Normal distribution with a mean of 100 and standard deviation of 20. 68% of the area is within one standard deviation (20) of the mean (100).](Images/prob-distributions/normaldistmean100sd20.png){#fig-normaldistmean100sd20}
+![Normal distribution with a mean of 100 and standard deviation of 20. 68% of the area is within one standard deviation (20) of the mean (100).](Images/prob-distributions/normaldistmean100sd20.png){#fig-normaldistmean100sd20 width="300"}
 
 The normal distributions shown in @fig-normaldistmean5sd10 and @fig-normaldistmean100sd20 are specific examples of the general rule that ***68% of the area of any normal distribution is within one standard deviation of the mean***.
 
 @fig-normaldistmean75sd10 shows a normal distribution with a mean of 75 and a standard deviation of 10. The shaded area contains 95% of the area and extends from 55.4 to 94.6. ***For all normal distributions, 95% of the area is within 1.96 standard deviations of the mean***. For quick approximations, it is sometimes useful to round off and use 2 rather than 1.96 as the number of standard deviations you need to extend from the mean so as to include 95% of the area.
 
-![A normal distribution with a mean of 75 and a standard deviation of 10. 95% of the area is within 1.96 standard deviations of the mean.](Images/prob-distributions/normaldistmean75sd10.png){#fig-normaldistmean75sd10}
+![A normal distribution with a mean of 75 and a standard deviation of 10. 95% of the area is within 1.96 standard deviations of the mean.](Images/prob-distributions/normaldistmean75sd10.png){#fig-normaldistmean75sd10 width="300"}
 
-It is easy to find free online normal distribution calculators that will give you the areas under the normal distribution (e.g., <http://onlinestatbook.com/2/calculators/normal_dist.html>). For example, you can use one to find the proportion of a normal distribution with a mean of 90 and a standard deviation of 12 that is above 110. Set the mean to 90 and the standard deviation to 12. Then enter "110" in the box to the right of the radio button "Above." At the bottom of the display you will see that the shaded area is 0.0478. See if you can use the calculator to find that the area between 115 and 120 is 0.0124.
+It is easy to find free online normal distribution calculators that will give you the areas under the normal distribution (e.g., <http://onlinestatbook.com/2/calculators/normal_dist.html>). For example, you can use one to find the proportion of a normal distribution with a mean of 90 and a standard deviation of 12 that is above 110 (@fig-calculator). Set the mean to 90 and the standard deviation to 12. Then enter "110" in the box to the right of the radio button "Above." At the bottom of the display you will see that the shaded area is 0.0478. See if you can use the calculator to find that the area between 115 and 120 is 0.0124.
 
-![Display from calculator showing the area above 110.](Images/prob-distributions/calculator.png){#fig-calculator}
+![Display from calculator showing the area above 110.](Images/prob-distributions/calculator.png){#fig-calculator width="300"}
 
 Say you wanted to find the score corresponding to the 75th percentile of a normal distribution with a mean of 90 and a standard deviation of 12. Using an inverse normal calculator (e.g., <http://onlinestatbook.com/2/calculators/inverse_normal_dist.html>), you enter the parameters as shown in @fig-calculator75percentile and find that the area below 98.09 is 0.75.
 
-![Display from normal calculator showing that the 75th percentile is 98.09.](Images/prob-distributions/calculator75percentile.png){#fig-calculator75percentile}
+![Display from normal calculator showing that the 75th percentile is 98.09.](Images/prob-distributions/calculator75percentile.png){#fig-calculator75percentile width="300"}
 
-### The Standard Normal Distribution[\[5\]](#_ftn5)
+### The Standard Normal Distribution[^prob-distributions-5] {#sec-the-standard-normal-distribution}
 
-As discussed above, normal distributions do not necessarily have the same means and standard deviations. A normal distribution with a mean of 0 and a standard deviation of 1 is called a ***standard normal distribution***.\
+[^prob-distributions-5]: This subsection is adapted from David M. Lane. “Standard Normal Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/normal_distribution/standard_normal.html>
 
-------------------------------------------------------------------------
+As discussed above, normal distributions do not necessarily have the same means and standard deviations. A normal distribution with a mean of 0 and a standard deviation of 1 is called a ***standard normal distribution***.
 
-[\[1\]](#_ftnref1) This section is adapted from David M. Lane and Heidi Ziemer. “Distributions.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/introduction/distributions.html>
+A value from any normal distribution can be transformed into its corresponding value on a standard normal distribution using the following formula:
 
-[\[2\]](#_ftnref2) The initial part of this section is adapted from David M. Lane. “Introduction to Normal Distributions.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/normal_distribution/intro.html>
+$$Z = (X - \mu) / \sigma$$
 
-[\[3\]](#_ftnref3) This subsection is adapted from David M. Lane. “History of the Normal Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/normal_distribution/history_normal.html>
-
-[\[4\]](#_ftnref4) This subsection is adapted from David M. Lane. “Areas Under Normal Distributions.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/normal_distribution/areas_normal.html>
-
-[\[5\]](#_ftnref5) This subsection is adapted from David M. Lane. “Standard Normal Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/normal_distribution/standard_normal.html>
+where $Z$ is the value on the standard normal distribution, $X$ is the value on the original distribution, $\mu$ is the mean of the original distribution, and $\sigma$ is the standard deviation of the original distribution. Note that this transformation is one we already learned about ("standardization") in @sec-standardization. Here, we are highlighting that this transformation can be used to relate any normal distribution to the standard normal distribution.
