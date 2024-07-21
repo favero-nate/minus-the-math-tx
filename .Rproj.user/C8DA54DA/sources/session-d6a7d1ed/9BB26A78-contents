@@ -2,7 +2,7 @@
 
 This book was largely adapted from the public domain resource *Online Statistics Education: A Multimedia Course of Study* (<http://onlinestatbook.com/> Project Leader: David M. Lane, Rice University). A huge thanks to David Lane and his colleagues at Rice University for their creation of this wonderful resource. I use footnotes throughout to indicate precisely where the various sections of each chapter came from. Chapters 11-13 (as well as @sec-interpreting-confidence-intervals-correctly and @sec-quick-guide-to-interpreting-regression-results) were written by me (Nathan).
 
-This book is meant to be a free resource and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1). You're welcome to share or adapt it, so long as you provide attribution to any work of mine that you use.
+This book is meant to be a free resource and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1). You're welcome to share or adapt it, so long as you provide attribution to any work of mine that you use. This book was made using [Quarto](https://quarto.org/) and is hosted using [GitHub Pages](https://pages.github.com/).
 
 There are still formatting inconsistencies, and this is ever a work in progress. If you find errors, feel free to reach out (find updated contact info here: <https://nathanfavero.com>) so I can correct them for the next version I publish.
 
