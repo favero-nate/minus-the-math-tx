@@ -3,9 +3,9 @@
     "path": "~/GitHub/minus-the-math-files/correlation.qmd",
     "project_path": "correlation.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2799606698",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1721532018911.0,
     "source_on_save": false,
     "relative_order": 4,
@@ -23,11 +23,11 @@
         "quartoPreviewFormat": "pdf"
     },
     "folds": "",
-    "lastKnownWriteTime": 1721530901,
+    "lastKnownWriteTime": 1721532080,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1721532050098,
+    "last_content_update": 1721532080595,
     "read_only": false,
     "read_only_alternatives": []
 }
