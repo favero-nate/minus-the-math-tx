@@ -1,0 +1,32 @@
+{
+    "id": "70899214",
+    "path": "~/GitHub/minus-the-math-files/sampling-distributions.qmd",
+    "project_path": "sampling-distributions.qmd",
+    "type": "quarto_markdown",
+    "hash": "2028637429",
+    "contents": "",
+    "dirty": false,
+    "created": 1721596693735.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "128,194",
+        "scrollLine": "119",
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "10272:4910",
+        "quartoPreviewFormat": "pdf"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1721600391,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1721600391800,
+    "read_only": false,
+    "read_only_alternatives": []
+}
