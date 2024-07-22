@@ -3,7 +3,7 @@
     "path": "~/GitHub/minus-the-math-files/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "1726778336",
+    "hash": "667380485",
     "contents": "",
     "dirty": false,
     "created": 1721252137997.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "36,6",
-        "scrollLine": "17"
+        "cursorPosition": "7,13",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1721599452,
+    "lastKnownWriteTime": 1721610531,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1721599452245,
+    "last_content_update": 1721610531889,
     "read_only": false,
     "read_only_alternatives": []
 }

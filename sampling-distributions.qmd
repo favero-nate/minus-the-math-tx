@@ -151,7 +151,7 @@ When you compute a confidence interval on the mean, you compute the mean of a sa
 Assume that the weights of 10-year-old children are normally distributed with a mean of 90 and a standard deviation of 36. What is the sampling distribution of the mean for a sample size of 9? Recall from the section on the sampling distribution of the mean that the mean of the sampling distribution is $\mu$ and the standard error of the mean is
 
 $$
-\sigma_M = \frac{\sigma}{\sqrt{n}}
+\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}
 $$
 
 For the present example, the sampling distribution of the mean has a mean of 90 and a standard deviation of 36/3 = 12. Note that the standard deviation of a sampling distribution is its standard error. @ig-samplingdistn9 shows this distribution. The shaded area represents the middle 95% of the distribution and stretches from 66.48 to 113.52. These limits were computed by adding and subtracting 1.96 standard deviations to/from the mean of 90 as follows:
@@ -171,14 +171,14 @@ The value of 1.96 is based on the fact that 95% of the area of a normal distribu
 @fig-samplingdistn9 shows that 95% of the means are no more than 23.52 units (1.96 standard deviations) from the mean of 90. Now consider the probability that a sample mean computed in a random sample is within 23.52 units of the population mean of 90. Since 95% of the distribution is within 23.52 of 90, the probability that the mean from any given sample will be within 23.52 of 90 is 0.95. This means that if we repeatedly compute the mean ($\bar{X}$) from a sample, and create an interval ranging from $\bar{X}$ - 23.52 to $\bar{X}$ + 23.52, this interval will contain the population mean 95% of the time. In general, you compute the 95% confidence interval for the mean with the following formula:
 
 $$
-\text{Lower limit} = \bar{X} - Z_.95\sigma_{\bar{X}}
+\text{Lower limit} = \bar{X} - Z_.95\times\sigma_{\bar{X}}
 $$
 
 $$
-\text{Upper limit} = \bar{X} + Z_.95\sigma_{\bar{X}}
+\text{Upper limit} = \bar{X} + Z_.95\times\sigma_{\bar{X}}
 $$
 
-where Z~.95~ is the number of standard deviations extending from the mean of a normal distribution required to contain 0.95 of the area and $\sigma_{\bar{X}}$ is the standard error of the mean.
+where $Z_.95$ is the number of standard deviations extending from the mean of a normal distribution required to contain 0.95 of the area and $\sigma_{\bar{X}}$ is the standard error of the mean.
 
 If you look closely at this formula for a confidence interval, you will notice that you need to know the standard deviation ($\sigma$) in order to estimate the mean. This may sound unrealistic, and it is. However, computing a confidence interval when $\sigma$ is known is easier than when $\sigma$ has to be estimated, and serves a pedagogical purpose. Later in this section we will show how to compute a confidence interval for the mean when $\sigma$ has to be estimated.
 
@@ -189,7 +189,7 @@ $$
 $$
 
 $$
-\sigma_M~=\frac{2.5}{\sqrt5}=1.118. 
+\sigma_{\bar{X}}=\frac{2.5}{\sqrt5}=1.118. 
 $$
 
 Z~.95~ can be found using the normal distribution calculator[^sampling-distributions-5] and specifying that the shaded area is 0.95 and indicating that you want the area to be between the cutoff points. As shown in @fig-normaldistcalc, the value is 1.96. If you had wanted to compute the 99% confidence interval, you would have set the shaded area to 0.99 and the result would have been 2.58.
@@ -212,9 +212,8 @@ You should use the t distribution rather than the normal distribution when the v
 
 The values of t to be used in a confidence interval can be looked up in a table of the t distribution. A small version of such a table is shown in @tbl-abbrevttable1. The first column, df, stands for degrees of freedom, and for confidence intervals on the mean, df is equal to n - 1, where n is the sample size.
 
-|     |        |     |          |     |          |     |
-|-----|--------|-----|----------|-----|----------|-----|
 |     | **df** |     | **0.95** |     | **0.99** |     |
+|-----|--------|-----|----------|-----|----------|-----|
 |     | 2      |     | 4.303    |     | 9.925    |     |
 |     | 3      |     | 3.182    |     | 5.841    |     |
 |     | 4      |     | 2.776    |     | 4.604    |     |
@@ -279,9 +278,8 @@ We will finish with an analysis of the Stroop Data.[^sampling-distributions-7] S
 
 [^sampling-distributions-7]: <http://onlinestatbook.com/2/case_studies/stroop.html>
 
-|     |                              |     |                  |     |                |     |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |     | **Naming Colored Rectangle** |     | **Interference** |     | **Difference** |     |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |     | 17                           |     | 38               |     | 21             |     |
 |     | 15                           |     | 58               |     | 43             |     |
 |     | 18                           |     | 35               |     | 17             |     |
@@ -313,7 +311,7 @@ Therefore, the interference effect (difference) for the whole population is like
 
 In the introduction to normal distributions it was shown that 95% of the area of a normal distribution is within 1.96 standard deviations of the mean. Therefore, if you randomly sampled a value from a normal distribution with a mean of 100, the probability it would be within 1.96$\sigma$ of 100 is 0.95. Similarly, if you sample n values from the population, the probability that the sample mean ($\bar{X}$) will be within 1.96 $\sigma_{\bar{X}}$ of 100 is 0.95.
 
-Now consider the case in which you have a normal distribution but you do not know the standard deviation. You sample n values and compute the sample mean ($\bar{X}$) and estimate the standard error of the mean ($\sigma_{\bar{X}}$) with $s_{\bar{X}}$. What is the probability that $\bar{X}$ will be within 1.96 $s_{\bar{X}}$ of the population mean ($\mu$)? This is a difficult problem because there are two ways in which $\bar{X}$ could be more than 1.96 $s_{\bar{X}}$ from $\mu$: (1) $\bar{X}$ could, by chance, be either very high or very low and (2) $s_{\bar{X}}$ could, by chance, be very low. Intuitively, it makes sense that the probability of being within 1.96 standard errors of the mean should be smaller than in the case when the standard deviation is known (and cannot be underestimated). But exactly how much smaller? Fortunately, the way to work out this type of problem was solved in the early 20th century by W. S. Gosset who determined the distribution of a mean divided by an estimate of its standard error. This distribution is called the *Student's t distribution* or sometimes just the t distribution. Gosset worked out the t distribution and associated statistical tests while working for a brewery in Ireland. Because of a contractual agreement with the brewery, he published the article under the pseudonym "Student." That is why the t test is called the "Student's t test."
+Now consider the case in which you have a normal distribution but you do not know the standard deviation. You sample $n$ values and compute the sample mean ($\bar{X}$) and estimate the standard error of the mean ($\sigma_{\bar{X}}$) with $s_{\bar{X}}$. What is the probability that $\bar{X}$ will be within 1.96 $s_{\bar{X}}$ of the population mean ($\mu$)? This is a difficult problem because there are two ways in which $\bar{X}$ could be more than 1.96 $s_{\bar{X}}$ from $\mu$: (1) $\bar{X}$ could, by chance, be either very high or very low and (2) $s_{\bar{X}}$ could, by chance, be very low. Intuitively, it makes sense that the probability of being within 1.96 standard errors of the mean should be smaller than in the case when the standard deviation is known (and cannot be underestimated). But exactly how much smaller? Fortunately, the way to work out this type of problem was solved in the early 20th century by W. S. Gosset who determined the distribution of a mean divided by an estimate of its standard error. This distribution is called the *Student's t distribution* or sometimes just the t distribution. Gosset worked out the t distribution and associated statistical tests while working for a brewery in Ireland. Because of a contractual agreement with the brewery, he published the article under the pseudonym "Student." That is why the t test is called the "Student's t test."
 
 The **t distribution** is very similar to the normal distribution when the estimate of variance is based on a large sample, but the t distribution has relatively more scores in its tails when there is a small sample. When working with the t distribution, sample size is expressed in what are called degrees of freedom. Degrees of freedom will be discussed in more detail at the end of this chapter, but if we are estimating the standard error for a sample mean estimate, the degrees of freedom is simply equal to the sample size minus one (n-1).
 
@@ -342,7 +340,7 @@ Since the t distribution has more area in the tails, the percentage of the distr
 
 Returning to the problem posed at the beginning of this section, suppose you sampled 9 values from a normal population and estimated the standard error of the mean ($\sigma_{\bar{X}}$) with $s_{\bar{X}}$. What is the probability that $\bar{X}$ would be within 1.96$s_{\bar{X}}$ of $\mu$? Since the sample size is 9, there are n - 1 = 8 df. From @tbl-abbrevttable2, you can see that with 8 df the probability is 0.95 that the mean will be within 2.306 $s_{\bar{X}}$ of $\mu$. The probability that it will be within 1.96 $s_{\bar{X}}$ of $\mu$ is therefore lower than 0.95.
 
-As shown in @fig-tdist8df, a t distribution calculator[^sampling-distributions-10] can be used to find that 0.086 of the area of a t distribution is more than 1.96 standard deviations from the mean, so the probability that $\bar{X}$ would be less than 1.96$\sigma_{\bar{X}}$ from $\mu$ is 1 - 0.086 = 0.914.
+As shown in @fig-tdist8df, a t distribution calculator[^sampling-distributions-10] can be used to find that 0.086 of the area of a t distribution is more than 1.96 standard deviations from the mean, so the probability that $\bar{X}$ would be less than 1.96$s_{\bar{X}}$ from $\mu$ is 1 - 0.086 = 0.914.
 
 [^sampling-distributions-10]: <http://onlinestatbook.com/2/calculators/t_dist.html>
 

@@ -3,7 +3,7 @@
     "path": "~/GitHub/minus-the-math-files/comparing-means.qmd",
     "project_path": "comparing-means.qmd",
     "type": "quarto_markdown",
-    "hash": "2997999186",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1721599703438.0,
@@ -12,20 +12,21 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "42,2",
-        "scrollLine": "39",
-        "rmdVisualMode": "false",
+        "cursorPosition": "201,0",
+        "scrollLine": "0",
+        "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "16330:1200"
+        "rmdVisualModeLocation": "13231:8370",
+        "quartoPreviewFormat": "html"
     },
     "folds": "",
-    "lastKnownWriteTime": 1721600067,
+    "lastKnownWriteTime": 1721610442,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1721600067269,
+    "last_content_update": 1721610442342,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -12,13 +12,13 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "118,0",
+        "cursorPosition": "34,163",
         "scrollLine": "33",
-        "rmdVisualMode": "true",
+        "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "11995:6766",
+        "rmdVisualModeLocation": "3421:1366",
         "docOutlineSize": "127",
         "quartoPreviewFormat": "pdf"
     },
