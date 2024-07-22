@@ -1,7 +1,11 @@
 # Preface {.unnumbered}
 
 ::: {.content-visible when-format="html"}
-[Click here for the PDF version](Statistics-Minus-The-Math.pdf) of this book.
+::: column-margin
+![](cover.png)
+:::
+
+[Click here for a PDF version](Statistics-Minus-The-Math.pdf) of this book.
 :::
 
 This book was largely adapted from the public domain resource *Online Statistics Education: A Multimedia Course of Study* (<http://onlinestatbook.com/> Project Leader: David M. Lane, Rice University). A huge thanks to David Lane and his colleagues at Rice University for their creation of this wonderful resource. I use footnotes throughout to indicate precisely where the various sections of each chapter came from. Chapters 11-13 (as well as @sec-interpreting-confidence-intervals-correctly and @sec-quick-guide-to-interpreting-regression-results) were written by me (Nathan).
@@ -18,14 +22,18 @@ There are still formatting inconsistencies, and this is ever a work in progress.
 
 3.  I introduce regression very early on (Ch. 3) so that students (especially PhD students) can quickly get started on their term papers and better understand any quantitative articles they're reading. The treatment of regression is further built out in the final chapters (11-13). Regression is, after all, the workhorse of applied statistics for the social sciences.
 
-4.  I skip a traditional treatment of probability theory because I don't find traditional treatments to be very useful for students interested in applied statistics. Instead, I've written a chapter (11) on the logic and practice of building models that account for uncertainty.
+4.  I skip a traditional treatment of probability theory because I don't find traditional treatments to be very useful for students interested in applied statistics. Instead, I've written a brief chapter (11) on the logic and practice of building models that account for uncertainty.
 
 5.  There is a bit of Stata code in the final chapter, but otherwise all examples are presented apart from any statistical software package.
 
+## Lecture Slides/Videos
+
+While they do not track closely to this text, there are some (Stata-based) lecture slides and videos I created that I use alongside this book when I teach. They track thematically with the first 10 chapters of this book and are currently available here: <https://github.com/favero-nate/minus-the-math/tree/main/lecture_slides>
+
 ## Past Versions
 
-This version (1.3) was updated July 21, 2024. PDFs of past versions are available at <https://minusthemath.com>.
+This version (1.3) was updated July 21, 2024. PDFs of past versions are currently available at <https://github.com/favero-nate/minus-the-math/tree/main/past_versions>
 
--   Version 1.3 updates: Added material on multiple regression (end of @sec-correlation) and a new @sec-interpreting-confidence-intervals-correctly on interpreting confidence intervals. Notation is updated in line with conventions: regression parameters are redone, and $\bar{X}$ is now used for sample mean and $n$ for sample size. Slight extension of section on the standard normal distribution (@sec-the-standard-normal-distribution). Various formatting updates (book was recreated using Quarto) and minor (non-substantive) edits throughout.
+-   Version 1.3 updates: Added material on multiple regression (end of @sec-correlation) and a new @sec-interpreting-confidence-intervals-correctly on interpreting confidence intervals. Notation is updated in line with conventions: regression parameters are redone, and $\bar{X}$ is now used for the sample mean and $n$ for sample size. Slight extension of section on the standard normal distribution (@sec-the-standard-normal-distribution). Various formatting updates (book was recreated using Quarto) and minor (mostly non-substantive) edits throughout.
 
 -   Version 1.2 updates: The discussion of transforming variables now appears in @sec-describing-one-variable (rather than @sec-correlation).

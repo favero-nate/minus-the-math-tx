@@ -35,6 +35,8 @@ format:
       \publishers{Get the latest version of this text at: \url{https://minusthemath.com} \bigskip \bigskip \bigskip \bigskip \\
       \href{https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1}{\includegraphics{Images/by.png}}}
     # usepackage: amsmath
+  epub:
+    cover-image: cover.png
 
 # editor: visual
 # 
