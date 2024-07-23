@@ -3,23 +3,9 @@
         {
             "file": "describing-one-variable.qmd",
             "type": "tbl",
-            "id": "testscoremeasures",
+            "id": "tdownpasses",
             "suffix": "",
-            "title": "Measures of central tendency for the test scores."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "groupfreqdist1",
-            "suffix": "",
-            "title": "Grouped frequency distribution."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "scatterplotbrainweight",
-            "suffix": "",
-            "title": "Scatter plots of brain weight as a function of body weight in terms of both raw data (upper panel) and log-transformed data (lower panel)."
+            "title": "Number of touchdown passes."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -30,34 +16,6 @@
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "bballmeasures",
-            "suffix": "",
-            "title": "Measures of central tendency for baseball salaries (in thousands of dollars)."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "tdownpasses",
-            "suffix": "",
-            "title": "Number of touchdown passes."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "cfunctionf",
-            "suffix": "",
-            "title": "Degrees Centigrade as a function of degrees Fahrenheit."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "quizzes",
-            "suffix": "",
-            "title": "Bar charts of two quizzes."
-        },
-        {
-            "file": "describing-one-variable.qmd",
             "type": "sec",
             "id": "standardization",
             "suffix": "",
@@ -65,10 +23,10 @@
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "heightconversion",
+            "type": "fig",
+            "id": "cfunctionf",
             "suffix": "",
-            "title": "Converting between feet and inches."
+            "title": "Degrees Centigrade as a function of degrees Fahrenheit."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -80,9 +38,37 @@
         {
             "file": "describing-one-variable.qmd",
             "type": "fig",
-            "id": "bballsalarydist",
+            "id": "disposskew",
             "suffix": "",
-            "title": "A distribution with a very large positive skew. This histogram shows the salaries of major league baseball players (in thousands of dollars: 25 equals 250,000)."
+            "title": "A distribution with a positive skew."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "fig",
+            "id": "scatterplotbrainweight",
+            "suffix": "",
+            "title": "Scatter plots of brain weight as a function of body weight in terms of both raw data (upper panel) and log-transformed data (lower panel)."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "tbl",
+            "id": "heightconversion",
+            "suffix": "",
+            "title": "Converting between feet and inches."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "fig",
+            "id": "quizzes",
+            "suffix": "",
+            "title": "Bar charts of two quizzes."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "tbl",
+            "id": "groupfreqdist1",
+            "suffix": "",
+            "title": "Grouped frequency distribution."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -93,10 +79,24 @@
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "disposskew",
+            "type": "tbl",
+            "id": "bballmeasures",
             "suffix": "",
-            "title": "A distribution with a positive skew."
+            "title": "Measures of central tendency for baseball salaries (in thousands of dollars)."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "fig",
+            "id": "bballsalarydist",
+            "suffix": "",
+            "title": "A distribution with a very large positive skew. This histogram shows the salaries of major league baseball players (in thousands of dollars: 25 equals 250,000)."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "tbl",
+            "id": "testscoremeasures",
+            "suffix": "",
+            "title": "Measures of central tendency for the test scores."
         }
     ]
 }

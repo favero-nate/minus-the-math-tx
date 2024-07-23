@@ -2,20 +2,6 @@
     "entries": [
         {
             "file": "sampling-distributions.qmd",
-            "type": "tbl",
-            "id": "abbrevttable1",
-            "suffix": "",
-            "title": "Abbreviated t table."
-        },
-        {
-            "file": "sampling-distributions.qmd",
-            "type": "fig",
-            "id": "tdist8df",
-            "suffix": "",
-            "title": "Area more than 1.96 standard deviations from the mean in a t distribution with 8 df. Note that the two-tailed button is selected so that the area in both tails will be included."
-        },
-        {
-            "file": "sampling-distributions.qmd",
             "type": "fig",
             "id": "normaldistcalc",
             "suffix": "",
@@ -24,9 +10,16 @@
         {
             "file": "sampling-distributions.qmd",
             "type": "tbl",
-            "id": "abbrevttable2",
+            "id": "meansfreqs",
             "suffix": "",
-            "title": "Abbreviated t table."
+            "title": "Frequencies of means for n = 2."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "sec",
+            "id": "confidence-interval-for-a-regression-slope-coefficient",
+            "suffix": "",
+            "title": "Confidence Interval for a Regression Slope Coefficient"
         },
         {
             "file": "sampling-distributions.qmd",
@@ -38,9 +31,9 @@
         {
             "file": "sampling-distributions.qmd",
             "type": "fig",
-            "id": "rangesdistn3",
+            "id": "nonunifirmsamplingdistsim",
             "suffix": "",
-            "title": "Distribution of ranges for n = 3."
+            "title": "A simulation of a sampling distribution. The parent population is very non-normal."
         },
         {
             "file": "sampling-distributions.qmd",
@@ -58,6 +51,27 @@
         },
         {
             "file": "sampling-distributions.qmd",
+            "type": "tbl",
+            "id": "abbrevttable2",
+            "suffix": "",
+            "title": "Abbreviated t table."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "tbl",
+            "id": "abbrevttable1",
+            "suffix": "",
+            "title": "Abbreviated t table."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "tbl",
+            "id": "example-calc-st-err",
+            "suffix": "",
+            "title": "Example data."
+        },
+        {
+            "file": "sampling-distributions.qmd",
             "type": "fig",
             "id": "meansdist",
             "suffix": "",
@@ -65,17 +79,10 @@
         },
         {
             "file": "sampling-distributions.qmd",
-            "type": "fig",
-            "id": "tdiststandardsd",
-            "suffix": "",
-            "title": "A comparison of t distributions with 2, 4, and 10 df and the standard normal distribution. The distribution with the lowest peak is the 2 df distribution, the next lowest is 4 df, the lowest after that is 10 df, and the highest is the standard normal distribution."
-        },
-        {
-            "file": "sampling-distributions.qmd",
             "type": "tbl",
-            "id": "twoballsoutcomes",
+            "id": "regression-cs-gpa-repeated",
             "suffix": "",
-            "title": "All possible outcomes when two balls are sampled with replacement."
+            "title": "Results for a regression with computer science GPA as the dependent variable."
         },
         {
             "file": "sampling-distributions.qmd",
@@ -87,23 +94,16 @@
         {
             "file": "sampling-distributions.qmd",
             "type": "tbl",
-            "id": "meansfreqs",
+            "id": "twoballsoutcomes",
             "suffix": "",
-            "title": "Frequencies of means for n = 2."
+            "title": "All possible outcomes when two balls are sampled with replacement."
         },
         {
             "file": "sampling-distributions.qmd",
             "type": "fig",
-            "id": "poolballs",
+            "id": "rangesdistn3",
             "suffix": "",
-            "title": "The pool balls."
-        },
-        {
-            "file": "sampling-distributions.qmd",
-            "type": "fig",
-            "id": "rangesdistn2",
-            "suffix": "",
-            "title": "Distribution of ranges for n = 2."
+            "title": "Distribution of ranges for n = 3."
         },
         {
             "file": "sampling-distributions.qmd",
@@ -115,9 +115,16 @@
         {
             "file": "sampling-distributions.qmd",
             "type": "fig",
-            "id": "nonunifirmsamplingdistsim",
+            "id": "tdist8df",
             "suffix": "",
-            "title": "A simulation of a sampling distribution. The parent population is very non-normal."
+            "title": "Area more than 1.96 standard deviations from the mean in a t distribution with 8 df. Note that the two-tailed button is selected so that the area in both tails will be included."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "rangesdistn2",
+            "suffix": "",
+            "title": "Distribution of ranges for n = 2."
         },
         {
             "file": "sampling-distributions.qmd",
@@ -125,6 +132,27 @@
             "id": "alloutcomestwoballs",
             "suffix": "",
             "title": "All possible outcomes when two balls are sampled with replacement."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "poolballs",
+            "suffix": "",
+            "title": "The pool balls."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "homoscedasticity",
+            "suffix": "",
+            "title": "University GPA as a function of High School GPA."
+        },
+        {
+            "file": "sampling-distributions.qmd",
+            "type": "fig",
+            "id": "tdiststandardsd",
+            "suffix": "",
+            "title": "A comparison of t distributions with 2, 4, and 10 df and the standard normal distribution. The distribution with the lowest peak is the 2 df distribution, the next lowest is 4 df, the lowest after that is 10 df, and the highest is the standard normal distribution."
         }
     ]
 }
