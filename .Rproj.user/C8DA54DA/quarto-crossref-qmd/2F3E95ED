@@ -2,17 +2,17 @@
     "entries": [
         {
             "file": "h-tests.qmd",
-            "type": "tbl",
-            "id": "dogscores",
-            "suffix": "",
-            "title": "DOG scores as a function of dosage."
-        },
-        {
-            "file": "h-tests.qmd",
             "type": "fig",
             "id": "tdistcalc",
             "suffix": "",
             "title": "Calculation using the t distribution."
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "fig",
+            "id": "binomialdist2redtails",
+            "suffix": "",
+            "title": "The binomial distribution. Both tails are red."
         },
         {
             "file": "h-tests.qmd",
@@ -24,9 +24,16 @@
         {
             "file": "h-tests.qmd",
             "type": "fig",
-            "id": "prsamplemean_1tail",
+            "id": "standardnormdistcalc.png",
             "suffix": "",
-            "title": "Probability of a sample mean being 51 or greater."
+            "title": "Calculation using the standardized normal distribution."
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "tbl",
+            "id": "dogscores",
+            "suffix": "",
+            "title": "DOG scores as a function of dosage."
         },
         {
             "file": "h-tests.qmd",
@@ -37,10 +44,17 @@
         },
         {
             "file": "h-tests.qmd",
-            "type": "fig",
-            "id": "standardnormdistcalc.png",
+            "type": "tbl",
+            "id": "scoredist",
             "suffix": "",
-            "title": "Calculation using the standardized normal distribution."
+            "title": "Distribution of scores."
+        },
+        {
+            "file": "h-tests.qmd",
+            "type": "sec",
+            "id": "significance-test-for-a-regression-slope-coefficient",
+            "suffix": "",
+            "title": "Significance Test for a Regression Slope Coefficient"
         },
         {
             "file": "h-tests.qmd",
@@ -51,17 +65,10 @@
         },
         {
             "file": "h-tests.qmd",
-            "type": "tbl",
-            "id": "scoredist",
-            "suffix": "",
-            "title": "Distribution of scores."
-        },
-        {
-            "file": "h-tests.qmd",
             "type": "fig",
-            "id": "binomialdist2redtails",
+            "id": "prsamplemean_1tail",
             "suffix": "",
-            "title": "The binomial distribution. Both tails are red."
+            "title": "Probability of a sample mean being 51 or greater."
         }
     ]
 }

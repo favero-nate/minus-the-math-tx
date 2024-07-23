@@ -3,55 +3,6 @@
         {
             "file": "correlation.qmd",
             "type": "tbl",
-            "id": "multipleregression",
-            "suffix": "",
-            "title": "Data and Predictions"
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "tbl",
-            "id": "spousalagemeansd",
-            "suffix": "",
-            "title": "Means and standard deviations of spousal ages."
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "sec",
-            "id": "correlation",
-            "suffix": "",
-            "title": "Tools for Describing the Relationship Between Two Quantitative Variables"
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "fig",
-            "id": "scatterplotgalileo",
-            "suffix": "",
-            "title": "Galileo’s data showing a non-linear relationship."
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "sec",
-            "id": "quick-guide-to-interpreting-regression-results",
-            "suffix": "",
-            "title": "Quick Guide to Interpreting Regression Results"
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "fig",
-            "id": "histspousalage",
-            "suffix": "",
-            "title": "Histograms of spousal ages."
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "fig",
-            "id": "poslinearrel",
-            "suffix": "",
-            "title": "A perfect positive linear relationship, r = 1."
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "tbl",
             "id": "spousalage",
             "suffix": "",
             "title": "Sample of spousal ages of 10 White American Couples."
@@ -66,30 +17,23 @@
         {
             "file": "correlation.qmd",
             "type": "fig",
-            "id": "scatterplotnorel",
+            "id": "histspousalage",
             "suffix": "",
-            "title": "A scatter plot for which r = 0. Notice that there is no relationship between X and Y."
+            "title": "Histograms of spousal ages."
         },
         {
             "file": "correlation.qmd",
-            "type": "fig",
-            "id": "neglinearrel",
+            "type": "sec",
+            "id": "correlation",
             "suffix": "",
-            "title": "A perfect negative linear relationship, r = 1."
+            "title": "Tools for Describing the Relationship Between Two Quantitative Variables"
         },
         {
             "file": "correlation.qmd",
-            "type": "tbl",
-            "id": "regression-cs-gpa",
+            "type": "sec",
+            "id": "quick-guide-to-interpreting-regression-results",
             "suffix": "",
-            "title": "Results for a regression with computer science GPA as the dependent variable."
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "fig",
-            "id": "splotexampledatadetail",
-            "suffix": "",
-            "title": "A scatter plot of the example data. The black line consists of the predictions, the points are the actual data, and the vertical lines between the points and the black line represent errors of prediction."
+            "title": "Quick Guide to Interpreting Regression Results"
         },
         {
             "file": "correlation.qmd",
@@ -101,6 +45,27 @@
         {
             "file": "correlation.qmd",
             "type": "fig",
+            "id": "scatterplotgalileo",
+            "suffix": "",
+            "title": "Galileo’s data showing a non-linear relationship."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "fig",
+            "id": "splotexampledatadetail",
+            "suffix": "",
+            "title": "A scatter plot of the example data. The black line consists of the predictions, the points are the actual data, and the vertical lines between the points and the black line represent errors of prediction."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "fig",
+            "id": "neglinearrel",
+            "suffix": "",
+            "title": "A perfect negative linear relationship, r = 1."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "fig",
             "id": "scatterplotspousalage",
             "suffix": "",
             "title": "Scatter plot showing wife’s age as a function of husband’s age, r = 0.97."
@@ -108,9 +73,37 @@
         {
             "file": "correlation.qmd",
             "type": "tbl",
+            "id": "regression-cs-gpa",
+            "suffix": "",
+            "title": "Results for a regression with computer science GPA as the dependent variable."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "tbl",
             "id": "rcalulation",
             "suffix": "",
             "title": "Calculation of r."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "tbl",
+            "id": "spousalagemeansd",
+            "suffix": "",
+            "title": "Means and standard deviations of spousal ages."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "fig",
+            "id": "unihighschoolgpa",
+            "suffix": "",
+            "title": "University GPA as a function of High School GPA."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "tbl",
+            "id": "multipleregression",
+            "suffix": "",
+            "title": "Data and Predictions"
         },
         {
             "file": "correlation.qmd",
@@ -129,9 +122,23 @@
         {
             "file": "correlation.qmd",
             "type": "fig",
-            "id": "unihighschoolgpa",
+            "id": "scatterplotnorel",
             "suffix": "",
-            "title": "University GPA as a function of High School GPA."
+            "title": "A scatter plot for which r = 0. Notice that there is no relationship between X and Y."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "sec",
+            "id": "introduction-to-linear-regression",
+            "suffix": "",
+            "title": "Introduction to Linear Regression"
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "fig",
+            "id": "poslinearrel",
+            "suffix": "",
+            "title": "A perfect positive linear relationship, r = 1."
         }
     ]
 }

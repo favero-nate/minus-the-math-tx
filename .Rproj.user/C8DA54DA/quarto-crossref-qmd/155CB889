@@ -1,0 +1,53 @@
+{
+    "entries": [
+        {
+            "file": "comparing-groups.qmd",
+            "type": "fig",
+            "id": "chisquare",
+            "suffix": "",
+            "title": "Chi Square distributions with 2, 4, and 6 degrees of freedom."
+        },
+        {
+            "file": "comparing-groups.qmd",
+            "type": "tbl",
+            "id": "observedstudyfreqs",
+            "suffix": "",
+            "title": "Observed and Expected Frequencies for Diet and Health Study."
+        },
+        {
+            "file": "comparing-groups.qmd",
+            "type": "tbl",
+            "id": "anagramdata",
+            "suffix": "",
+            "title": "Anagram Problem Data."
+        },
+        {
+            "file": "comparing-groups.qmd",
+            "type": "tbl",
+            "id": "studyfreqs",
+            "suffix": "",
+            "title": "Frequencies for Diet and Health Study."
+        },
+        {
+            "file": "comparing-groups.qmd",
+            "type": "tbl",
+            "id": "sixsidedie",
+            "suffix": "",
+            "title": "Outcome Frequencies from a Six-Sided Die."
+        },
+        {
+            "file": "comparing-groups.qmd",
+            "type": "tbl",
+            "id": "sixsidedieoutcomes",
+            "suffix": "",
+            "title": "Outcome Frequencies from a Six-Sided Die."
+        },
+        {
+            "file": "comparing-groups.qmd",
+            "type": "tbl",
+            "id": "universitygpascores",
+            "suffix": "",
+            "title": "Expected and Observed Scores for 105 University GPA Scores."
+        }
+    ]
+}

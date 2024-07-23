@@ -2,10 +2,10 @@
     "entries": [
         {
             "file": "estimation.qmd",
-            "type": "sec",
-            "id": "interpreting-confidence-intervals-correctly",
+            "type": "tbl",
+            "id": "animalresearchmeanvar",
             "suffix": "",
-            "title": "Interpreting Confidence Intervals Correctly"
+            "title": "Means and Variances in Animal Research study."
         },
         {
             "file": "estimation.qmd",
@@ -23,10 +23,24 @@
         },
         {
             "file": "estimation.qmd",
-            "type": "tbl",
-            "id": "animalresearchmeanvar",
+            "type": "sec",
+            "id": "interpreting-confidence-intervals-correctly",
             "suffix": "",
-            "title": "Means and Variances in Animal Research study."
+            "title": "Interpreting Confidence Intervals Correctly"
+        },
+        {
+            "file": "estimation.qmd",
+            "type": "sec",
+            "id": "introducing-confidence-intervals-for-regression",
+            "suffix": "",
+            "title": "Introducing Confidence Intervals for Regression"
+        },
+        {
+            "file": "estimation.qmd",
+            "type": "tbl",
+            "id": "regression-cs-gpa-repeated",
+            "suffix": "",
+            "title": "Results for a regression with computer science GPA as the dependent variable."
         }
     ]
 }

@@ -142,7 +142,7 @@ The expressions for the mean and variance of the sampling distribution of the me
 
 ![A simulation of a sampling distribution. The parent population is very non-normal.](Images/sampling-distributions/nonunifirmsamplingdistsim.png){#fig-nonunifirmsamplingdistsim}
 
-## Confidence Interval on the Mean[^sampling-distributions-4]
+## Confidence Interval for the Mean[^sampling-distributions-4]
 
 [^sampling-distributions-4]: This subsection is adapted from David M. Lane. “Confidence Interval on the Mean.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/estimation/mean.html>
 
@@ -388,58 +388,39 @@ The denominator of this formula is the degrees of freedom.
 
 So far, we’ve only seen examples where the degrees of freedom is equal to n - 1. But in later chapters, we’ll see examples of statistical inference tools that require estimating more than one parameter en route to the estimate in question, and therefore we’ll need to subtract more than one from the number of observations to get the degrees of freedom. For example, the degrees of freedom might be calculated as n - 5 or n - 3, depending on what we are estimating.
 
-## Confidence Interval for a Regression Slope Coefficient {#sec-confidence-interval-for-a-regression-slope-coefficient}
+## Confidence Interval for a Regression Slope Coefficient [^sampling-distributions-12] {#sec-confidence-interval-for-a-regression-slope-coefficient}
 
-### A Real Example[^sampling-distributions-12]
+[^sampling-distributions-12]: This section is adapted from David M. Lane. “Inferential Statistics for b and r.” *Online Statistics Education: A Multimedia Course of Study*. [https://onlinestatbook.com/2/regression/inferent](https://onlinestatbook.com/2/regression/inferential.html)
 
-[^sampling-distributions-12]: This subsection is written by Nathan Favero.
+### Calculation of a Precise Confidence Interval for the Slope
 
-Before looking at too many details regarding computation, let's examine a practical example of using confidence intervals with regression. We will again consider the regression results table we originally examined in @sec-quick-guide-to-interpreting-regression-results. The table is shown again here as @tbl-regression-cs-gpa-repeated.
+The method for computing a confidence interval for the population slope in a simple linear regression is very similar to methods for computing other confidence intervals. For the 95% confidence interval, the formula is:
 
-|             | Coef.  | Std. err. | p-value |
-|-------------|--------|-----------|---------|
-| verb_sat    | 0.0017 | 0.0010    | 0.10    |
-| math_sat    | 0.0048 | 0.0012    | 0.00014 |
-| (intercept) | -0.91  | 0.42      | 0.033   |
-|             |        |           |         |
-| n           | 105    |           |         |
-| r\^2        | 0.487  |           |         |
+$$ \text{Lower limit} = \hat{\beta} - (t_{.95})(s_{\beta}) $$
 
-: Results for a regression with computer science GPA as the dependent variable. {#tbl-regression-cs-gpa-repeated}
+$$ \text{Upper limit} = \hat{\beta} + (t_{.95})(s_{\beta}) $$
 
-Because the coefficients we see in the table are just estimates, confidence intervals can help us better understand the precision of these estimates by providing us with a range of plausible values for the coefficients. Notice that no confidence intervals have been provided in the table (which is a situation you may frequently encounter when reading social scientific research publications). Fortunately, we can easily obtain a good approximation of a 95% confidence interval for coefficient estimate $\hat{\beta_i}$ using the standard error estimate ($s_{\beta_i}$) provided in the table, along with the following formulas:
+where $\hat{\beta}$ is the slope coefficient estimate, $t_{.95}$ is the value of t to use for the 95% confidence interval, and $s_{\beta}$ is the standard error for the slope estimate. As before, the t value can be found from a table or an inverse t distribution calculator based on the degrees of freedom.
 
-$$
-\text{Lower limit} \approx \hat{\beta_i} - 2\times s_{\beta_i}
-$$
+We illustrate generating a confidence interval using the same data as in the example from @sec-introduction-to-linear-regression, depicted again here as @fig-reg-example-cis.
 
-$$
-\text{Upper limit} \approx \hat{\beta_i} + 2\times s_{\beta_i}
-$$
+![A scatter plot of the example data. The black line consists of the predictions, the points are the actual data, and the vertical lines between the points and the black line represent errors of prediction.](Images/correlations/splotexampledatadetail.jpg){#fig-reg-example-cis width="325"}
 
-Note that I am using 2 as the critical value, rather than 1.96 or an exact value from the t distribution. This will provide an inexact but close approximation of a 95% confidence interval as long as I have a reasonable large sample (e.g., at least 21 more observations than independent variables, meaning at least 20 degrees of freedom). With multiple regression, our degrees of freedom is equal to the number of observations minus the number of coefficients being estimated (usually equal to the number of independent variables plus one for the intercept). In this case, we have 102 degrees of freedom (df=105-3=102), so using two as the critical value by which we multiply the standard errors will give us a good approximation. And an approximation is usually the best we can do when calculating standard errors by hand from a regression table, since we will usually also lose some precision due to rounding error.
+When conducting statistical inference for linear regression coefficients, the degrees of freedom is equal to the number of observations minus the number of coefficients being estimated (usually one for the intercept plus one for each independent variable). In the case of simple regression, there is just one independent variable plus a y-intercept, so the number of degrees of freedom is:
 
-For the verbal SAT scores, we find the following limits:
+$$ df = n-2 $$
 
-$$ \text{Lower limit} \approx 0.0017 - (2)(0.0010) = -0.0003 $$
+where $n$ is the number of pairs of scores (number of observations in the sample).
 
-$$ \text{Upper limit} \approx 0.0017 + (2)(0.0010) = 0.0037 $$
+As we saw in @sec-introduction-to-linear-regression, the estimated regression slope coefficient is 0.425 with this data. An $n$ of 5 yields 3 degrees of freedom (5 - 2 = 3), which means the critical t value (at 95% confidence) is 3.182. Finally, the estimated standard error for this slope coefficient (the calculative of which is shown in this chapter's appendix) is 0.305 with this data.
 
-This is very close to the precise 95% confidence interval that one finds using statistical software to compute the interval: \[-0.0003, 0.0038\]. Any values within this range can be considered plausible values for the coefficient, according to our model results.
+Applying these formulas we obtain a confidence interval with the following lower and upper limits:
 
-How do we interpret this confidence interval? Remember that when it comes to interpreting size, the coefficient indicates how many units the dependent variable is predicted to change when the independent variable increases by one unit. But with SAT scores, a 1-unit increase is so small that we found it more useful to consider a 100-point increase, which required multiplying the coefficient by 100. Doing so here, we can conclude that a 100-point increase in a student's verbal SAT score (while assuming no change to the math SAT) predicts a change in the computer science GPA somewhere in the range of \[-0.03, 0.38\]. Zero is part of this range, so it's entirely plausible that there is no association between verbal SAT score and computer science GPA (hence, the lack of statistical significance for this relationship). According to the model results, it is also plausible that a 100-point increase in verbal SAT is associated with the computer science GPA decreasing by as much as 0.03, or increasing by as much as 0.38. A 0.03 decrease in GPA is tiny, so we might feel comfortable ruling out the possibility that a good verbal SAT score has any substantial negative predictive effect for computer science GPA. But a positive effect of 0.38 grade points is much more substantial, so it is plausible that the verbal SAT has a meaningfully-large positive association with computer science GPA.
+$$ \text{Lower limit} = 0.425 - (3.182)(0.305) = -0.55 $$
 
-What about the math SAT? Using our approximation method:
+$$ \text{Upper limit} = 0.425 + (3.182)(0.305) = 1.40 $$
 
-$$ \text{Lower limit} \approx 0.0048 - (2)(0.0012) = 0.0024 $$
-
-$$ \text{Upper limit} \approx 0.0048 + (2)(0.0012) = 0.0072 $$
-
-Multiplying these two values by 100, we find that a 100-point increase in one's math SAT is plausibly associated with an increase of between 0.24 and 0.72 points on one's computer science GPA.
-
-### Assumptions for Statistical Inference from Regression[^sampling-distributions-13]
-
-[^sampling-distributions-13]: The remainder of this section is adapted from David M. Lane. “Inferential Statistics for b and r.” *Online Statistics Education: A Multimedia Course of Study*. [https://onlinestatbook.com/2/regression/inferent](https://onlinestatbook.com/2/regression/inferential.html)
+### Assumptions for Statistical Inference from Regression
 
 Although no assumptions were needed to determine the best-fitting straight line, assumptions are made in the calculation of inferential statistics. Naturally, these assumptions refer to the population, not the sample.
 
@@ -453,9 +434,11 @@ Although no assumptions were needed to determine the best-fitting straight line,
 
 We will return to the topic of model assumptions and the consequences of violating them in @sec-models-and-uncertainty.
 
-### Estimating the Standard Error of the Slope
+## @sec-sampling-distributions Appendix: Estimating the Standard Error of a Regression Slope[^sampling-distributions-13] {.unnumbered}
 
-This section shows how to compute the standard error the slope of a simple linear regression. The estimated standard error of $\beta$ is computed using the following formula:
+[^sampling-distributions-13]: This section is adapted from David M. Lane. “Inferential Statistics for b and r.” *Online Statistics Education: A Multimedia Course of Study*. [https://onlinestatbook.com/2/regression/inferent](https://onlinestatbook.com/2/regression/inferential.html)
+
+This appendix shows how to compute the standard error the slope of a simple linear regression. The estimated standard error of $\beta$ is computed using the following formula:
 
 $$
 s_{\beta} = \frac{s_{est}}{\sqrt{SSX}}
@@ -502,24 +485,3 @@ $$
 s_{\beta} = \frac{0.964}{\sqrt{10}} = 0.305
 $$
 
-### Calculation of a Precise Confidence Interval for the Slope
-
-The method for computing a confidence interval for the population slope is very similar to methods for computing other confidence intervals. For the 95% confidence interval, the formula is:
-
-$$ \text{Lower limit} = \hat{\beta} - (t_{.95})(s_{\beta}) $$
-
-$$ \text{Upper limit} = \hat{\beta} + (t_{.95})(s_{\beta}) $$
-
-where $\hat{\beta}$ is the slope coefficient estimate, $t_{.95}$ is the value of t to use for the 95% confidence interval, and $s_{\beta}$ is the standard error for the slope estimate. As before, the t value can be found from a table or an inverse t distribution calculator based on the degrees of freedom. The number of degrees of freedom for this test is:
-
-$$
-df = n-2
-$$
-
-where $n$ is the number of pairs of scores.
-
-Applying these formulas to the example data,
-
-$$ \text{Lower limit} = 0.425 - (3.182)(0.305) = -0.55 $$
-
-$$ \text{Upper limit} = 0.425 + (3.182)(0.305) = 1.40 $$
