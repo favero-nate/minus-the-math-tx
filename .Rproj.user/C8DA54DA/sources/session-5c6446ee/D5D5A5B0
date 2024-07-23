@@ -3,7 +3,7 @@
     "path": "~/GitHub/minus-the-math-files/regression-qual-outcome.qmd",
     "project_path": "regression-qual-outcome.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1071863182",
     "contents": "",
     "dirty": false,
     "created": 1721617007956.0,
@@ -17,15 +17,15 @@
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
         "docOutlineVisible": "1",
-        "rmdVisualModeLocation": "116:0",
+        "rmdVisualModeLocation": "2209:536",
         "rmdVisualCollapsedChunks": ""
     },
     "folds": "",
-    "lastKnownWriteTime": 1721617041,
+    "lastKnownWriteTime": 1721698863,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1721617041937,
+    "last_content_update": 1721698863565,
     "read_only": false,
     "read_only_alternatives": []
 }
