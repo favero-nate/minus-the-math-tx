@@ -14,7 +14,7 @@ $$
 happiness = 3.0 + 2.3 \times income + \varepsilon
 $$ {#eq-a}
 
-This model attempts to explain one’s level of happiness based on their income. You might notice that it looks very similar to the regression equations we saw in Chapter 3. That’s because regression is one of the main tools used to estimate a model that includes uncertainty.
+This model attempts to explain one’s level of happiness based on their income. You might notice that it looks very similar to the regression equations we saw in @sec-correlation. That’s because regression is one of the main tools used to estimate a model that includes uncertainty.
 
 What does this model mean in practical terms? Well, there are no obvious units we can use to quantify the amount of happiness someone experiences, so the exact values of the numbers we see are not particularly meaningful. But the fact that there’s a positive number (2.3) that is being multiplied by income implies that as income gets bigger, happiness gets larger.
 

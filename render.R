@@ -1,3 +1,2 @@
 library(quarto)
-library(quarto)
 quarto_render()

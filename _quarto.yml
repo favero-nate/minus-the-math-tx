@@ -5,7 +5,7 @@ book:
   title: "Statistics Minus The Math"
   subtitle: "An Introduction for the Social Sciences"
   author: "Nathan Favero"
-  date: "7/21/2024"
+  date: "7/24/2024"
   license: "CC BY"
   chapters:
     - index.qmd
@@ -37,6 +37,9 @@ format:
     # usepackage: amsmath
   epub:
     cover-image: cover.png
+    toc: true
+    toc-depth: 1
+    html-math-method: webtex
 
 # editor: visual
 # 

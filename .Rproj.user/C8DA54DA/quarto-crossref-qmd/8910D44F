@@ -2,17 +2,17 @@
     "entries": [
         {
             "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "tdownpasses",
+            "type": "sec",
+            "id": "variance",
             "suffix": "",
-            "title": "Number of touchdown passes."
+            "title": "Variance"
         },
         {
             "file": "describing-one-variable.qmd",
             "type": "tbl",
-            "id": "temp5cities",
+            "id": "bballmeasures",
             "suffix": "",
-            "title": "Temperatures in 5 cities on 11/16/2002."
+            "title": "Measures of central tendency for baseball salaries (in thousands of dollars)."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -23,24 +23,10 @@
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "cfunctionf",
-            "suffix": "",
-            "title": "Degrees Centigrade as a function of degrees Fahrenheit."
-        },
-        {
-            "file": "describing-one-variable.qmd",
             "type": "tbl",
-            "id": "quiz1var",
+            "id": "groupfreqdist1",
             "suffix": "",
-            "title": "Calculation of Variance for Quiz 1 scores."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "disposskew",
-            "suffix": "",
-            "title": "A distribution with a positive skew."
+            "title": "Grouped frequency distribution."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -52,37 +38,30 @@
         {
             "file": "describing-one-variable.qmd",
             "type": "tbl",
+            "id": "temp5cities",
+            "suffix": "",
+            "title": "Temperatures in 5 cities on 11/16/2002."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "tbl",
+            "id": "testscoremeasures",
+            "suffix": "",
+            "title": "Measures of central tendency for the test scores."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "tbl",
             "id": "heightconversion",
             "suffix": "",
             "title": "Converting between feet and inches."
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "fig",
-            "id": "quizzes",
-            "suffix": "",
-            "title": "Bar charts of two quizzes."
-        },
-        {
-            "file": "describing-one-variable.qmd",
             "type": "tbl",
-            "id": "groupfreqdist1",
+            "id": "quiz1var",
             "suffix": "",
-            "title": "Grouped frequency distribution."
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "sec",
-            "id": "describing-one-variable",
-            "suffix": "",
-            "title": "Statistics for Describing One Variable at a Time"
-        },
-        {
-            "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "bballmeasures",
-            "suffix": "",
-            "title": "Measures of central tendency for baseball salaries (in thousands of dollars)."
+            "title": "Calculation of Variance for Quiz 1 scores."
         },
         {
             "file": "describing-one-variable.qmd",
@@ -93,10 +72,38 @@
         },
         {
             "file": "describing-one-variable.qmd",
-            "type": "tbl",
-            "id": "testscoremeasures",
+            "type": "fig",
+            "id": "quizzes",
             "suffix": "",
-            "title": "Measures of central tendency for the test scores."
+            "title": "Bar charts of two quizzes."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "fig",
+            "id": "cfunctionf",
+            "suffix": "",
+            "title": "Degrees Centigrade as a function of degrees Fahrenheit."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "fig",
+            "id": "disposskew",
+            "suffix": "",
+            "title": "A distribution with a positive skew."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "tbl",
+            "id": "tdownpasses",
+            "suffix": "",
+            "title": "Number of touchdown passes."
+        },
+        {
+            "file": "describing-one-variable.qmd",
+            "type": "sec",
+            "id": "describing-one-variable",
+            "suffix": "",
+            "title": "Statistics for Describing One Variable at a Time"
         }
     ]
 }

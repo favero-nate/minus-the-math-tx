@@ -119,7 +119,7 @@ Strictly speaking, it is not correct to talk about "the normal distribution" sin
 
 ![Normal distributions differing in mean and standard deviation.](Images/prob-distributions/normaldist3.png){width="325"}
 
-Seven features of normal distributions are listed below. These features are illustrated in more detail in the remaining sections of this chapter.
+Seven features of normal distributions are listed below. Some of these features are illustrated in more detail in the remaining sections of this chapter.
 
 1.  Normal distributions are symmetric around their mean.
 

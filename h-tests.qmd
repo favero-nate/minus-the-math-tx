@@ -76,7 +76,7 @@ Naturally, the direction of the sample means determines which alternative is ado
 
 [^h-tests-4]: Kaiser, H. F. (1960) Directional statistical decisions. *Psychological Review*, *67*, 160-167.
 
-## Steps in Hypothesis Testing[^h-tests-5]
+## Steps in Hypothesis Testing[^h-tests-5] {#sec-steps-in-hypothesis-testing}
 
 [^h-tests-5]: This section is adapted from David M. Lane. “Steps in Hypothesis Testing.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/logic_of_hypothesis_testing/steps.html>
 
@@ -128,21 +128,22 @@ Do not confuse statistical significance with practical significance. A small eff
 
 Why does the word "significant" in the phrase "statistically significant" mean something so different from other uses of the word? Interestingly, this is because the meaning of "significant" in everyday language has changed. It turns out that when the procedures for hypothesis testing were developed, something was "significant" if it signified something. Thus, finding that an effect is statistically significant signifies that the effect is real and not due to chance. Over the years, the meaning of "significant" changed, leading to the potential misinterpretation.
 
-There are two approaches (at least) to conducting significance tests. In one (favored by R. Fisher), a significance test is conducted and the probability value reflects the strength of the evidence against the null hypothesis. If the probability is below 0.01, the data provide strong evidence that the null hypothesis is false. If the probability value is below 0.05 but larger than 0.01, then the null hypothesis is typically rejected, but not with as much confidence as it would be if the probability value were below 0.01. Probability values between 0.05 and 0.10 provide weak evidence against the null hypothesis and, by convention, are not considered low enough to justify rejecting it. Higher probabilities provide less evidence that the null hypothesis is false.
+There are two approaches (at least) to conducting significance tests. In one (favored by R. Fisher), a significance test is conducted and the probability value reflects the strength of the evidence against the null hypothesis.[^h-tests-10] If the probability is below 0.01, the data provide strong evidence that the null hypothesis is false. If the probability value is below 0.05 but larger than 0.01, then the null hypothesis is typically rejected, but not with as much confidence as it would be if the probability value were below 0.01. Probability values between 0.05 and 0.10 provide weak evidence against the null hypothesis and, by convention, are not considered low enough to justify rejecting it. Higher probabilities provide less evidence that the null hypothesis is false.
+
+[^h-tests-10]: See also: Goodman, W. M., Spruill, S. E., & Komaroff, E. (2019). A proposed hybrid effect size plus p-value criterion: empirical evidence supporting its use. *The American Statistician*, *73*(sup1), 168-185.
 
 The alternative approach (favored by the statisticians Neyman and Pearson) is to specify an $\alpha$ level before analyzing the data. If the data analysis results in a probability value below the $\alpha$ level, then the null hypothesis is rejected; if it is not, then the null hypothesis is not rejected. According to this perspective, if a result is significant, then it does not matter how significant it is. Moreover, if it is not significant, then it does not matter how close to being significant it is. Therefore, if the 0.05 level is being used, then probability values of 0.049 and 0.001 are treated identically. Similarly, probability values of 0.06 and 0.34 are treated identically.
 
 The former approach (preferred by Fisher) is more suitable for scientific research and will be adopted here. The latter is more suitable for applications in which a yes/no decision must be made. For example, if a statistical analysis were undertaken to determine whether a machine in a manufacturing plant were malfunctioning, the statistical analysis would be used to determine whether or not the machine should be shut down for repair. The plant manager would be less interested in assessing the weight of the evidence than knowing what action should be taken. There is no need for an immediate decision in scientific research where a researcher may conclude that there is some evidence against the null hypothesis, but that more research is needed before a definitive conclusion can be drawn.
 
-## Testing a Single Mean[^h-tests-10]
+## Testing a Single Mean[^h-tests-11]
 
-[^h-tests-10]: This section is adapted from David M. Lane. “Testing a Single Mean.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/tests_of_means/single_mean.html>
+[^h-tests-11]: This section is adapted from David M. Lane. “Testing a Single Mean.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/tests_of_means/single_mean.html>
 
 The way we calculate the probability ($p$) value for a hypothesis test depends on what type of statement is made in our null hypothesis. Normally, statistical software will automatically compute a p value behind the scenes, but we still want to learn a bit about how the software comes up with this value. To illustrate what these calculations can look like, this section will focus on what to do if we want to test a null hypothesis stating that the population mean is equal to some hypothesized value. For example, suppose an experimenter wanted to know if people are influenced by a subliminal message and performed the following experiment. Each of nine subjects is presented with a series of 100 pairs of pictures. As a pair of pictures is presented, a subliminal message is presented suggesting the picture that the subject should choose. The question is whether the (population) mean number of times the suggested picture is chosen is equal to 50. In other words, the null hypothesis is that the population mean ($\mu$) is 50. The (hypothetical) data are shown in @tbl-scoredist. The data in @tbl-scoredist have a sample mean ($\bar{X}$) of 51. Thus the sample mean differs from the hypothesized population mean by 1.
 
-|               |
-|:-------------:|
 | **Frequency** |
+|:-------------:|
 |      45       |
 |      48       |
 |      49       |
@@ -207,13 +208,12 @@ where $Z$ is the value on the standard normal distribution, $\bar{X}$ is the sam
 
 Notice that the probability (the shaded area) is the same as previously calculated (for the one-tailed test).
 
-As noted, in real-world data analyses it is very rare that you would know $\sigma$ and wish to estimate $\mu$. Typically $\sigma$ is not known and is estimated in a sample by s, and $\sigma_{\bar{X}}$ is estimated by $s_{\bar{X}}$. For our next example, we will consider the data in the "ADHD Treatment" case study.[^h-tests-11] These data consist of the scores of 24 children with ADHD on a delay of gratification (DOG) task. Each child was tested under four dosage levels. @tbl-dogscores shows the data for the placebo (0 mg) and highest dosage level (0.6 mg) of methylphenidate. Of particular interest here is the column labeled "Diff" that shows the difference in performance between the 0.6 mg (D60) and the 0 mg (D0) conditions. These difference scores are positive for children who performed better in the 0.6 mg condition than in the control condition and negative for those who scored better in the control condition. If methylphenidate has a positive effect, then the mean difference score in the population will be positive. The null hypothesis is that the mean difference score in the population is 0.
+As noted, in real-world data analyses it is very rare that you would know $\sigma$ and wish to estimate $\mu$. Typically $\sigma$ is not known and is estimated in a sample by s, and $\sigma_{\bar{X}}$ is estimated by $s_{\bar{X}}$. For our next example, we will consider the data in the "ADHD Treatment" case study.[^h-tests-12] These data consist of the scores of 24 children with ADHD on a delay of gratification (DOG) task. Each child was tested under four dosage levels. @tbl-dogscores shows the data for the placebo (0 mg) and highest dosage level (0.6 mg) of methylphenidate. Of particular interest here is the column labeled "Diff" that shows the difference in performance between the 0.6 mg (D60) and the 0 mg (D0) conditions. These difference scores are positive for children who performed better in the 0.6 mg condition than in the control condition and negative for those who scored better in the control condition. If methylphenidate has a positive effect, then the mean difference score in the population will be positive. The null hypothesis is that the mean difference score in the population is 0.
 
-[^h-tests-11]: <http://onlinestatbook.com/2/case_studies/adhd.html>
+[^h-tests-12]: <http://onlinestatbook.com/2/case_studies/adhd.html>
 
-|     |        |     |         |     |          |     |
-|:---:|:------:|:---:|:-------:|:---:|:--------:|:---:|
 |     | **D0** |     | **D60** |     | **Diff** |     |
+|:---:|:------:|:---:|:-------:|:---:|:--------:|:---:|
 |     |   57   |     |   62    |     |    5     |     |
 |     |   27   |     |   49    |     |    22    |     |
 |     |   32   |     |   30    |     |    -2    |     |
@@ -269,13 +269,15 @@ In order to conduct this hypothesis test, we made the following *assumptions*:
 
 2.  The values are sampled from a normal distribution.
 
-## Type I and Type II Errors[^h-tests-12]
+Now that we've filled in more of the details of hypothesis tests, you may want to go back and review @sec-steps-in-hypothesis-testing to see whether you can follow the succinct overview of the hypothesis testing approach. Once you can follow that description, it is a good indication that you have understood the key concepts essential to every hypothesis test.
 
-[^h-tests-12]: This section is adapted from David M. Lane. “Type I and Type II Errors.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/logic_of_hypothesis_testing/errors.html>
+## Type I and Type II Errors[^h-tests-13]
 
-In the Physicians' Reactions case study,[^h-tests-13] the probability value associated with the significance test is 0.0057. Therefore, the null hypothesis was rejected, and it was concluded that physicians intend to spend less time with obese patients. Despite the low probability value, it is possible that the null hypothesis of no true difference between obese and average-weight patients is true and that the large difference between sample means occurred by chance. If this is the case, then the conclusion that physicians intend to spend less time with obese patients is in error. This type of error is called a Type I error. More generally, a **Type I error** occurs when a significance test results in the rejection of a true null hypothesis.
+[^h-tests-13]: This section is adapted from David M. Lane. “Type I and Type II Errors.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/logic_of_hypothesis_testing/errors.html>
 
-[^h-tests-13]: <http://onlinestatbook.com/2/case_studies/weight.html>
+In the Physicians' Reactions case study,[^h-tests-14] the probability value associated with the significance test is 0.0057. Therefore, the null hypothesis was rejected, and it was concluded that physicians intend to spend less time with obese patients. Despite the low probability value, it is possible that the null hypothesis of no true difference between obese and average-weight patients is true and that the large difference between sample means occurred by chance. If this is the case, then the conclusion that physicians intend to spend less time with obese patients is in error. This type of error is called a Type I error. More generally, a **Type I error** occurs when a significance test results in the rejection of a true null hypothesis.
+
+[^h-tests-14]: <http://onlinestatbook.com/2/case_studies/weight.html>
 
 By one common convention, if the probability value is below 0.05, then the null hypothesis is rejected. Another convention, although slightly less common, is to reject the null hypothesis if the probability value is below 0.01. The threshold for rejecting the null hypothesis is called the $\alpha$ (alpha) level or simply $\alpha$. It is also called the significance level. As discussed in the section on significance testing, it is better to interpret the probability value as an indication of the weight of evidence against the null hypothesis than as part of a decision rule for making a reject or do-not-reject decision. Therefore, keep in mind that rejecting the null hypothesis is not an all-or-nothing decision.
 
@@ -285,9 +287,9 @@ The second type of error that can be made in significance testing is failing to 
 
 A Type II error can only occur if the null hypothesis is false. If the null hypothesis is false, then the probability of a Type II error is called $\beta$ (beta). The probability of correctly rejecting a false null hypothesis equals $1- \beta$ and is called *statistical power*.
 
-## Significance Test for a Regression Slope Coefficient[^h-tests-14] {#sec-significance-test-for-a-regression-slope-coefficient}
+## Significance Test for a Regression Slope Coefficient[^h-tests-15] {#sec-significance-test-for-a-regression-slope-coefficient}
 
-[^h-tests-14]: This section is adapted from David M. Lane. “Inferential Statistics for b and r.” *Online Statistics Education: A Multimedia Course of Study*. [https://onlinestatbook.com/2/regression/inferent](https://onlinestatbook.com/2/regression/inferential.html)
+[^h-tests-15]: This section is adapted from David M. Lane. “Inferential Statistics for b and r.” *Online Statistics Education: A Multimedia Course of Study*. [https://onlinestatbook.com/2/regression/inferent](https://onlinestatbook.com/2/regression/inferential.html)
 
 To conclude this chapter, let's briefly revisit the very first type of hypothesis test we encountered in this textbook (though we did not call it that at the time): testing for the significance of a regression slope coefficient (@sec-quick-guide-to-interpreting-regression-results). Now that we know more about hypothesis testing, let's fill in some of the details of how to calculate the p-values we rely upon to determine the significance of these coefficients.
 

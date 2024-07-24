@@ -2,17 +2,17 @@
     "entries": [
         {
             "file": "correlation.qmd",
-            "type": "tbl",
-            "id": "spousalage",
+            "type": "fig",
+            "id": "poslinearrel",
             "suffix": "",
-            "title": "Sample of spousal ages of 10 White American Couples."
+            "title": "A perfect positive linear relationship, r = 1."
         },
         {
             "file": "correlation.qmd",
             "type": "tbl",
-            "id": "exampledatatable",
+            "id": "spousalage",
             "suffix": "",
-            "title": "Example data."
+            "title": "Sample of spousal ages of 10 White American Couples."
         },
         {
             "file": "correlation.qmd",
@@ -23,38 +23,10 @@
         },
         {
             "file": "correlation.qmd",
-            "type": "sec",
-            "id": "correlation",
+            "type": "tbl",
+            "id": "multipleregression",
             "suffix": "",
-            "title": "Tools for Describing the Relationship Between Two Quantitative Variables"
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "sec",
-            "id": "quick-guide-to-interpreting-regression-results",
-            "suffix": "",
-            "title": "Quick Guide to Interpreting Regression Results"
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "fig",
-            "id": "scatterplotstrength",
-            "suffix": "",
-            "title": "Scatter plot of Grip Strength and Arm Strength, r = 0.63."
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "fig",
-            "id": "scatterplotgalileo",
-            "suffix": "",
-            "title": "Galileo’s data showing a non-linear relationship."
-        },
-        {
-            "file": "correlation.qmd",
-            "type": "fig",
-            "id": "splotexampledatadetail",
-            "suffix": "",
-            "title": "A scatter plot of the example data. The black line consists of the predictions, the points are the actual data, and the vertical lines between the points and the black line represent errors of prediction."
+            "title": "Data and Predictions"
         },
         {
             "file": "correlation.qmd",
@@ -66,16 +38,51 @@
         {
             "file": "correlation.qmd",
             "type": "fig",
+            "id": "scatterplotgalileo",
+            "suffix": "",
+            "title": "Galileo’s data showing a non-linear relationship."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "tbl",
+            "id": "exampledata-regression",
+            "suffix": "",
+            "title": "Example data."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "fig",
             "id": "scatterplotspousalage",
             "suffix": "",
             "title": "Scatter plot showing wife’s age as a function of husband’s age, r = 0.97."
         },
         {
             "file": "correlation.qmd",
-            "type": "tbl",
-            "id": "regression-cs-gpa",
+            "type": "sec",
+            "id": "introduction-to-linear-regression",
             "suffix": "",
-            "title": "Results for a regression with computer science GPA as the dependent variable."
+            "title": "Introduction to Linear Regression"
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "fig",
+            "id": "splotexampledata",
+            "suffix": "",
+            "title": "A scatter plot of the example data."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "fig",
+            "id": "unihighschoolgpa",
+            "suffix": "",
+            "title": "University GPA as a function of High School GPA."
+        },
+        {
+            "file": "correlation.qmd",
+            "type": "tbl",
+            "id": "exampledatatable",
+            "suffix": "",
+            "title": "Example data."
         },
         {
             "file": "correlation.qmd",
@@ -94,30 +101,30 @@
         {
             "file": "correlation.qmd",
             "type": "fig",
-            "id": "unihighschoolgpa",
+            "id": "splotexampledatadetail",
             "suffix": "",
-            "title": "University GPA as a function of High School GPA."
+            "title": "A scatter plot of the example data. The black line consists of the predictions, the points are the actual data, and the vertical lines between the points and the black line represent errors of prediction."
         },
         {
             "file": "correlation.qmd",
             "type": "tbl",
-            "id": "multipleregression",
+            "id": "regression-cs-gpa",
             "suffix": "",
-            "title": "Data and Predictions"
+            "title": "Results for a regression with computer science GPA as the dependent variable."
         },
         {
             "file": "correlation.qmd",
-            "type": "fig",
-            "id": "splotexampledata",
+            "type": "sec",
+            "id": "correlation",
             "suffix": "",
-            "title": "A scatter plot of the example data."
+            "title": "Tools for Describing the Relationship Between Two Quantitative Variables"
         },
         {
             "file": "correlation.qmd",
-            "type": "tbl",
-            "id": "exampledata-regression",
+            "type": "sec",
+            "id": "quick-guide-to-interpreting-regression-results",
             "suffix": "",
-            "title": "Example data."
+            "title": "Quick Guide to Interpreting Regression Results"
         },
         {
             "file": "correlation.qmd",
@@ -128,17 +135,10 @@
         },
         {
             "file": "correlation.qmd",
-            "type": "sec",
-            "id": "introduction-to-linear-regression",
-            "suffix": "",
-            "title": "Introduction to Linear Regression"
-        },
-        {
-            "file": "correlation.qmd",
             "type": "fig",
-            "id": "poslinearrel",
+            "id": "scatterplotstrength",
             "suffix": "",
-            "title": "A perfect positive linear relationship, r = 1."
+            "title": "Scatter plot of Grip Strength and Arm Strength, r = 0.63."
         }
     ]
 }

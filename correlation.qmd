@@ -228,7 +228,7 @@ Many social science papers report their main results in the form of a regression
 
 [^correlation-9]: In other words, can we conclude it is signal rather than noise? See: Fricker Jr, R. D., Burke, K., Han, X., & Woodall, W. H. (2019). Assessing the statistical analyses used in basic and applied social psychology after their p-value ban. *The American Statistician*, *73*(sup1), 374-384.
 
-[^correlation-10]: Why $\hat{\beta_i}$ and not simply $\beta_i$? We use the hat symbol ($\hat{}$) to indicate an estimate or prediction. So by including the hat, we are implying that our coefficient is an estimate. We'll learn more about estimation in @sec-estimation.
+[^correlation-10]: Why $\hat{\beta_i}$ and not simply $\beta_i$? We use the hat symbol ($\hat{~}$) to indicate an estimate or prediction. So by including the hat, we are implying that our coefficient is an estimate. We'll learn more about estimation in @sec-estimation.
 
 @tbl-regression-cs-gpa provides an example of regression results in a format similar to what you may encounter in many research publications. Note, however, that many publications do not list exact p-values; instead, they often use one or more asterisks (\*) to denote coefficients with p-values smaller than 0.05 (sometimes also flagging p-values falling below various other thresholds).
 

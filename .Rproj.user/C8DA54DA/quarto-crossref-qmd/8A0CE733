@@ -2,17 +2,17 @@
     "entries": [
         {
             "file": "models.qmd",
-            "type": "eq",
-            "id": "a",
-            "suffix": "",
-            "title": ""
-        },
-        {
-            "file": "models.qmd",
             "type": "sec",
             "id": "models-and-uncertainty",
             "suffix": "",
             "title": "Models and Uncertainty"
+        },
+        {
+            "file": "models.qmd",
+            "type": "eq",
+            "id": "a",
+            "suffix": "",
+            "title": ""
         }
     ]
 }

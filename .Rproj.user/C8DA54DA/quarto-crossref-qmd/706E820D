@@ -2,17 +2,10 @@
     "entries": [
         {
             "file": "estimation.qmd",
-            "type": "tbl",
-            "id": "animalresearchmeanvar",
-            "suffix": "",
-            "title": "Means and Variances in Animal Research study."
-        },
-        {
-            "file": "estimation.qmd",
             "type": "sec",
-            "id": "using-confidence-intervals",
+            "id": "interpreting-confidence-intervals-correctly",
             "suffix": "",
-            "title": "Using Confidence Intervals"
+            "title": "Interpreting Confidence Intervals Correctly"
         },
         {
             "file": "estimation.qmd",
@@ -23,10 +16,17 @@
         },
         {
             "file": "estimation.qmd",
-            "type": "sec",
-            "id": "interpreting-confidence-intervals-correctly",
+            "type": "tbl",
+            "id": "regression-cs-gpa-repeated",
             "suffix": "",
-            "title": "Interpreting Confidence Intervals Correctly"
+            "title": "Results for a regression with computer science GPA as the dependent variable."
+        },
+        {
+            "file": "estimation.qmd",
+            "type": "tbl",
+            "id": "animalresearchmeanvar",
+            "suffix": "",
+            "title": "Means and Variances in Animal Research study."
         },
         {
             "file": "estimation.qmd",
@@ -37,10 +37,10 @@
         },
         {
             "file": "estimation.qmd",
-            "type": "tbl",
-            "id": "regression-cs-gpa-repeated",
+            "type": "sec",
+            "id": "using-confidence-intervals",
             "suffix": "",
-            "title": "Results for a regression with computer science GPA as the dependent variable."
+            "title": "A Practical Example: Estimating the Difference in Means"
         }
     ]
 }
