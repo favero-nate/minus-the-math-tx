@@ -45,21 +45,14 @@ $$
 
 for each outcome. @tbl-sixsidedieoutcomes shows these calculations.
 
-+-------------+-------------+-------------+---------------------+
-| **Outcome** | **E**       | **O**       | $\frac{(E-O)^2}{E}$ |
-+:===========:+:===========:+:===========:+:===================:+
-| 1           | 6           | 8           | 0.667               |
-+-------------+-------------+-------------+---------------------+
-| 2           | 6           | 5           | 0.167               |
-+-------------+-------------+-------------+---------------------+
-| 3           | 6           | 9           | 1.500               |
-+-------------+-------------+-------------+---------------------+
-| 4           | 6           | 2           | 2.667               |
-+-------------+-------------+-------------+---------------------+
-| 5           | 6           | 7           | 0.167               |
-+-------------+-------------+-------------+---------------------+
-| 6           | 6           | 5           | 0.167               |
-+-------------+-------------+-------------+---------------------+
+| **Outcome** | **E** | **O** | $\frac{(E-O)^2}{E}$ |
+|:-----------:|:-----:|:-----:|:-------------------:|
+|      1      |   6   |   8   |        0.667        |
+|      2      |   6   |   5   |        0.167        |
+|      3      |   6   |   9   |        1.500        |
+|      4      |   6   |   2   |        2.667        |
+|      5      |   6   |   7   |        0.167        |
+|      6      |   6   |   5   |        0.167        |
 
 : Outcome Frequencies from a Six-Sided Die. {#tbl-sixsidedieoutcomes}
 
@@ -93,17 +86,12 @@ This Chi Square test can also be used to test other deviations between expected 
 
 The first column in @tbl-universitygpascores shows the standard normal distribution divided into four ranges. The second column shows the proportions of a standard normal distribution falling in the ranges specified in the first column. For example, we see that for the range 0 to 1, the proportion is 0.341 (or 34.1%). This follows directly from what we learned in @sec-probability-distributions; 68% of the area under the standard normal distribution lies between -1 and 1, so naturally 34% (half of 68%) will be covered by \[0, 1\]. The expected frequencies (E) are calculated by multiplying the number of scores (105) by the proportion expected according to the standard normal distribution. The final column shows the observed number of scores (O) in each range, after standardizing the University GPA variable so that it will map onto the standard normal distribution (see @sec-the-standard-normal-distribution). It is clear from the table that the observed frequencies vary greatly from the expected frequencies. Note that if the distribution were normal, then there would have been only about 35 scores between 0 and 1, whereas 60 were observed.
 
-+------------+----------------+------------+------------+
-| **Range**  | **Proportion** | **E**      | **O**      |
-+============+================+============+============+
-| Above 1    | 0.159          | 16.695     | 9          |
-+------------+----------------+------------+------------+
-| 0 to 1     | 0.341          | 35.805     | 60         |
-+------------+----------------+------------+------------+
-| -1 to 0    | 0.341          | 35.805     | 17         |
-+------------+----------------+------------+------------+
-| Below -1   | 0.159          | 16.695     | 19         |
-+------------+----------------+------------+------------+
+| **Range** | **Proportion** | **E**  | **O** |
+|-----------|----------------|--------|-------|
+| Above 1   | 0.159          | 16.695 | 9     |
+| 0 to 1    | 0.341          | 35.805 | 60    |
+| -1 to 0   | 0.341          | 35.805 | 17    |
+| Below -1  | 0.159          | 16.695 | 19    |
 
 : Expected and Observed Scores for 105 University GPA Scores. {#tbl-universitygpascores}
 
@@ -123,17 +111,12 @@ This section shows how to use Chi Square to test the relationship between qualit
 
 [^comparing-groups-6]: <http://onlinestatbook.com/2/case_studies/diet.html>
 
-+---------------+----------+---------------------+-------------------------+----------+----------+
-|               | Outcome  |                     |                         |          | Total    |
-+===============+==========+=====================+=========================+==========+==========+
-| **Diet**      | Cancers  | Fatal Heart Disease | Non-Fatal Heart Disease | Healthy  |          |
-+---------------+----------+---------------------+-------------------------+----------+----------+
-| AHA           | 15       | 24                  | 25                      | 239      | 303      |
-+---------------+----------+---------------------+-------------------------+----------+----------+
-| Mediterranean | 7        | 14                  | 8                       | 273      | 302      |
-+---------------+----------+---------------------+-------------------------+----------+----------+
-| **Total**     | 22       | 38                  | 33                      | 512      | 605      |
-+---------------+----------+---------------------+-------------------------+----------+----------+
+|               | Outcome |                     |                         |         | Total |
+|---------------|---------|---------------------|-------------------------|---------|-------|
+| **Diet**      | Cancers | Fatal Heart Disease | Non-Fatal Heart Disease | Healthy |       |
+| AHA           | 15      | 24                  | 25                      | 239     | 303   |
+| Mediterranean | 7       | 14                  | 8                       | 273     | 302   |
+| **Total**     | 22      | 38                  | 33                      | 512     | 605   |
 
 : Frequencies for Diet and Health Study. {#tbl-studyfreqs}
 
@@ -145,19 +128,19 @@ $$
 
 where $E_{ij}$ is the expected frequency for cell $i,j$, $T_i$ is the total for the $i$th row, $T_j$ is the total for the $j$th column, and $T$ is the total number of observations. For the AHA Diet/Cancers cell, $i = 1$, $j = 1$, $T_i = 303$, $T_j = 22$, and $T = 605$. @tbl-observedstudyfreqs shows the expected frequencies (in parenthesis) for each cell in the experiment.
 
-+---------------+-------------+---------------------+-------------------------+------------+
-|               | **Outcome** |                     |                         |            |
-+===============+=============+=====================+=========================+============+
-| **Diet**      | Cancers     | Fatal Heart Disease | Non-Fatal Heart Disease | Healthy    |
-+---------------+-------------+---------------------+-------------------------+------------+
-| AHA           | 15\         | 24\                 | 25\                     | 239\       |
-|               | (11.02)     | (19.03)             | (16.53)                 | (256.42)   |
-+---------------+-------------+---------------------+-------------------------+------------+
-| Mediterranean | 7\          | 14\                 | 8\                      | 273\       |
-|               | (10.98)     | (18.97)             | (16.47)                 | (255.58)   |
-+---------------+-------------+---------------------+-------------------------+------------+
-| **Total**     | 22          | 38                  | 33                      | 512        |
-+---------------+-------------+---------------------+-------------------------+------------+
++---------------+-------------+---------------------+-------------------------+----------+
+|               | **Outcome** |                     |                         |          |
++===============+=============+=====================+=========================+==========+
+| **Diet**      | Cancers     | Fatal Heart Disease | Non-Fatal Heart Disease | Healthy  |
++---------------+-------------+---------------------+-------------------------+----------+
+| AHA           | 15\         | 24\                 | 25\                     | 239\     |
+|               | (11.02)     | (19.03)             | (16.53)                 | (256.42) |
++---------------+-------------+---------------------+-------------------------+----------+
+| Mediterranean | 7\          | 14\                 | 8\                      | 273\     |
+|               | (10.98)     | (18.97)             | (16.47)                 | (255.58) |
++---------------+-------------+---------------------+-------------------------+----------+
+| **Total**     | 22          | 38                  | 33                      | 512      |
++---------------+-------------+---------------------+-------------------------+----------+
 
 : Observed and Expected Frequencies for Diet and Health Study. {#tbl-observedstudyfreqs}
 
@@ -181,20 +164,20 @@ From @tbl-observedstudyfreqs, we can see that for those on the AHA diet, the fre
 
 Though it is easy to make sense of results in this manner based on a comparison of observe to expected frequencies, the typical contingency table you encounter will probably not display expected frequencies. Instead, it is common to include percentages by row or by column, which can also be used to draw conclusions about the nature of a relationship between variables. For example, in @tbl-diet-row-percentages, the expected frequencies from the prior table have been replaced by percentages. The percentages shown in this table are calculated by row, meaning that they are found by dividing the frequency in each cell by the total shown at under the Total column on the right end of the table.
 
-+---------------+-------------+---------------------+-------------------------+----------+-----------+
-|               | **Outcome** |                     |                         |          | **Total** |
-+===============+=============+=====================+=========================+==========+===========+
-| **Diet**      | Cancers     | Fatal Heart Disease | Non-Fatal Heart Disease | Healthy  |           |
-+---------------+-------------+---------------------+-------------------------+----------+-----------+
-| AHA           | 15\         | 24\                 | 25\                     | 239\     | 303\      |
-|               | 4.95%       | 7.92%               | 8.25%                   | 78.88%   | 100%      |
-+---------------+-------------+---------------------+-------------------------+----------+-----------+
-| Mediterranean | 7\          | 14\                 | 8\                      | 273\     | 302\      |
-|               | 2.32%       | 4.64%               | 2.65%                   | 90.40%   | 100%      |
-+---------------+-------------+---------------------+-------------------------+----------+-----------+
-| **Total**     | 22\         | 38\                 | 33\                     | 512\     | 605\      |
-|               | 3.64%       | 6.28%               | 5.45%                   | 84.63%   | 100%      |
-+---------------+-------------+---------------------+-------------------------+----------+-----------+
++---------------+-------------+---------------------+-------------------------+---------+-----------+
+|               | **Outcome** |                     |                         |         | **Total** |
++===============+=============+=====================+=========================+=========+===========+
+| **Diet**      | Cancers     | Fatal Heart Disease | Non-Fatal Heart Disease | Healthy |           |
++---------------+-------------+---------------------+-------------------------+---------+-----------+
+| AHA           | 15\         | 24\                 | 25\                     | 239\    | 303\      |
+|               | 4.95%       | 7.92%               | 8.25%                   | 78.88%  | 100%      |
++---------------+-------------+---------------------+-------------------------+---------+-----------+
+| Mediterranean | 7\          | 14\                 | 8\                      | 273\    | 302\      |
+|               | 2.32%       | 4.64%               | 2.65%                   | 90.40%  | 100%      |
++---------------+-------------+---------------------+-------------------------+---------+-----------+
+| **Total**     | 22\         | 38\                 | 33\                     | 512\    | 605\      |
+|               | 3.64%       | 6.28%               | 5.45%                   | 84.63%  | 100%      |
++---------------+-------------+---------------------+-------------------------+---------+-----------+
 
 : Frequencies and Percentages by Row for Diet and Health Study. {#tbl-diet-row-percentages}
 
@@ -204,20 +187,20 @@ If we continue moving down the table column by column, we see that rates of hear
 
 We can reach an equivalent conclusion by examining percentages that are calculated by column, as shown in @tbl-diet-column-percentages. Here, percentages are calculated by dividing the frequency in each cell by the total shown at the bottom of the column.
 
-+---------------+-------------+---------------------+-------------------------+----------+-----------+
-|               | **Outcome** |                     |                         |          | **Total** |
-+===============+=============+=====================+=========================+==========+===========+
-| **Diet**      | Cancers     | Fatal Heart Disease | Non-Fatal Heart Disease | Healthy  |           |
-+---------------+-------------+---------------------+-------------------------+----------+-----------+
-| AHA           | 15\         | 24\                 | 25\                     | 239\     | 303\      |
-|               | 68.18%      | 63.16%              | 75.76%                  | 46.68%   | 50.08%    |
-+---------------+-------------+---------------------+-------------------------+----------+-----------+
-| Mediterranean | 7\          | 14\                 | 8\                      | 273\     | 302\      |
-|               | 31.82%      | 36.84%              | 24.24%                  | 53.32%   | 49.92%    |
-+---------------+-------------+---------------------+-------------------------+----------+-----------+
-| **Total**     | 22\         | 38\                 | 33\                     | 512\     | 605\      |
-|               | 100%        | 100%                | 100%                    | 100%     | 100%      |
-+---------------+-------------+---------------------+-------------------------+----------+-----------+
++---------------+-------------+---------------------+-------------------------+---------+-----------+
+|               | **Outcome** |                     |                         |         | **Total** |
++===============+=============+=====================+=========================+=========+===========+
+| **Diet**      | Cancers     | Fatal Heart Disease | Non-Fatal Heart Disease | Healthy |           |
++---------------+-------------+---------------------+-------------------------+---------+-----------+
+| AHA           | 15\         | 24\                 | 25\                     | 239\    | 303\      |
+|               | 68.18%      | 63.16%              | 75.76%                  | 46.68%  | 50.08%    |
++---------------+-------------+---------------------+-------------------------+---------+-----------+
+| Mediterranean | 7\          | 14\                 | 8\                      | 273\    | 302\      |
+|               | 31.82%      | 36.84%              | 24.24%                  | 53.32%  | 49.92%    |
++---------------+-------------+---------------------+-------------------------+---------+-----------+
+| **Total**     | 22\         | 38\                 | 33\                     | 512\    | 605\      |
+|               | 100%        | 100%                | 100%                    | 100%    | 100%      |
++---------------+-------------+---------------------+-------------------------+---------+-----------+
 
 : Frequencies and Percentages by Column for Diet and Health Study. {#tbl-diet-column-percentages}
 

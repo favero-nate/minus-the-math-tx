@@ -30,7 +30,7 @@ format:
   html:
     theme:
       light: cosmo
-      dark: [cosmo, theme-dark.scss]
+      dark: superhero
   pdf:
     documentclass: scrreprt
     header-includes: |
