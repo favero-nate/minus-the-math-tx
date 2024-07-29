@@ -287,7 +287,7 @@ $$
 
 Therefore, the interference effect (difference) for the whole population is likely to be between 14.17 and 18.56 seconds.
 
-### More about the T Distribution[^sampling-distributions-8]
+### More about the T Distribution[^sampling-distributions-8] {#sec-more-about-the-t-distribution}
 
 [^sampling-distributions-8]: This section is adapted from David M. Lane. “t Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/estimation/t_distribution.html>
 

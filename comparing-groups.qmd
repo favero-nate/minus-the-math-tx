@@ -1,12 +1,12 @@
 # Comparing Groups (How Two Qualitative Variables Relate to One Another)
 
-We previously learned how to graphically depict the relationship between two qualitative variables (@sec-comparing-distributions). To make a comparison that includes a significance test, we will need to use the chi square distribution, together with a contingency table.
+We previously learned how to graphically depict the relationship between two qualitative variables with a bar chart (@sec-comparing-distributions). To make a comparison that includes a significance test, we will need to use the chi square distribution, together with a contingency table.
 
 ## Chi Square Distribution[^comparing-groups-1]
 
 [^comparing-groups-1]: This section is adapted from David M. Lane. “Chi Square Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/chi_square/distribution.html>
 
-A standard normal deviate is a random sample from the standard normal distribution. The Chi Square distribution is the distribution of the sum of squared standard normal deviates. The degrees of freedom of the distribution is equal to the number of standard normal deviates being summed. Therefore, Chi Square with one degree of freedom, written as χ^2^(1), is simply the distribution of a single normal deviate squared. The area of a Chi Square distribution below 4 is the same as the area of a standard normal distribution below 2, since 4 is 2^2^.
+A standard normal deviate is a random sample from the standard normal distribution. The Chi Square distribution is the distribution of the sum of squared standard normal deviates. The degrees of freedom of the distribution is equal to the number of standard normal deviates being summed. Therefore, Chi Square with one degree of freedom, written as $\chi^2(1)$, is simply the distribution of a single normal deviate squared. The area of a Chi Square distribution below 4 is the same as the area of a standard normal distribution below 2, since 4 is 2^2^.
 
 Consider the following problem: you sample two scores from a standard normal distribution, square each score, and sum the squares. What is the probability that the sum of these two squares will be six or higher? Since two scores are sampled, the answer can be found using the Chi Square distribution with two degrees of freedom. A Chi Square calculator can be used to find that the probability of a Chi Square (with 2 df) being six or higher is 0.050.
 

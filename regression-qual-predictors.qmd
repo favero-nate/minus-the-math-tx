@@ -1,4 +1,4 @@
-# Regression with Qualitative Independent Variables
+# Regression with Qualitative Independent Variables {#sec-regression-with-qualitative-independent-variables}
 
 Let’s say I’m interested in studying how personality relates to gender. The most common personality measure in psychology is called the “Big Five” personality inventory. There is a standard set of 50 survey items that researchers can use to measure five aspects of personality. @fig-Big5 is an example of some of these questions and how they are formatted.
 
