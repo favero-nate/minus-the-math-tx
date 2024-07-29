@@ -1,11 +1,10 @@
 # Regression with Qualitative Dependent Variables
 
-Suppose I want to build a model of voting. I decide to use the 2016 American National Election Studies[^regression-qual-outcome-1] survey results to try to understand how race is associated with voting. Respondents in the 2016 survey were asked about who they voted for in 2012, and I’m going to focus on their 2012 voting patterns for now. Here are the distributions for my two main variables of interest:
+Suppose I want to build a model of voting. I decide to use the 2016 American National Election Studies[^regression-qual-outcome-1] survey results to try to understand how race is associated with voting. Respondents in the 2016 survey were asked about who they voted for in 2012, and I’m going to focus on their 2012 voting patterns for now. Using the statistical software package Stata to conduct my analysis, I find the following distributions for my two main variables of interest:
 
 [^regression-qual-outcome-1]: <https://electionstudies.org/data-center/2016-time-series-study/>
 
-```{{stata}}
-
+```         
 . tab vote         
 PRE: RECALL OF LAST (2012) PRESIDENTAL  |
                             VOTE CHOICE |      Freq.     Percent        Cum.
@@ -29,15 +28,15 @@ PRE: RECALL OF LAST (2012) PRESIDENTAL  |
                                   Total |      4,238      100.00
 ```
 
-Notice that my dependent variable (vote) is qualitative. It can take on three possible values: voted for Obama, voted for Romney, or voted for other. I can build a simple set of regression models to see how race predicts vote choice. The key is to first convert each of the three categories for my dependent variable into its own dummy variable—meaning a variable that is always equal to either 0 or 1. I can accomplish this with the following code:
+Notice that my dependent variable (vote) is qualitative. It can take on three possible values: voted for Obama, voted for Romney, or voted for other. I can build a simple set of regression models to see how race predicts vote choice. The key is to first convert each of the three categories for my dependent variable into its own dummy (or binary) variable—meaning a variable that is always equal to either 0 or 1. I can accomplish this in Stata with the following code:
 
-```{{stata}}
+```         
 tab vote, gen(vote_)
 ```
 
 I now have several new variables in my dataset that have names starting with “race\_”:
 
-```{{stata}}         
+```         
 . tab vote_1
 
    vote==1. |
@@ -73,13 +72,15 @@ Mitt Romney |      Freq.     Percent        Cum.
 
 I also convert my race variable into a set of dummy variables by running:
 
-```{{stata}}
+```         
 tab race, gen(race_)
 ```
 
-I can then run three regressions, one for each value of my dependent variable. Let’s start with voting for Obama (vote_1):
+I can then run three regressions, one for each value of my dependent variable. I will use regular linear regression (least squares) for this example, although there are arguably better and more precise models for qualitative dependent variables (e.g., various types of probit and logit regression). Nonetheless, we can get by with linear regression. When using linear regression with a binary dependent variable, we call the model a linear probability model.
 
-```{{stata}}
+Let’s start by analyzing voting for Obama (vote_1) as the dependent variable:
+
+```         
 . reg vote_1 race_2 race_3 race_4 race_5 race_6
 
       Source |       SS           df       MS      Number of obs   =     3,036
@@ -120,7 +121,7 @@ Similarly, Asian voters are 21 percentage points more likely to vote for Obama t
 
 Let’s move onto running a regression for the second category of our dependent variable:
 
-```{{stata}}
+```         
 . reg vote_2 race_2 race_3 race_4 race_5 race_6
 
       Source |       SS           df       MS      Number of obs   =     3,036
@@ -145,7 +146,7 @@ Now we’re looking at predictions of voting for Mitt Romney. Our constant is .5
 
 Finally, let’s look at a regression with vote_3 as the dependent variable:
 
-```{{stata}}
+```         
 . reg vote_3 race_2 race_3 race_4 race_5 race_6
 
       Source |       SS           df       MS      Number of obs   =     3,036
@@ -172,7 +173,7 @@ Now that we’ve run one regression for each category of our dependent variable,
 
 One final thing I want to show you is that our results will be in a slightly different format but will be in one sense equivalent if we decide to use a different category as our omitted category when using a qualitative independent variable. Let’s say we want to make black (race_2) our reference category. Compare the following results to what we saw near the top of this page:
 
-```{{stata}}
+```         
 . reg vote_3 race_1 race_3 race_4 race_5 race_6
 
       Source |       SS           df       MS      Number of obs   =     3,036
@@ -197,4 +198,4 @@ Now, our constant tells us that a black voter has a .6% chance of voting third-p
 
 The coefficient for race_1 tells us about how white voters differ from black voters. Notice that the p-value is exactly the same as what we saw in the prior table for race_2, and the coefficient for race_1 in this table is the same as the coefficient for race_2 in the prior table, except the sign has changed. That’s because comparing black to white is the same as comparing white to black, except that we’re going in the opposite direction.
 
-You can go on to play around with these two sets of results more on your own if you’d like. Both regression equations will yield the same prediction for a voter of any given race. The difference lies only in the starting point, as represented fby the constant. However, the p-values will usually differ because they are describing a different comparison (e.g., comparing Asian to black in this table versus comparing Asian to white in the prior table). Thus, it doesn’t really matter which category you pick as your omitted category, except that you may care more about some comparisons than others. You can also run the same regression multiple times but with different omitted categories so that you can get the p-values for a full set of comparisons across groups.
+If you download the data yourself and have access to statistical software, you can go on to play around with these two sets of results more on your own if you’d like. Both regression equations will yield the same prediction for a voter of any given race. The difference lies only in the starting point, as represented by the constant. However, the p-values will usually differ because they are describing a different comparison (e.g., comparing Asian to black in this table versus comparing Asian to white in the prior table). Thus, it doesn’t really matter which category you pick as your omitted category, except that you may care more about some comparisons than others. You can also run the same regression multiple times but with different omitted categories so that you can get the p-values for a full set of comparisons across groups.
