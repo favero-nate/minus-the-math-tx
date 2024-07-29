@@ -1,4 +1,4 @@
-# Probability Distributions
+# Probability Distributions {#sec-probability-distributions}
 
 ## Various Types of Distributions[^prob-distributions-1]
 

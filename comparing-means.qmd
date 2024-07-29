@@ -131,7 +131,7 @@ Many experiments are designed to compare more than two conditions. We will take 
 [^comparing-means-6]: <http://onlinestatbook.com/2/case_studies/leniency.html>
 
 |                       |                                           |                                           |
-|------------------|---------------------------|---------------------------|
+|-----------------------|-------------------------------------------|-------------------------------------------|
 | false vs. felt        | ![](Images/comparing-means/false.png)     | ![](Images/comparing-means/felt.png)      |
 | false vs. miserable   | ![](Images/comparing-means/false.png)     | ![](Images/comparing-means/miserable.png) |
 | false vs. neutral     | ![](Images/comparing-means/false.png)     | ![](Images/comparing-means/neutral.png)   |
