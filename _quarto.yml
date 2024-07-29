@@ -28,7 +28,9 @@ book:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
   pdf:
     documentclass: scrreprt
     header-includes: |
