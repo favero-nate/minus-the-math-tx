@@ -218,7 +218,7 @@ ANOVA is used to test general rather than specific differences among means. This
 ANOVA tests the non-specific null hypothesis that all four population means are equal. That is,
 
 $$
-μ_{false} = μ_{felt}~ = μ_{miserable} = μ_{neutral}
+\mu_{false} = \mu_{felt} = \mu_{miserable} = \mu_{neutral}
 $$
 
 in our example. More generally, the null hypothesis tested by ANOVA is that the population means for all conditions are the same. For whatever data is being examined, this can be written as:
