@@ -4,13 +4,13 @@ It is much more common for a researcher to be interested in the difference betwe
 
 ## Difference between Two Means[^comparing-means-1] {#sec-difference-between-two-means}
 
-[^comparing-means-1]: This section is adapted from David M. Lane. “Difference between Two Means (Independent Groups).” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/tests_of_means/difference_means.html>
+[^comparing-means-1]: This section is adapted from David M. Lane. “Difference between Two Means (Independent Groups).” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/tests_of_means/difference_means.html>
 
 This section covers how to test for differences between means from two separate groups of subjects, using an independent-groups t test.
 
 We take as an example the data from the "Animal Research" case study, previously described when discussing confidence intervals (@sec-using-confidence-intervals).[^comparing-means-2] As a reminder, students rated (on a 7-point scale) whether they thought animal research is wrong.
 
-[^comparing-means-2]: <http://onlinestatbook.com/2/case_studies/animal_research.html>
+[^comparing-means-2]: <https://onlinestatbook.com/2/case_studies/animal_research.html>
 
 |     | **Group** |     | **n** |     | **Mean** |     | **Variance** |     |
 |:---:|:---------:|:---:|:-----:|:---:|:--------:|:---:|:------------:|:---:|
@@ -53,7 +53,7 @@ Since the hypothesized value is 0, we do not need to subtract it from the statis
 
 The next step is to compute the estimate of the standard error of the statistic. In this case, the statistic is the difference between means, so the estimated standard error of the statistic is $s_{\text{diff}}$ (which can also be written as $s_{\bar{X}_1 - \bar{X}_2}$). The formula for the standard error of the difference between means is:[^comparing-means-4]
 
-[^comparing-means-4]: For a more detailed discussion, see <http://onlinestatbook.com/2/sampling_distributions/samplingdist_diff_means.html>
+[^comparing-means-4]: For a more detailed discussion, see <https://onlinestatbook.com/2/sampling_distributions/samplingdist_diff_means.html>
 
 $$
 \sigma_{\text{diff}} = \sqrt{\frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2}} = \sqrt{\frac{\sigma^2}{n}+\frac{\sigma^2}{n}} = \sqrt{\frac{2\sigma^2}{n}}
@@ -89,7 +89,7 @@ Finally, we compute the probability of getting a $t$ as large or larger than 2.5
 
 Once we have the degrees of freedom, we can use a t distribution calculator[^comparing-means-5] to find the probability. @fig-2tailprob shows that the probability value (p) for a two-tailed test is 0.0164. The two-tailed test is used when the null hypothesis can be rejected regardless of the direction of the effect. As shown in @fig-2tailprob, it is the probability of a t \< -2.533 or a t \> 2.533.
 
-[^comparing-means-5]: <http://onlinestatbook.com/2/calculators/t_dist.html>
+[^comparing-means-5]: <https://onlinestatbook.com/2/calculators/t_dist.html>
 
 ![The two-tailed probability.](Images/comparing-means/2tailprob.png){#fig-2tailprob width="300"}
 
@@ -126,11 +126,11 @@ Using statistical software, we’d find that the t value is -0.718, the df = 4, 
 
 ## Pairwise Comparisons Among Multiple Means[^comparing-means-6]
 
-[^comparing-means-6]: This section is adapted from David M. Lane. “All Pairwise Comparisons Among Means.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/tests_of_means/pairwise.html>
+[^comparing-means-6]: This section is adapted from David M. Lane. “All Pairwise Comparisons Among Means.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/tests_of_means/pairwise.html>
 
 Many experiments are designed to compare more than two conditions. We will take as an example the case study "Smiles and Leniency."[^comparing-means-7] In this study, the effect of different smiles on the leniency shown to a person was investigated. Four different types of smiles (neutral, false, felt, and miserable) were shown. "Type of Smile" is the independent variable, and the dependent variable is a leniency rating given by the subject to a fictional student (depicted with one of the four smiles) in an academic misconduct case. An obvious way to proceed would be to do a t test of the difference between each group mean and each of the other group means. This procedure would lead to the six comparisons shown in @tbl-feltmisneutral.
 
-[^comparing-means-7]: <http://onlinestatbook.com/2/case_studies/leniency.html>
+[^comparing-means-7]: <https://onlinestatbook.com/2/case_studies/leniency.html>
 
 |                       |                                           |                                           |
 |------------------|---------------------------|---------------------------|
@@ -176,7 +176,7 @@ Normally, statistical software will make all the necessary calculations for you 
 
 4.  Compute p for each comparison using a Studentized Range Calculator.[^comparing-means-9] The degrees of freedom is equal to the total number of observations minus the number of means. For this experiment, df = 136 - 4 = 132.
 
-[^comparing-means-9]: <http://onlinestatbook.com/2/calculators/studentized_range_dist.html>
+[^comparing-means-9]: <https://onlinestatbook.com/2/calculators/studentized_range_dist.html>
 
 The tests for these data are shown in @tbl-6pairwisecomp.
 
@@ -209,7 +209,7 @@ Some textbooks introduce the Tukey test only as a follow-up to an analysis of va
 
 ### Introduction[^comparing-means-10]
 
-[^comparing-means-10]: This subsection is adapted from David M. Lane. “Introduction.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/analysis_of_variance/intro.html>
+[^comparing-means-10]: This subsection is adapted from David M. Lane. “Introduction.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/analysis_of_variance/intro.html>
 
 **Analysis of Variance (ANOVA)** is a statistical method used to test differences between two or more means. It may seem odd that the technique is called "Analysis of Variance" rather than "Analysis of Means." The name is appropriate because inferences about means are made by analyzing variance, as outlined in this chapter's appendix.
 

@@ -4,7 +4,7 @@ We previously learned how to graphically depict the relationship between two qua
 
 ## Chi Square Distribution[^comparing-groups-1]
 
-[^comparing-groups-1]: This section is adapted from David M. Lane. “Chi Square Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/chi_square/distribution.html>
+[^comparing-groups-1]: This section is adapted from David M. Lane. “Chi Square Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/chi_square/distribution.html>
 
 While the details of the Chi Square distribution are not so important for understanding how to interpret a test of the relationship between two qualitative variable, a brief explanation is nonetheless provided here (with more information provided in this chapter's appendix). A standard normal deviate is a random sample from the standard normal distribution. The Chi Square distribution is the distribution of the sum of squared standard normal deviates, and the degrees of freedom of the distribution is equal to the number of standard normal deviates being summed. Again, don't worry if you don't follow these details since they are not important for the average reader of this text.
 
@@ -16,7 +16,7 @@ The Chi Square distribution is very important because many test statistics are a
 
 ## One-Way Tables[^comparing-groups-2]
 
-[^comparing-groups-2]: This section is adapted from David M. Lane. “One-Way Tables (Testing Goodness of Fit).” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/chi_square/one-way.html>
+[^comparing-groups-2]: This section is adapted from David M. Lane. “One-Way Tables (Testing Goodness of Fit).” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/chi_square/one-way.html>
 
 The Chi Square distribution can be used to test whether observed data differ *significantly* from theoretical expectations. For example, for a fair six-sided die, the probability of any given outcome on a single roll would be 1/6. The data in @tbl-sixsidedie were obtained by rolling a six-sided die 36 times. However, as can be seen in @tbl-sixsidedie, some outcomes occurred more frequently than others. For example, a "3" came up nine times, whereas a "4" came up only two times. Are these data consistent with the hypothesis that the die is a fair die? Naturally, we do not expect the sample frequencies of the six possible outcomes to be the same since chance differences will occur. So, the finding that the frequencies differ does not mean that the die is not fair. One way to test whether the die is fair is to conduct a significance (hypothesis) test. The null hypothesis is that the die is fair. This hypothesis is tested by computing the probability of obtaining frequencies as discrepant or more discrepant from a uniform distribution of frequencies as obtained in the sample. If this probability is sufficiently low, then the null hypothesis that the die is fair can be rejected.
 
@@ -85,7 +85,7 @@ which means the value of Chi Square with 5 degrees of freedom is 5.333.
 
 From a Chi Square calculator[^comparing-groups-3] it can be determined that the probability of a Chi Square of 5.333 or larger is 0.377. Therefore, the null hypothesis that the die is fair cannot be rejected.
 
-[^comparing-groups-3]: <http://onlinestatbook.com/2/calculators/chi_square_prob.html>
+[^comparing-groups-3]: <https://onlinestatbook.com/2/calculators/chi_square_prob.html>
 
 This Chi Square test can also be used to test other deviations between expected and observed frequencies. The following example shows a test of whether the variable "University GPA" in the "SAT and College GPA" case study[^comparing-groups-4] (used previously to demonstrate regression) is normally distributed.
 
@@ -117,11 +117,11 @@ The subscript "3" means there are three degrees of freedom. As before, the degre
 
 ## Contingency Tables[^comparing-groups-5] {#sec-contingency-tables}
 
-[^comparing-groups-5]: This section is adapted from David M. Lane. “Contingency Tables.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/chi_square/contingency.html>
+[^comparing-groups-5]: This section is adapted from David M. Lane. “Contingency Tables.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/chi_square/contingency.html>
 
 This section shows how to use Chi Square to test the relationship between qualitative variables for significance. For example, @tbl-studyfreqs shows the data from the Mediterranean Diet and Health case study,[^comparing-groups-6] in which 605 survivors of a heart attack were randomly assigned to follow either (1) a low-fat diet similar to one recommended at the time by the American Heart Association (AHA) or (2) a Mediterranean-type diet rich in vegetables, fruits, and grains.
 
-[^comparing-groups-6]: <http://onlinestatbook.com/2/case_studies/diet.html>
+[^comparing-groups-6]: <https://onlinestatbook.com/2/case_studies/diet.html>
 
 +---------------+----------+---------------------+-------------------------+----------+----------+
 |               | Outcome  |                     |                         |          | Total    |
@@ -151,7 +151,7 @@ $$ \chi^2_3=\sum\frac{(E-O)^2}{E}=-16.55 $$
 
 The degrees of freedom is equal to $(r-1)(c-1)$, where $r$ is the number of rows and $c$ is the number of columns. For this example, the degrees of freedom is $(2-1)(4-1) = 3$. The Chi Square calculator[^comparing-groups-7] can be used to determine that the probability value for a Chi Square of 16.55 with three degrees of freedom is equal to 0.0009. Therefore, the null hypothesis of no relationship between diet and outcome can be rejected.
 
-[^comparing-groups-7]: <http://onlinestatbook.com/2/calculators/chi_square_prob.html>
+[^comparing-groups-7]: <https://onlinestatbook.com/2/calculators/chi_square_prob.html>
 
 +---------------+-------------+---------------------+-------------------------+------------+
 |               | **Outcome** |                     |                         |            |
@@ -240,7 +240,7 @@ It would not be valid to use the Chi Square test on these data since each subjec
 
 ## @sec-comparing-groups Appendix: More about the Chi Square Distribution[^comparing-groups-9] {.unnumbered}
 
-[^comparing-groups-9]: This section is adapted from David M. Lane. “Chi Square Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/chi_square/distribution.html>
+[^comparing-groups-9]: This section is adapted from David M. Lane. “Chi Square Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/chi_square/distribution.html>
 
 As noted in the main text, the degrees of freedom of the distribution is equal to the number of standard normal deviates being summed. Therefore, Chi Square with one degree of freedom, written as $\chi^2(1)$, is simply the distribution of a single normal deviate squared. The area of the $\chi^2(1)$ distribution below 4 is the same as the area of a standard normal distribution below 2, since 4 is 2^2^.
 

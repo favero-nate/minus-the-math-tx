@@ -2,7 +2,7 @@
 
 ## Variables[^graphing-1]
 
-[^graphing-1]: This section is adapted from Heidi Ziemer. “Variables.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/introduction/variables.html>
+[^graphing-1]: This section is adapted from Heidi Ziemer. “Variables.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/introduction/variables.html>
 
 **Variables** are properties or characteristics of some event, object, or person that can take on different values or amounts (as opposed to constants such as $\pi$ that do not vary). When conducting research, experimenters often manipulate or measure variables. For example, an experimenter might compare the effectiveness of four types of antidepressants. In this case, the variable is "type of antidepressant." This experimenter might also ask study participants to indicate their mood on a scale of 1 to 10. “Mood” would be a second variable.
 
@@ -22,7 +22,7 @@ Variables such as number of children in a household are called **discrete variab
 
 ## Percentiles[^graphing-2]
 
-[^graphing-2]: This section is adapted from David M. Lane. “Percentiles.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/introduction/percentiles.html>
+[^graphing-2]: This section is adapted from David M. Lane. “Percentiles.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/introduction/percentiles.html>
 
 Before turning our attention to some basic graphical tools we use to visualize qualitative and quantitative variables, it is helpful to also briefly go over **percentiles** since they will be used in some of these tools. Many of us have probably encountered percentiles before in the context of standardized exam testing. A test score in and of itself is usually difficult to interpret. For example, if you learned that your score on a measure of shyness was 35 out of a possible 50, you would have little idea how shy you are compared to other people. More relevant is the percentage of people with lower shyness scores than yours. This percentage is called a percentile. If 65% of the scores were below yours, then your score would be the 65th percentile.
 
@@ -34,7 +34,7 @@ A third way to compute percentiles is a weighted average of the percentiles comp
 
 ## Graphing Qualitative Variables[^graphing-3]
 
-[^graphing-3]: This section is adapted from David M. Lane. “Graphing Qualitative Variables.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/graphing_distributions/graphing_qualitative.html>
+[^graphing-3]: This section is adapted from David M. Lane. “Graphing Qualitative Variables.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/graphing_distributions/graphing_qualitative.html>
 
 When Apple Computer introduced the iMac computer in August 1998, the company wanted to learn whether the iMac was expanding Apple’s market share. Was the iMac just attracting previous Macintosh owners? Or was it purchased by newcomers to the computer market and by previous Windows users who were switching over? To find out, 500 iMac customers were interviewed. Each customer was categorized as a previous Macintosh owner, a previous Windows owner, or a new computer purchaser.
 
@@ -101,7 +101,7 @@ Having considered qualitative variables, we now turn our attention to some of th
 
 ### Histograms[^graphing-4]
 
-[^graphing-4]: This section is adapted from David M. Lane. “Histograms.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/graphing_distributions/histograms.html>
+[^graphing-4]: This section is adapted from David M. Lane. “Histograms.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/graphing_distributions/histograms.html>
 
 A histogram is a graphical method for displaying the shape of a distribution. It is particularly useful when there are a large number of observations. We begin with an example consisting of the scores of 642 students on a psychology test. The test consists of 197 items, each graded as "correct" or "incorrect." The students' scores ranged from 46 to 167.
 
@@ -157,11 +157,11 @@ There is more to be said about the widths of the class intervals, sometimes call
 
 ### Box Plots[^graphing-5] {#sec-box-plots}
 
-[^graphing-5]: This section is adapted from David M. Lane. “Box Plots.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/graphing_distributions/boxplots.html>
+[^graphing-5]: This section is adapted from David M. Lane. “Box Plots.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/graphing_distributions/boxplots.html>
 
 Box plots are useful for making comparisons and identifying **outliers**, meaning unusually large or small values for a variable. We will explain box plots with the help of data from an in-class experiment. As part of the "Stroop Interference Case Study,"[^graphing-6] students in introductory statistics were presented with a page containing 30 colored rectangles. Their task was to name the colors as quickly as possible. Their times (in seconds) were recorded. We'll compare the scores for the 16 men and 31 women who participated in the experiment by making separate box plots for each gender. Such a display is said to involve *parallel box plots*.
 
-[^graphing-6]: <http://onlinestatbook.com/2/case_studies/stroop.html>
+[^graphing-6]: <https://onlinestatbook.com/2/case_studies/stroop.html>
 
 There are several steps in constructing a box plot. The first relies on the 25^th^, 50^th^, and 75^th^ percentiles in the distribution of scores. @fig-boxplot1 shows how these three statistics are used. For each gender, we draw a box extending from the 25^th^ percentile to the 75^th^ percentile. The 50^th^ percentile is drawn inside the box. Therefore, the bottom of each box is the 25th percentile, the top is the 75th percentile, and the line in the middle is the 50th percentile. The data for the women in our sample are shown in @tbl-womenstimes.
 
@@ -253,7 +253,7 @@ Different styles of box plots are best for different situations, and there are n
 
 ### Bar Charts for Quantitative Variables[^graphing-7] {#sec-bar-charts-for-quantitative-variables7}
 
-[^graphing-7]: This section is adapted from David M. Lane. “Bar Charts.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/graphing_distributions/bar_chart.html>
+[^graphing-7]: This section is adapted from David M. Lane. “Bar Charts.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/graphing_distributions/bar_chart.html>
 
 In the section on qualitative variables, we saw how bar charts could be used to illustrate the frequencies of different categories. For example, one bar chart showed how many purchasers of iMac computers were previous Macintosh users, previous Windows users, and new computer purchasers.
 
@@ -277,7 +277,7 @@ The section on qualitative variables presented earlier in this chapter discussed
 
 ## @sec-graphing Appendix: Calculating Percentiles Under the Third Definition[^graphing-8] {.unnumbered}
 
-[^graphing-8]: This section is adapted from David M. Lane. “Percentiles.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/introduction/percentiles.html>
+[^graphing-8]: This section is adapted from David M. Lane. “Percentiles.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/introduction/percentiles.html>
 
 Let's begin with an example. Consider the 25th percentile for the 8 numbers in @tbl-numberrankscores. Notice the numbers are given ranks ranging from 1 for the lowest number to 8 for the highest number.
 

@@ -2,11 +2,11 @@
 
 ## Causation[^causality-1]
 
-[^causality-1]: This section is adapted from David M. Lane. “Causation.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/research_design/causation.html>
+[^causality-1]: This section is adapted from David M. Lane. “Causation.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/research_design/causation.html>
 
 The concept of causation is a complex one in the philosophy of science.[^causality-2] Since a full coverage of this topic is well beyond the scope of this text, we focus on two specific topics: (1) the establishment of causation in experiments and (2) the establishment of causation in non-experimental designs.
 
-[^causality-2]: See <http://plato.stanford.edu/search/searcher.py?query=causation>
+[^causality-2]: See <https://plato.stanford.edu/search/searcher.py?query=causation>
 
 ### Establishing Causation in Experiments
 
@@ -30,13 +30,13 @@ A better, though admittedly more difficult approach, is to find converging evide
 
 A second problem is determining the direction of causality. A correlation between two variables does not indicate which variable is causing which. For example, Reinhart and Rogoff (2010)[^causality-4] found a strong correlation between public debt and GDP growth. Although some have argued that public debt slows growth, most evidence supports the alternative that slow growth increases public debt.[^causality-5]
 
-[^causality-4]: Reinhart, C. M. and Rogoff, K. S. (2010). Growth in a Time of Debt. Working Paper 15639, National Bureau of Economic Research, <http://www.nber.org/papers/w15639>
+[^causality-4]: Reinhart, C. M. and Rogoff, K. S. (2010). Growth in a Time of Debt. Working Paper 15639, National Bureau of Economic Research, <https://www.nber.org/papers/w15639>
 
-[^causality-5]: For a video on causality featuring evidence that smoking causes cancer, see <http://www.learner.org/resources/series65.html>
+[^causality-5]: For a video on causality featuring evidence that smoking causes cancer, see <https://www.learner.org/series/against-all-odds-inside-statistics/the-question-of-causation/>
 
 ## Experimental Designs[^causality-6]
 
-[^causality-6]: This section is adapted from David M. Lane. “Experimental Designs.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/research_design/designs.html>
+[^causality-6]: This section is adapted from David M. Lane. “Experimental Designs.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/research_design/designs.html>
 
 There are many ways an experiment can be designed. For example, subjects can all be tested under each of the treatment conditions or a different group of subjects can be used for each treatment. An experiment might have just one independent variable or it might have several. This section describes basic experimental designs and their advantages and disadvantages.
 
@@ -44,7 +44,7 @@ There are many ways an experiment can be designed. For example, subjects can all
 
 In a **between-subjects** design, the various experimental treatments are given to different groups of subjects. For example, in the "Teacher Ratings"[^causality-7] case study, subjects were randomly divided into two groups. Subjects were all told they were going to see a video of an instructor's lecture after which they would rate the quality of the lecture. The groups differed in that the subjects in one group were told that prior teaching evaluations indicated that the instructor was charismatic whereas subjects in the other group were told that the evaluations indicated the instructor was punitive. In this experiment, the independent variable is "Condition" and has two levels (charismatic teacher and punitive teacher). It is a between-subjects variable because different subjects were used for the two levels of the independent variable: subjects were in either the "charismatic teacher" or the "punitive teacher" condition. Thus the comparison of the charismatic-teacher condition with the punitive-teacher condition is a comparison between the subjects in one condition with the subjects in the other condition.
 
-[^causality-7]: <http://onlinestatbook.com/2/case_studies/ratings.html>
+[^causality-7]: <https://onlinestatbook.com/2/case_studies/ratings.html>
 
 The two conditions were treated exactly the same except for the instructions they received. Therefore, it would appear that any difference between conditions should be attributed to the treatments themselves. However, this ignores the possibility of chance differences between the groups. That is, by chance, the raters in one condition might have, on average, been more lenient than the raters in the other condition. Randomly assigning subjects to treatments ensures that all differences between conditions are chance differences; it does not ensure there will be no differences. The key question, then, is how to distinguish real differences from chance differences. The field of inferential statistics answers just this question. Analyzing the data from this experiment reveals that the ratings in the charismatic-teacher condition were higher than those in the punitive-teacher condition. Using inferential statistics, it can be calculated that the probability of finding a difference as large or larger than the one obtained if the treatment had no effect is only 0.018. Therefore it seems likely that the treatment had an effect and it is not the case that all differences were chance differences.
 
@@ -54,7 +54,7 @@ Independent variables often have several levels. For example, in the "Smiles and
 
 In the "Bias Against Associates of the Obese"[^causality-8] experiment, the qualifications of potential job applicants were judged. Each applicant was accompanied by an associate. The experiment had two independent variables: the weight of the associate (obese or average) and the applicant's relationship to the associate (girl friend or acquaintance). This design can be described as an Associate's Weight (2) x Associate's Relationship (2) factorial design. The numbers in parentheses represent the number of levels of the independent variable. The design was a factorial design because all four combinations of associate's weight and associate's relationship were included. The dependent variable was a rating of the applicant's qualifications (on a 9-point scale).
 
-[^causality-8]: <http://onlinestatbook.com/2/case_studies/obesity_relation.html>
+[^causality-8]: <https://onlinestatbook.com/2/case_studies/obesity_relation.html>
 
 If two separate experiments had been conducted, one to test the effect of Associate's Weight and one to test the effect of Associate's Relationship then there would be no way to assess whether the effect of Associate's Weight depended on the Associate's Relationship. One might imagine that the Associate's Weight would have a larger effect if the associate were a girl friend rather than merely an acquaintance. A factorial design allows this question to be addressed. When the effect of one variable does differ depending on the level of the other variable then it is said that there is an *interaction* (also known as moderation) between the variables.
 
@@ -64,7 +64,7 @@ Factorial designs can have three or more independent variables. In order to be a
 
 A **within-subjects** design differs from a between-subjects design in that the same subjects perform at all levels of the independent variable. For example consider the "ADHD Treatment"[^causality-9] case study. In this experiment, subjects diagnosed as having attention deficit disorder were each tested on a delay of gratification task after receiving methylphenidate (MPH). All subjects were tested four times, once after receiving one of the four doses. Since each subject was tested under *each* of the four levels of the independent variable "dose," the design is a within-subjects design and dose is a within-subjects variable. Within-subjects designs are sometimes called repeated-measures designs.
 
-[^causality-9]: <http://onlinestatbook.com/2/case_studies/adhd.html>
+[^causality-9]: <https://onlinestatbook.com/2/case_studies/adhd.html>
 
 ### Advantage of Within-Subjects Designs
 
@@ -76,4 +76,4 @@ Within-subjects designs are often called "repeated-measures" designs since repea
 
 Designs can contain combinations of between-subject and within-subject variables. For example, the "Weapons and Aggression"[^causality-10] case study has one between-subject variable (gender) and two within-subject variables (the type of priming word and the type of word to be responded to).
 
-[^causality-10]: <http://onlinestatbook.com/2/case_studies/guns.html>
+[^causality-10]: <https://onlinestatbook.com/2/case_studies/guns.html>

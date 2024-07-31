@@ -2,7 +2,7 @@
 
 ## Introduction to Bivariate Data[^correlation-1]
 
-[^correlation-1]: This section is adapted from Rudy Guerra and David M. Lane. “Introduction to Bivariate Data.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/describing_bivariate_data/intro.html>
+[^correlation-1]: This section is adapted from Rudy Guerra and David M. Lane. “Introduction to Bivariate Data.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/describing_bivariate_data/intro.html>
 
 Measures of central tendency, variability, and spread summarize a single variable by providing important information about its distribution. Often, more than one variable is collected on each individual. For example, in large health studies of populations it is common to obtain variables such as age, sex, height, weight, blood pressure, and total cholesterol on each individual. Economic studies may be interested in, among other things, personal income and years of education. As a third example, most university admissions committees ask for an applicant's high school grade point average and standardized admission test scores (e.g., SAT). In this chapter we consider bivariate data, which for now consists of two quantitative variables for each individual. Our first interest is in summarizing such data in a way that is analogous to summarizing univariate (single variable) data.
 
@@ -58,7 +58,7 @@ Scatter plots that show linear relationships between variables can differ in sev
 
 ## What is Correlation?[^correlation-3]
 
-[^correlation-3]: This section is adapted from David M. Lane. “Values of the Pearson Correlation.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/describing_bivariate_data/pearson.html>
+[^correlation-3]: This section is adapted from David M. Lane. “Values of the Pearson Correlation.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/describing_bivariate_data/pearson.html>
 
 The Pearson product-moment correlation coefficient is a measure of the strength of the linear relationship between two variables. It is referred to as Pearson's correlation or simply as the **correlation coefficient**. If the relationship between the variables is not linear, then the correlation coefficient does not adequately represent the strength of the relationship between the variables.
 
@@ -78,7 +78,7 @@ The relationship between grip strength and arm strength depicted in @fig-scatter
 
 ## How Correlation is Calculated[^correlation-4]
 
-[^correlation-4]: This section is adapted from David M. Lane. “Computing Pearson's r.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/describing_bivariate_data/calculation.html>
+[^correlation-4]: This section is adapted from David M. Lane. “Computing Pearson's r.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/describing_bivariate_data/calculation.html>
 
 There are several formulas that can be used to compute Pearson's correlation. Some formulas make more conceptual sense whereas others are easier to actually compute. We are going to begin with a formula that makes more conceptual sense.
 
@@ -118,7 +118,7 @@ $$
 
 ## Introduction to Linear Regression[^correlation-5] {#sec-introduction-to-linear-regression}
 
-[^correlation-5]: This section is adapted from David M. Lane. “Introduction to Linear Regression.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/regression/intro.html>
+[^correlation-5]: This section is adapted from David M. Lane. “Introduction to Linear Regression.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/regression/intro.html>
 
 In simple linear regression, we predict scores on one variable from the scores on a second variable. The variable we are predicting is called the **dependent variable** and is referred to as $Y$. The variable we are basing our predictions on is called the **independent variable** and is referred to as $X$. When there is only one predictor variable, the prediction method is called simple regression. In simple linear regression, the topic of this section, the predictions of $Y$ when plotted as a function of $X$ form a straight line.
 
@@ -182,7 +182,7 @@ $$
 
 The case study "SAT and College GPA"[^correlation-6] contains high school and university grades for 105 computer science majors at a local state school. We now consider how we could predict a student's university GPA if we knew his or her high school GPA.
 
-[^correlation-6]: <http://onlinestatbook.com/2/case_studies/sat.html>
+[^correlation-6]: <https://onlinestatbook.com/2/case_studies/sat.html>
 
 @fig-unihighschoolgpa shows a scatter plot of University GPA as a function of High School GPA. You can see from the figure that there is a strong positive relationship. The correlation is 0.78. The regression equation is
 

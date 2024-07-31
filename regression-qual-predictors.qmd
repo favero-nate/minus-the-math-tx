@@ -2,15 +2,17 @@
 
 In this chapter, I will walk you through some analysis I conduct with an example dataset, in order to show how regression works with qualitative independent variables. I could have easily completed this analysis using the methods from @sec-comparing-means, but it is important to see how regression can also be used as a method for comparing means across groups.
 
-Let’s say I’m interested in studying how personality relates to gender. The most common personality measure in psychology is called the “Big Five” personality inventory. There is a standard set of 50 survey items that researchers can use to measure five aspects of personality. @fig-Big5 shows some of these questions and how they are formatted.
+Let’s say I’m interested in studying how personality relates to gender. The most common model of personality in psychology is called the “Big Five." One common measure consists of 50 survey items (the IPIP Big-Five Factor Markers), with 10 items for each of the five personality traits from the model.[^regression-qual-predictors-1] @fig-Big5 shows some of these questions and how they are formatted.
+
+[^regression-qual-predictors-1]: Goldberg, L. R. (1992). The development of markers for the Big-Five factor structure. *Psychological assessment*, *4*(1), 26.
 
 ![Example survey items used in the "Big Five" case study.](Images/regression-qual-predictors/Big5.jpg){#fig-Big5}
 
 For now, I decide to focus on whether people are introverted or extroverted. Extroverts are outgoing and tend to enjoy interacting with others. Extroverts will tend to agree with the statement “I am the life of the party” while introverts will tend to agree with the item “I don’t talk a lot.”
 
-I find a dataset that contains lots of responses to the Big Five personality questions as well as information on the gender of each respondent.[^regression-qual-predictors-1] There are 10 different questions related to extroversion, and the dataset has one variable for each of these 10 questions (@fig-big5dataset). The variable labeled e1 shows responses to the item “I am the life of the party.” A value of 1 means the respondent disagrees with this statement, while a 3 indicates neutral, and a 5 means they agree.
+I find a dataset that contains lots of responses to the Big Five personality questions as well as information on the gender of each respondent.[^regression-qual-predictors-2] There are 10 different questions related to extroversion, and the dataset has one variable for each of these 10 questions (@fig-big5dataset). The variable labeled e1 shows responses to the item “I am the life of the party.” A value of 1 means the respondent disagrees with this statement, while a 3 indicates neutral, and a 5 means they agree.
 
-[^regression-qual-predictors-1]: <https://openpsychometrics.org/_rawdata/> (the file I used is called “BIG5.zip”)
+[^regression-qual-predictors-2]: <https://openpsychometrics.org/_rawdata/> (the file I used is called “BIG5.zip”)
 
 ![Screenshot of some observations and variable values in the "Big Five" dataset.](Images/regression-qual-predictors/big5dataset.jpg){#fig-big5dataset}
 

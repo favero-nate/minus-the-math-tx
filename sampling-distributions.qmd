@@ -4,7 +4,7 @@ This is perhaps the most difficult chapter in the whole book. That is because sa
 
 ## Introduction to Sampling Distributions[^sampling-distributions-1]
 
-[^sampling-distributions-1]: This subsection is adapted from David M. Lane. “Introduction to Sampling Distributions.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/sampling_distributions/intro_samp_dist.html>
+[^sampling-distributions-1]: This subsection is adapted from David M. Lane. “Introduction to Sampling Distributions.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/sampling_distributions/intro_samp_dist.html>
 
 Suppose you randomly sampled 10 people from the population of women in Houston, Texas, between the ages of 21 and 35 years and computed the mean height of your sample. You would not expect your sample mean to be equal to the mean of all women in Houston. It might be somewhat lower or it might be somewhat higher, but it would not equal the population mean exactly. Similarly, if you took a second sample of 10 people from the same population, you would not expect the mean of this second sample to equal the mean of the first sample.
 
@@ -98,7 +98,7 @@ Keep in mind that all statistics have sampling distributions, not just the mean.
 
 ## Sampling Distribution of the Mean[^sampling-distributions-2] {#sec-sampling-distribution-of-the-mean}
 
-[^sampling-distributions-2]: This subsection is adapted from David M. Lane. “Sampling Distribution of the Mean.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/sampling_distributions/samp_dist_mean.html>
+[^sampling-distributions-2]: This subsection is adapted from David M. Lane. “Sampling Distribution of the Mean.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/sampling_distributions/samp_dist_mean.html>
 
 As we learned in the prior section, the sampling distribution of the mean refers to the probability distribution describing all possible values of the sample mean we could obtain in repeated sampling. This section goes over some important properties of the sampling distribution of the mean.
 
@@ -148,7 +148,7 @@ The expressions for the mean and variance of the sampling distribution of the me
 
 ### Confidence Intervals for the Mean[^sampling-distributions-4]
 
-[^sampling-distributions-4]: This subsubsection is adapted from David M. Lane. “Confidence Interval on the Mean.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/estimation/mean.html>
+[^sampling-distributions-4]: This subsubsection is adapted from David M. Lane. “Confidence Interval on the Mean.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/estimation/mean.html>
 
 When you compute a confidence interval on the mean, you compute the mean of a sample in order to estimate the mean of the population. Clearly, if you already knew the population mean, there would be no need for a confidence interval. However, to explain how confidence intervals are constructed, we are going to work backwards and begin by assuming characteristics of the population. Then we will show how sample data can be used to construct a confidence interval.
 
@@ -198,7 +198,7 @@ $$
 
 Z~.95~ can be found using the normal distribution calculator[^sampling-distributions-5] and specifying that the shaded area is 0.95 and indicating that you want the area to be between the cutoff points. As shown in @fig-normaldistcalc, the value is 1.96. If you had wanted to compute the 99% confidence interval, you would have set the shaded area to 0.99 and the result would have been 2.58.
 
-[^sampling-distributions-5]: <http://onlinestatbook.com/2/calculators/normal_dist.html>
+[^sampling-distributions-5]: <https://onlinestatbook.com/2/calculators/normal_dist.html>
 
 ![95% of the area is between -1.96 and 1.96.](Images/sampling-distributions/normaldistcalc.png){#fig-normaldistcalc width="300"}
 
@@ -216,7 +216,7 @@ You should use the t distribution rather than the normal distribution when the v
 
 The values of t to be used in a confidence interval can be looked up in a table of the t distribution, a small version of which is provided in the following section. You can also use an "inverse t distribution" calculator[^sampling-distributions-6] to find the t values to use in confidence intervals. With either approach, the t values will vary depending upon the degrees of freedom (df). For confidence intervals on the mean, df is equal to n - 1, where n is the sample size.
 
-[^sampling-distributions-6]: <http://onlinestatbook.com/2/calculators/inverse_t_dist.html>
+[^sampling-distributions-6]: <https://onlinestatbook.com/2/calculators/inverse_t_dist.html>
 
 Assume that the following five numbers are sampled from a normal distribution: 2, 3, 5, 6, and 9 and that the standard deviation is not known. The first steps are to compute the sample mean and variance:
 
@@ -260,7 +260,7 @@ where $\bar{X}$ is the sample mean, $t_{CL}$ is the t for the confidence level d
 
 We will finish our discussion of confidence intervals for the mean with an analysis of the Stroop Data.[^sampling-distributions-7] Specifically, we will compute a confidence interval on the mean difference score. As mentioned in @sec-box-plots, the study involved 47 subjects naming the color of ink that words were written in. An additional detail that is now relevant to us is that subjects completed similar naming tasks multiple times under different conditions. In the "interference" condition, the names conflicted so that, for example, they would name the ink color of the word "blue" written in red ink. The correct response is to say "red" and ignore the fact that the word is "blue." In a second condition, subjects named the ink color of colored rectangles.
 
-[^sampling-distributions-7]: <http://onlinestatbook.com/2/case_studies/stroop.html>
+[^sampling-distributions-7]: <https://onlinestatbook.com/2/case_studies/stroop.html>
 
 |     | **Naming Colored Rectangle** |     | **Interference** |     | **Difference** |     |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -289,7 +289,7 @@ Therefore, the interference effect (difference) for the whole population is like
 
 ### More about the T Distribution[^sampling-distributions-8] {#sec-more-about-the-t-distribution}
 
-[^sampling-distributions-8]: This section is adapted from David M. Lane. “t Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/estimation/t_distribution.html>
+[^sampling-distributions-8]: This section is adapted from David M. Lane. “t Distribution.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/estimation/t_distribution.html>
 
 In the introduction to normal distributions it was shown that 95% of the area of a normal distribution is within 1.96 standard deviations of the mean. Therefore, if you randomly sampled a value from a normal distribution with a mean of 100, the probability it would be within 1.96$\sigma$ of 100 is 0.95. Similarly, if you sample n values from the population, the probability that the sample mean ($\bar{X}$) will be within 1.96 $\sigma_{\bar{X}}$ of 100 is 0.95.
 
@@ -303,7 +303,7 @@ The **t distribution** is very similar to the normal distribution when the estim
 
 Since the t distribution has more area in the tails, the percentage of the distribution within 1.96 standard deviations of the mean is less than the 95% for the normal distribution. @tbl-abbrevttable shows the number of standard deviations from the mean required to contain 95% and 99% of the area of the t distribution for various degrees of freedom. These are the values of t that you use in a confidence interval. The corresponding values for the normal distribution are 1.96 and 2.58 respectively. Notice that with few degrees of freedom, the values of t are much higher than the corresponding values for a normal distribution and that the difference decreases as the degrees of freedom increase. , since the critical t value for probability 0.95 got closer and closer to 1.96 (the critical value for 0.95 in the normal distribution) as the degrees of freedom incrased. The values shown in Table 6-7 can be obtained from statistical software or an online calculator.[^sampling-distributions-9]
 
-[^sampling-distributions-9]: <http://onlinestatbook.com/2/calculators/inverse_t_dist.html>
+[^sampling-distributions-9]: <https://onlinestatbook.com/2/calculators/inverse_t_dist.html>
 
 |     |        |     |          |     |          |     |
 |-----|--------|-----|----------|-----|----------|-----|
@@ -324,7 +324,7 @@ Returning to the problem posed at the beginning of this section, suppose you sam
 
 As shown in @fig-tdist8df, a t distribution calculator[^sampling-distributions-10] can be used to find that 0.086 of the area of a t distribution is more than 1.96 standard deviations from the mean, so the probability that $\bar{X}$ would be less than 1.96$s_{\bar{X}}$ from $\mu$ is 1 - 0.086 = 0.914.
 
-[^sampling-distributions-10]: <http://onlinestatbook.com/2/calculators/t_dist.html>
+[^sampling-distributions-10]: <https://onlinestatbook.com/2/calculators/t_dist.html>
 
 ![Area more than 1.96 standard deviations from the mean in a t distribution with 8 df. Note that the two-tailed button is selected so that the area in both tails will be included.](Images/sampling-distributions/tdist8df.png){#fig-tdist8df width="300"}
 
@@ -372,7 +372,7 @@ We will return to the topic of model assumptions and the consequences of violati
 
 ## @sec-sampling-distributions Appendix I: Degrees of Freedom[^sampling-distributions-12] {.unnumbered}
 
-[^sampling-distributions-12]: This section is adapted from David M. Lane. “Degrees of Freedom.” *Online Statistics Education: A Multimedia Course of Study*. <http://onlinestatbook.com/2/estimation/df.html>
+[^sampling-distributions-12]: This section is adapted from David M. Lane. “Degrees of Freedom.” *Online Statistics Education: A Multimedia Course of Study*. <https://onlinestatbook.com/2/estimation/df.html>
 
 Some estimates are based on more information than others. For example, an estimate of the variance based on a sample size of 100 is based on more information than an estimate of the variance based on a sample size of 5. The **degrees of freedom (df)** of an estimate is the number of independent pieces of information on which the estimate is based.
 
